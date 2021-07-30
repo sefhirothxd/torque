@@ -3235,7 +3235,7 @@ a:hover {
  modificacion del menu productos
 */
 .list-products:hover .product-container {
-	display: flex;
+	display: block;
 	/* position: absolute; */
 	background: #bf2a2a;
 	/* left: -200px; */
@@ -3302,7 +3302,7 @@ a:hover {
 	padding-top: 20px;
 	padding-left: 20px;
 	padding-bottom: 20px;
-	/* display: flex; */
+	/* display: block; */
 	width: 100%;
 	position: fixed;
 	background: #bf2a2a;
@@ -3314,6 +3314,12 @@ a:hover {
 	transition: 1s;
 	font: 700 14px / normal 'Roboto', sans-serif;
 	z-index: 1000;
+}
+.product-main {
+	max-width: 1200px;
+	display: flex;
+	justify-content: flex-start;
+	margin: 0 auto;
 }
 .product-container hr {
 	margin-top: 10px;
