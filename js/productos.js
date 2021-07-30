@@ -6,6 +6,9 @@ let x =
 	document.documentElement.clientWidth ||
 	document.body.clientWidth;
 
+let product = document.querySelector('.list-products');
+let productMovil = document.querySelector('.ocultar');
+
 // if (x >= 1200) {
 // 	if (y > 50) {
 // 		document.querySelector('.product-container').style.top = '184px';
@@ -21,6 +24,22 @@ let x =
 // } else if (x == 137) {
 // 	document.querySelector('.product-container').style.top = '150px';
 // }
+
+setInterval(() => {
+	// console.log('verifico');
+	let x =
+		window.innerWidth ||
+		document.documentElement.clientWidth ||
+		document.body.clientWidth;
+
+	if (x < 768) {
+		product.style.display = 'none';
+		productMovil.style.display = 'block';
+	} else {
+		product.style.display = 'flex';
+		productMovil.style.display = 'none';
+	}
+}, 500);
 
 console.log(y);
 console.log(x, 'ancho');
