@@ -171,10 +171,10 @@
 								<a href="/" class="dropdown-toggle">Inicio</a>
 							</li>
 							<li class="list-products">
-								<a href="#" class="dropdown-toggle " data-toggle="dropdown"
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown"
 									>PRODUCTOS <b class="caret right"></b
 								></a>
-								<ul class="product-container">
+								<ul class="product-container" id="product-container">
 									<li class="toquimetro-container">
 										<div class="toquimetro">
 											<img
@@ -182,10 +182,8 @@
 												src="http://d2r9epyceweg5n.cloudfront.net/stores/569/401/products/captura-de-pantalla-2017-09-13-a-las-15-08-571-3d90b032e04c16c05215133083873176-640-0.png"
 												alt="TORQUIMETRO"
 											/>
-											<h3 >TORQUÍMETROS</h3>
-											<br>
+											<h3>TORQUÍMETROS</h3>
 										</div>
-										<hr />
 										<ul>
 											<a href="torquimetros-de-reloj.html">DE GOLPE</a>
 											<a href="torquimetros-de-reloj.html">DE RELOJ O AGUJA</a>
@@ -208,7 +206,7 @@
 											/>
 											<h3>MULTIPLICADOR DE TORQUE</h3>
 										</div>
-										<hr />
+
 										<!-- <ul>
 											<a href="torquimetros-de-reloj.html">DE RELOJ O AGUJA</a>
 
@@ -230,7 +228,7 @@
 											/>
 											<h3>LLAVE DE CONTROL DE TORQUE</h3>
 										</div>
-										<hr />
+
 										<ul>
 											<a href="torquimetros-de-reloj.html">ELÉCTRICA</a>
 
@@ -238,12 +236,8 @@
 												>A BATERÍA</a
 											>
 
-											<a href="torquimetros-destornillador.html"
-												>NEUMÁTICA</a
-											>
-											<a href="torquimetros-destornillador.html"
-												>HIDRÁULICA</a
-											>
+											<a href="torquimetros-destornillador.html">NEUMÁTICA</a>
+											<a href="torquimetros-destornillador.html">HIDRÁULICA</a>
 										</ul>
 									</li>
 								</ul>
@@ -263,6 +257,11 @@
 								</ul>
 							</li>
 							<li><a href="contacto.html">CONTACTO</a></li>
+							<li class="container-icon">
+								<a href="busqueda.html" id="busqueda">
+									<i class="fa fa-search"></i>
+								</a>
+							</li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -833,5 +832,7 @@
 		<script src="vendors/stellar/jquery.stellar.js"></script>
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
+		<!-- Product JS -->
+		<script src="./js/productos.js"></script>
 	</body>
 </html>

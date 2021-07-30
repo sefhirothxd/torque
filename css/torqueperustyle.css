@@ -3236,14 +3236,25 @@ a:hover {
 */
 .list-products:hover .product-container {
 	display: flex;
-	position: absolute;
+	/* position: absolute; */
 	background: #bf2a2a;
-	left: -200px;
+	/* left: -200px; */
 	color: #fff;
-	top: 100px;
+	top: 150px;
+	width: 100%;
 	/* height: 600px; */
 }
 @keyframes example {
+	0% {
+		opacity: 0.5;
+		top: 100px;
+	}
+	100% {
+		opacity: 1;
+		top: 150px;
+	}
+}
+@keyframes probando {
 	0% {
 		opacity: 0.5;
 		top: 50px;
@@ -3253,6 +3264,26 @@ a:hover {
 		top: 100px;
 	}
 }
+@keyframes medida1200 {
+	0% {
+		opacity: 0.5;
+		top: 100px;
+	}
+	100% {
+		opacity: 1;
+		top: 186px;
+	}
+}
+@keyframes medida92 {
+	0% {
+		opacity: 0.5;
+		top: 150px;
+	}
+	100% {
+		opacity: 1;
+		top: 236px;
+	}
+}
 .list-products {
 	position: relative;
 }
@@ -3260,6 +3291,11 @@ a:hover {
 .list-products ul li {
 	list-style: none;
 }
+
+.container-icon #busqueda {
+	font-size: 20px;
+}
+
 .list-products .product-container {
 	display: none;
 	padding: 0;
@@ -3267,15 +3303,22 @@ a:hover {
 	padding-left: 20px;
 	padding-bottom: 20px;
 	/* display: flex; */
-	position: absolute;
+	width: 100%;
+	position: fixed;
 	background: #bf2a2a;
-	left: -200px;
+	left: 0;
 	color: #fff;
 	top: 100px;
 	animation-name: example;
 	animation-duration: 500ms;
 	transition: 1s;
 	font: 700 14px / normal 'Roboto', sans-serif;
+	z-index: 1000;
+}
+.product-container hr {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 98%;
 }
 
 .header_aera
@@ -3304,7 +3347,7 @@ a:hover {
 	color: #fff;
 	line-height: normal;
 	font: 700 14px / normal 'Roboto', sans-serif;
-	padding: 12px 8px;
+	padding: 12px 8px 0px;
 	display: block;
 	cursor: pointer;
 }
@@ -3317,9 +3360,20 @@ a:hover {
 	justify-content: center;
 	flex-direction: column;
 	align-items: center;
+	border-bottom: 1px solid white;
+	/* padding-bottom: 10px; */
+	margin-bottom: 10px;
+	height: 210px;
 }
+
+.toquimetro:hover {
+	border-bottom: 3px solid;
+}
+
 .toquimetro-container {
 	margin-right: 20px;
+	width: 250px;
+	min-width: 150px;
 }
 .toquimetro .toquimetro-img {
 	width: 150px;
