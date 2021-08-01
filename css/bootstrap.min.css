@@ -1661,7 +1661,7 @@ pre code {
 .col-xs-7,
 .col-xs-8,
 .col-xs-9 {
-	position: relative;
+	/* position: relative; */
 	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
@@ -4077,7 +4077,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 	list-style: none;
 }
 .nav > li {
-	position: relative;
+	/* position: relative; */
 	display: block;
 }
 .nav > li > a {
