@@ -3371,6 +3371,9 @@ a:hover {
 	margin-bottom: 10px;
 	height: 210px;
 }
+.toquimetro #toquimetro-enlace {
+	font: inherit;
+}
 
 .toquimetro:hover {
 	border-bottom: 3px solid;

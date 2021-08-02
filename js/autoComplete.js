@@ -2,6 +2,9 @@ const inputSearch = document.getElementById('autoComplete');
 const listSearch = document.getElementById('list-search');
 // let btnBuscar = document.getElementById('btn-buscar');
 
+window.addEventListener('click', () => {
+	listSearch.innerHTML = '';
+});
 
 //creamos la funcion que se encargara de buscar.
 const searchState = async (searchText) => {
@@ -15,45 +18,41 @@ const searchState = async (searchText) => {
 	});
 
 	console.log(matches);
-    if (searchText.length===0) {
-        matches = [];
-        listSearch.innerHTML = '';
-        
-    }
-    
-    outputHtml(matches);
+	if (searchText.length === 0) {
+		matches = [];
+		listSearch.innerHTML = '';
+	}
 
+	outputHtml(matches);
 };
 
 //mostrar resultado en el html
-const outputHtml = matches =>{
-    if (matches.length >0){
-
-        const html = matches.map(match => `
+const outputHtml = (matches) => {
+	if (matches.length > 0) {
+		const html = matches
+			.map(
+				(match) => `
                 <h4 class="container-list-item">${match.nombre}</h4>
-        `).join('');
+        `
+			)
+			.join('');
 
-        listSearch.innerHTML = html;
-        listSearch.style.display = 'block';
+		listSearch.innerHTML = html;
+		listSearch.style.display = 'block';
+	}
+};
 
-    }
-    
-
-}
-
-listSearch.addEventListener('click', (e)=>{
-    console.log(e.target.innerHTML,'aqui');
-    if (e.target && e.target.nodeName == 'H4'){
-        inputSearch.value = e.target.innerHTML;
-        btnBuscar.focus();
-    }
-    listSearch.innerHTML = '';
-    listSearch.innerHTML = `
-    <h4></h4>
-    `
+listSearch.addEventListener('click', (e) => {
+	console.log(e.target.innerHTML, 'aqui');
+	if (e.target && e.target.nodeName == 'H4') {
+		inputSearch.value = e.target.innerHTML;
+		btnBuscar.focus();
+	}
+	listSearch.innerHTML = '';
+	// listSearch.innerHTML = `
+	// <h4></h4>
+	// `;
+	listSearch.style.display = 'none';
 });
-
-
-
 
 inputSearch.addEventListener('input', () => searchState(inputSearch.value));
