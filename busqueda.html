@@ -299,16 +299,17 @@
 		<section class="busqueda-container" data-stellar-background-ratio="0.5">
 			<div class="busqueda-container__hero">
 				<h1>BUSCADOR DE HERRAMIENTAS</h1>
-				<form class="busqueda-main">
+				<form class="busqueda-main" id="busqueda-main">
 					<input
 						type="text"
 						placeholder="Buscar"
 						class="input-buscar"
-						id="input-buscar"
+						id="autoComplete"
 					/>
 					<button type="submit" id="btn-buscar" class="btn-buscar">
 						<i class="fa fa-search"></i>
 					</button>
+					<div class="list-search" id="list-search"></div>
 				</form>
 			</div>
 		</section>
@@ -461,7 +462,8 @@
 		<script src="js/jquery.prettyPhoto.js"></script>
 		<script src="js/main.js"></script>
 		<script src="js/wow.min.js"></script>
-
+		<!-- auto complete js -->
+		<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
 		<script src="js/jquery.min.js"></script>
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
@@ -469,5 +471,7 @@
 		<script src="./js/productoHeader.js"></script>
 		<!-- Buscar JS -->
 		<script src="./js/buscar.js"></script>
+		<!-- Autocomplete -->
+		<script src="./js/autoComplete.js"></script>
 	</body>
 </html>

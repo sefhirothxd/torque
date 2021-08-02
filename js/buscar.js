@@ -37,7 +37,7 @@ let arrayHerramientas = [
 	},
 ];
 let btnBuscar = document.getElementById('btn-buscar');
-let inputBuscar = document.getElementById('input-buscar');
+let inputBuscar = document.getElementById('autoComplete');
 let containerList = document.getElementById('list-items');
 
 arrayHerramientas.forEach((item) => {
@@ -45,6 +45,7 @@ arrayHerramientas.forEach((item) => {
     <div class="list-items__container-item" id="">
         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
         <h3>${item.nombre}</h3>
+        <p>${item.modelo}</p>
         <p>${item.descripcion}</p>
         <p>S/.${item.precio}</p>
     </div>
@@ -60,6 +61,7 @@ btnBuscar.addEventListener('click', (e) => {
             <div class="list-items__container-item" id="">
                 <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
                 <h3>${item.nombre}</h3>
+                <p>${item.modelo}</p>
                 <p>${item.descripcion}</p>
                 <p>S/.${item.precio}</p>
             </div>
@@ -78,6 +80,7 @@ btnBuscar.addEventListener('click', (e) => {
            <div class="list-items__container-item" id="">
                <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
                <h3>${item.nombre}</h3>
+               <p>${item.modelo}</p>
                <p>${item.descripcion}</p>
                <p>S/.${item.precio}</p>
            </div>

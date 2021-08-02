@@ -3479,11 +3479,12 @@ a:hover {
 	align-items: center;
 	text-align: center;
 }
-.busqueda-main {
+.busqueda-container .busqueda-container__hero .busqueda-main {
 	max-width: 350px;
 	width: 100%;
 	border: 1px solid black;
 	display: flex;
+	position: relative;
 	justify-content: space-between;
 	align-items: center;
 	padding: 5px 5px;
@@ -3528,3 +3529,9 @@ a:hover {
 }
 
 /*------------------end----------------*/
+
+/*----Auto complete*/
+.list-search {
+	display: block;
+	position: absolute !important;
+}
