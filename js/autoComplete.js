@@ -1,5 +1,7 @@
 const inputSearch = document.getElementById('autoComplete');
 const listSearch = document.getElementById('list-search');
+// let btnBuscar = document.getElementById('btn-buscar');
+
 
 //creamos la funcion que se encargara de buscar.
 const searchState = async (searchText) => {
@@ -28,10 +30,7 @@ const outputHtml = matches =>{
     if (matches.length >0){
 
         const html = matches.map(match => `
-            <div class="container-list-item" id="item-tool">
-                <h4>${match.nombre}</h4>
-                <small>${match.modelo}</small>
-            </div>
+                <h4 class="container-list-item">${match.nombre}</h4>
         `).join('');
 
         listSearch.innerHTML = html;
@@ -46,12 +45,12 @@ listSearch.addEventListener('click', (e)=>{
     console.log(e.target.innerHTML,'aqui');
     if (e.target && e.target.nodeName == 'H4'){
         inputSearch.value = e.target.innerHTML;
+        btnBuscar.focus();
     }
     listSearch.innerHTML = '';
-    listSearch.style.display = 'none';
-
-
-
+    listSearch.innerHTML = `
+    <h4></h4>
+    `
 });
 
 

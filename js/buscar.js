@@ -41,19 +41,19 @@ let btnBuscar = document.getElementById('btn-buscar');
 let inputBuscar = document.getElementById('autoComplete');
 let containerList = document.getElementById('list-items');
 
-let array2 = [];
+// let array2 = [];
 
-const herramientas = async ()=>{
-    const res = await fetch('./js/data/herramientas.json');
-	const states = await res.json();
-    console.log(states);
-    array2.push(...states)
-}
+// const herramientas = async ()=>{
+//     const res = await fetch('./js/data/herramientas.json');
+// 	const states = await res.json();
+//     console.log(states);
+//     array2.push(...states)
+// }
 
-window.addEventListener("load", herramientas());
+// window.addEventListener("load", herramientas());
 
 
-console.log(array2,'aqui toy');
+// console.log(array2,'aqui toy');
 
 arrayHerramientas.forEach((item) => {
 	containerList.innerHTML += `
