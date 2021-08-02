@@ -3480,6 +3480,7 @@ a:hover {
 	text-align: center;
 }
 .busqueda-main {
+	position: relative;
 	max-width: 350px;
 	width: 100%;
 	border: 1px solid black;
@@ -3528,3 +3529,24 @@ a:hover {
 }
 
 /*------------------end----------------*/
+/*----Auto complete*/
+.list-search {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 33px;
+	border: 1px solid #000;
+	border-top: none;
+	width: 100%;
+	text-align: left;
+	/* padding-left: 10px; */
+	background-color: #fff;
+}
+.container-list-item {
+	padding-left: 10px;
+}
+
+.container-list-item:hover {
+	background-color: red;
+	color: #fff;
+}

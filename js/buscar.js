@@ -1,3 +1,4 @@
+
 let arrayHerramientas = [
 	{
 		id: 1,
@@ -33,12 +34,26 @@ let arrayHerramientas = [
 		precio: 100.0,
 		marca: 'herramientas aceros',
 		modelo: 'pa-250',
-        img:'https://arcosa.com.pe/wp-content/uploads/2020/07/PALA-RECTA-68-CM.jpg'
+        img:'/images/llaves.jpg'
 	},
 ];
 let btnBuscar = document.getElementById('btn-buscar');
 let inputBuscar = document.getElementById('autoComplete');
 let containerList = document.getElementById('list-items');
+
+let array2 = [];
+
+const herramientas = async ()=>{
+    const res = await fetch('./js/data/herramientas.json');
+	const states = await res.json();
+    console.log(states);
+    array2.push(...states)
+}
+
+window.addEventListener("load", herramientas());
+
+
+console.log(array2,'aqui toy');
 
 arrayHerramientas.forEach((item) => {
 	containerList.innerHTML += `
@@ -51,7 +66,53 @@ arrayHerramientas.forEach((item) => {
     </div>
     `;
 });
+//busqueda por input
+inputBuscar.addEventListener('input', (e) => {
+    e.preventDefault();
+    if (inputBuscar.value.trim() == '') {
+       containerList.innerHTML = '';
+        arrayHerramientas.forEach((item) => {
+            containerList.innerHTML += `
+            <div class="list-items__container-item" id="">
+                <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+                <h3>${item.nombre}</h3>
+                <p>${item.modelo}</p>
+                <p>${item.descripcion}</p>
+                <p>S/.${item.precio}</p>
+            </div>
+            `;
+        });
+    }else {      
+    //     let newArray = arrayHerramientas.filter((item)=>{
+    //         if (item.nombre == inputBuscar.value || item.modelo == inputBuscar.value) {
+    //             return item;
+    //         }   
+    //    })
+       let newArray = arrayHerramientas.filter((state) => {
+		const regex = new RegExp(`^${inputBuscar.value}`, 'gi');
+		return state.nombre.match(regex) || state.modelo.match(regex);
+	});
+    
+       containerList.innerHTML = '';
+       newArray.forEach((item) => {
+           containerList.innerHTML += `
+           <div class="list-items__container-item" id="">
+               <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+               <h3>${item.nombre}</h3>
+               <p>${item.modelo}</p>
+               <p>${item.descripcion}</p>
+               <p>S/.${item.precio}</p>
+           </div>
+           `;
+       });
+    }
 
+	console.log(inputBuscar.value);
+ 
+});
+
+
+// boton buscar 
 btnBuscar.addEventListener('click', (e) => {
     e.preventDefault();
     if (inputBuscar.value.trim() == '') {

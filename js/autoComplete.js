@@ -16,6 +16,7 @@ const searchState = async (searchText) => {
     if (searchText.length===0) {
         matches = [];
         listSearch.innerHTML = '';
+        
     }
     
     outputHtml(matches);
@@ -27,18 +28,31 @@ const outputHtml = matches =>{
     if (matches.length >0){
 
         const html = matches.map(match => `
-            <div>
+            <div class="container-list-item" id="item-tool">
                 <h4>${match.nombre}</h4>
                 <small>${match.modelo}</small>
             </div>
         `).join('');
 
         listSearch.innerHTML = html;
-    }
+        listSearch.style.display = 'block';
 
+    }
+    
 
 }
 
+listSearch.addEventListener('click', (e)=>{
+    console.log(e.target.innerHTML,'aqui');
+    if (e.target && e.target.nodeName == 'H4'){
+        inputSearch.value = e.target.innerHTML;
+    }
+    listSearch.innerHTML = '';
+    listSearch.style.display = 'none';
+
+
+
+});
 
 
 inputSearch.addEventListener('input', () => searchState(inputSearch.value));
