@@ -3234,17 +3234,12 @@ a:hover {
 /*
  modificacion del menu productos
 */
-.list-products:hover .product-container {
+.list-productsFix:hover .product-containerFix {
 	display: block;
-	/* position: absolute; */
 	background: #bf2a2a;
-	/* left: -200px; */
 	color: #fff;
-	/* top: 150px; */
-	/* width: 100%; */
-	/* height: 600px; */
 }
-@keyframes example {
+@keyframes exampleFix {
 	0% {
 		opacity: 0.5;
 		top: 50px;
@@ -3254,7 +3249,7 @@ a:hover {
 		top: 100px;
 	}
 }
-@keyframes probando {
+@keyframes exampleFix {
 	0% {
 		opacity: 0.5;
 		top: 50px;
@@ -3284,19 +3279,11 @@ a:hover {
 		top: 236px;
 	}
 }
-/* .list-products {
-	position: relative;
-} */
-
-.list-products ul li {
+.list-productsFix ul li {
 	list-style: none;
 }
 
-.container-icon #busqueda {
-	font-size: 20px;
-}
-
-.product-container {
+.product-containerFix {
 	display: none;
 	padding: 0;
 	padding-top: 20px;
@@ -3309,7 +3296,7 @@ a:hover {
 	left: 0;
 	color: #fff;
 	top: 100px;
-	animation-name: example;
+	animation-name: exampleFix;
 	animation-duration: 500ms;
 	transition: 1s;
 	font: 700 14px / normal 'Roboto', sans-serif;
@@ -3321,7 +3308,7 @@ a:hover {
 	justify-content: flex-start;
 	margin: 0 auto;
 }
-.product-container hr {
+.product-containerFix hr {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	width: 98%;
@@ -3330,8 +3317,8 @@ a:hover {
 .header_aera
 	.navbar-collapse
 	.navbar-nav.navbar-right
-	.list-products
-	.product-container
+	.list-productsFix
+	.product-containerFix
 	li.toquimetro-container
 	ul
 	a {
@@ -3345,8 +3332,8 @@ a:hover {
 .header_aera
 	.navbar-collapse
 	.navbar-nav.navbar-right
-	.list-products
-	.product-container
+	.list-productsFix
+	.product-containerFix
 	li.toquimetro-container
 	.toquimetro
 	h3 {
@@ -3358,7 +3345,7 @@ a:hover {
 	cursor: pointer;
 }
 
-.product-container ul {
+.product-containerFix ul {
 	padding: 0;
 }
 .toquimetro {
@@ -3391,7 +3378,7 @@ a:hover {
 	.toquimetro .toquimetro-img {
 		display: none;
 	}
-	.list-products:hover .product-container {
+	.list-productsFix:hover .product-containerFix {
 		display: block;
 		position: sticky;
 		background: #bf2a2a;
@@ -3405,7 +3392,7 @@ a:hover {
 .header_aera
 	.navbar-collapse
 	.navbar-nav.navbar-right
-	li.list-products
+	li.list-productsFix
 	ul:before {
 	content: '';
 	width: 100%;
@@ -3426,7 +3413,7 @@ a:hover {
 .header_aera
 	.navbar-collapse
 	.navbar-nav.navbar-right
-	li.list-products
+	li.list-productsFix
 	ul:after {
 	content: '';
 	width: 100%;

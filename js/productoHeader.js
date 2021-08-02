@@ -5,10 +5,10 @@
 // 	document.documentElement.clientWidth ||
 // 	document.body.clientWidth;
 
-let product = document.querySelector('.list-products');
+let product = document.querySelector('.list-productsFix');
 let productMovil = document.querySelector('.ocultar');
 
-let productContainer = document.querySelector('.product-container');
+let productContainer = document.querySelector('.product-containerFix');
 
 // if (x >= 1200) {
 // 	if (y > 50) {
@@ -36,9 +36,11 @@ setInterval(() => {
 
 	if (x < 768) {
 		product.style.display = 'none';
+		productMovil.classList.remove('hidden');
 		productMovil.style.display = 'block';
 	} else {
 		product.style.display = 'flex';
+		productMovil.classList.add('hidden');
 		productMovil.style.display = 'none';
 	}
 

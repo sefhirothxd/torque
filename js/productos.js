@@ -37,9 +37,11 @@ setInterval(() => {
 
 	if (x < 768) {
 		product.style.display = 'none';
+		productMovil.classList.remove('hidden');
 		productMovil.style.display = 'block';
 	} else {
 		product.style.display = 'flex';
+		productMovil.classList.add('hidden');
 		productMovil.style.display = 'none';
 	}
 
