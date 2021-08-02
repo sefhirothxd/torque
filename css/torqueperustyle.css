@@ -3829,6 +3829,28 @@ modificacion del menu productos
 	margin-right: 10px;
 	color: #000;
 }
+/*------flecha reade more*/
+.flecha {
+	margin-left: 10px;
+}
+
+.link-reade:hover .flecha {
+	padding-left: 20px;
+	color: #333;
+	opacity: 0.5;
+	animation-name: flecha;
+	/* animation-duration: 500ms; */
+	transition: all 300ms linear 0s;
+}
+
+@keyframes flecha {
+	0% {
+		padding-left: 0px;
+	}
+	100% {
+		padding-left: 20px;
+	}
+}
 
 /*-- Media query- -*/
 @media (max-width: 992px) {
@@ -3850,4 +3872,5 @@ modificacion del menu productos
 		margin-top: 20px;
 	}
 }
+
 /*-------------------------------------*/
