@@ -1,4 +1,4 @@
-import Splide from '@splidejs/splide';
+// import Splide from '@splidejs/splide';
 // Create and mount the thumbnails slider.
 var secondarySlider = new Splide('#secondary-slider', {
 	rewind: true,
