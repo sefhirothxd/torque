@@ -1,39 +1,58 @@
 let arrayHerramientas = [
 	{
 		id: 1,
-		nombre: 'martillo',
-		descripcion: 'martillo para clavar en la pared',
-		precio: 25.0,
-		marca: 'Martillazo',
-		modelo: 'ax-250',
-		img: 'https://ripleycl.imgix.net/https%3A%2F%2Fherramientas.cl%2Fimagenes%2Fproductos%2F0206294607_88.png?w=750&h=555&ch=Width&auto=format&cs=strip&bg=FFFFFF&q=60&trimcolor=FFFFFF&trim=color&fit=fillmax&ixlib=js-1.1.0&s=7174e1b10f5a8626d098ab8512792d3c',
+		nombre: 'Torquimetros  de reloj Encabres 1/4',
+		marca: 'WRIGHT',
+		modelo: 'Modelo 2470',
+		capacidad: '0-30 Lbs-pulg/0-3.5Nm',
+		longitud: '10"',
+		peso: '1 Lbs',
+		tipo: 'Ratchet',
+		img: 'https://limatools.com.pe/wp-content/uploads/2021/04/TORQUIMETRO-AGUJA.jpg',
 	},
 	{
 		id: 2,
-		nombre: 'martillo de diamante',
-		descripcion: 'martillo para clavar acero',
-		precio: 250.0,
-		marca: 'Martillazo',
-		modelo: 'vx-250',
-		img: 'https://m.media-amazon.com/images/I/51fr+X46fYL._AC_SL1453_.jpg',
+		nombre: 'Torquimetros  de reloj Encabres 3/8',
+		marca: 'WRIGHT',
+		modelo: 'Modelo 3447',
+		capacidad: '5-75 Lbs-pie/10.2-98.3Nm',
+		longitud: '15.15"',
+		peso: '2.5 Lbs',
+		tipo: 'Ratchet',
+		img: 'https://http2.mlstatic.com/D_NQ_NP_712295-MLA42515459166_072020-O.webp',
 	},
 	{
 		id: 3,
-		nombre: 'martillo',
-		descripcion: 'martillo prueba',
-		precio: 250.0,
-		marca: 'Martillazo',
-		modelo: 'vx-250',
-		img: 'https://m.media-amazon.com/images/I/51fr+X46fYL._AC_SL1453_.jpg',
+		nombre: 'Torquimetros  de reloj Encabres 3/8',
+		marca: 'WRIGHT',
+		modelo: 'Modelo 3447',
+		capacidad: '10-100 Lbs-pie/16.9-132.2Nm',
+		longitud: '15.15"',
+		peso: '2.5 Lbs',
+		tipo: 'Ratchet',
+		img: 'https://4g-globalinversiones.com/wp-content/uploads/2020/05/13-100-Torqu%C3%ADmetro.jpg',
 	},
 	{
 		id: 4,
-		nombre: 'pala',
-		descripcion: 'pala para excavar',
-		precio: 100.0,
-		marca: 'herramientas aceros',
-		modelo: 'pa-250',
-		img: '/images/llaves.jpg',
+		nombre: 'Torquimetros  de reloj Encabres 3/8',
+		marca: 'WRIGHT',
+		modelo: 'Modelo 3478',
+		capacidad: '30-200 Lbs-pulg/3.9-22Nm',
+		longitud: '10.15"',
+		peso: '0.85 Lbs',
+		tipo: 'Ratchet',
+		img: 'https://4g-globalinversiones.com/wp-content/uploads/2020/05/13-100-Torqu%C3%ADmetro.jpg',
+	},
+	{
+		id: 5,
+		nombre: 'Torquimetros  de reloj Encabres 1/2',
+		marca: 'WRIGHT',
+		modelo: 'Modelo 4476',
+		capacidad: '700-1600 Lbs-pulg/84.4-175.2Nm',
+		longitud: '18"',
+		peso: '3 Lbs',
+		tipo: 'Ratchet',
+		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDqx_PUz6G0yjalZqVMfH9hFjP_nFchfWvYAHMJsARU7krjOB_pLmZVtCFv5rVDYCiBI&usqp=CAU',
 	},
 ];
 let btnBuscar = document.getElementById('btn-buscar');
@@ -57,10 +76,14 @@ arrayHerramientas.forEach((item) => {
 	containerList.innerHTML += `
     <div class="list-items__container-item" id="">
         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-        <h3>${item.nombre}</h3>
-        <p>${item.modelo}</p>
-        <p>${item.descripcion}</p>
-        <p>S/.${item.precio}</p>
+		<h3>${item.nombre}</h3>
+		<p>${item.modelo}</p>
+		<div class="list-items__content" id="list-items__content">
+			<p><b>Tipo:</b>  ${item.tipo}</p>
+			<p><b>Capacidad:</b>  ${item.capacidad}</p>
+			<p><b>Longitud:</b> ${item.longitud}</p>
+			<p><b>Peso:</b> ${item.peso}</p>
+		</div>
     </div>
     `;
 });
@@ -71,13 +94,17 @@ inputBuscar.addEventListener('input', (e) => {
 		containerList.innerHTML = '';
 		arrayHerramientas.forEach((item) => {
 			containerList.innerHTML += `
-            <div class="list-items__container-item" id="">
-                <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-                <h3>${item.nombre}</h3>
-                <p>${item.modelo}</p>
-                <p>${item.descripcion}</p>
-                <p>S/.${item.precio}</p>
-            </div>
+			<div class="list-items__container-item" id="">
+			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<h3>${item.nombre}</h3>
+			<p>${item.modelo}</p>
+			<div class="list-items__content" id="list-items__content">
+				<p><b>Tipo:</b>  ${item.tipo}</p>
+				<p><b>Capacidad:</b>  ${item.capacidad}</p>
+				<p><b>Longitud:</b> ${item.longitud}</p>
+				<p><b>Peso:</b> ${item.peso}</p>
+			</div>
+		</div>
             `;
 		});
 	} else {
@@ -87,20 +114,24 @@ inputBuscar.addEventListener('input', (e) => {
 		//         }
 		//    })
 		let newArray = arrayHerramientas.filter((state) => {
-			const regex = new RegExp(`^${inputBuscar.value}`, 'gi');
+			const regex = new RegExp(`${inputBuscar.value}`, 'gi');
 			return state.nombre.match(regex) || state.modelo.match(regex);
 		});
 
 		containerList.innerHTML = '';
 		newArray.forEach((item) => {
 			containerList.innerHTML += `
-           <div class="list-items__container-item" id="">
-               <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-               <h3>${item.nombre}</h3>
-               <p>${item.modelo}</p>
-               <p>${item.descripcion}</p>
-               <p>S/.${item.precio}</p>
-           </div>
+			<div class="list-items__container-item" id="">
+			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<h3>${item.nombre}</h3>
+			<p>${item.modelo}</p>
+			<div class="list-items__content" id="list-items__content">
+				<p><b>Tipo:</b>  ${item.tipo}</p>
+				<p><b>Capacidad:</b>  ${item.capacidad}</p>
+				<p><b>Longitud:</b> ${item.longitud}</p>
+				<p><b>Peso:</b> ${item.peso}</p>
+			</div>
+		</div>
            `;
 		});
 	}
@@ -116,19 +147,23 @@ btnBuscar.addEventListener('click', (e) => {
 		arrayHerramientas.forEach((item) => {
 			containerList.innerHTML += `
             <div class="list-items__container-item" id="">
-                <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-                <h3>${item.nombre}</h3>
-                <p>${item.modelo}</p>
-                <p>${item.descripcion}</p>
-                <p>S/.${item.precio}</p>
-            </div>
+        <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+		<h3>${item.nombre}</h3>
+		<p>${item.modelo}</p>
+		<div class="list-items__content" id="list-items__content">
+			<p><b>Tipo:</b>  ${item.tipo}</p>
+			<p><b>Capacidad:</b>  ${item.capacidad}</p>
+			<p><b>Longitud:</b> ${item.longitud}</p>
+			<p><b>Peso:</b> ${item.peso}</p>
+		</div>
+    </div>
             `;
 		});
 	} else {
 		let newArray = arrayHerramientas.filter((item) => {
 			if (
-				item.nombre == inputBuscar.value ||
-				item.modelo == inputBuscar.value
+				item.nombre.toLowerCase() == inputBuscar.value.toLowerCase() ||
+				item.modelo.toLowerCase() == inputBuscar.value
 			) {
 				return item;
 			}
@@ -137,13 +172,17 @@ btnBuscar.addEventListener('click', (e) => {
 		containerList.innerHTML = '';
 		newArray.forEach((item) => {
 			containerList.innerHTML += `
-           <div class="list-items__container-item" id="">
-               <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-               <h3>${item.nombre}</h3>
-               <p>${item.modelo}</p>
-               <p>${item.descripcion}</p>
-               <p>S/.${item.precio}</p>
-           </div>
+            <div class="list-items__container-item" id="">
+        <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+		<h3>${item.nombre}</h3>
+		<p>${item.modelo}</p>
+		<div class="list-items__content" id="list-items__content">
+			<p><b>Tipo:</b>  ${item.tipo}</p>
+			<p><b>Capacidad:</b>  ${item.capacidad}</p>
+			<p><b>Longitud:</b> ${item.longitud}</p>
+			<p><b>Peso:</b> ${item.peso}</p>
+		</div>
+    </div>
            `;
 		});
 	}
