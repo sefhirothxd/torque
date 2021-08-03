@@ -13,7 +13,7 @@ const searchState = async (searchText) => {
 
 	//get match to current text input
 	let matches = states.filter((state) => {
-		const regex = new RegExp(`^${searchText}`, 'gi');
+		const regex = new RegExp(`${searchText}`, 'gi');
 		return state.nombre.match(regex) || state.modelo.match(regex);
 	});
 
@@ -32,7 +32,7 @@ const outputHtml = (matches) => {
 		const html = matches
 			.map(
 				(match) => `
-                <h4 class="container-list-item">${match.nombre}</h4>
+                <h4 class="container-list-item">${match.nombre}</h4><small >${match.modelo}</small>
         `
 			)
 			.join('');
