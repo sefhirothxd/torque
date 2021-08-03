@@ -3909,7 +3909,7 @@ modificacion del menu productos
 }
 
 .main-toquimetro__content p {
-	margin: 20px 0;
+	margin: 40px 0;
 }
 .list-caracter {
 	margin-top: 20px;
@@ -4006,7 +4006,10 @@ ul.slider li:target {
 }
 .w3-content {
 	max-width: 980px;
+	background-color: #888;
+	padding: 20px 0;
 }
+
 .w3-section,
 .w3-code {
 	margin-top: 16px !important;
@@ -4029,7 +4032,24 @@ ul.slider li:target {
 	width: 100%;
 }
 
+.s4 img {
+	height: 200px;
+	object-fit: contain;
+}
+
 .mySlides {
 	display: none;
-	width: 100%;
+	width: 50%;
+	margin: 0 auto;
+}
+.slider2 {
+	display: none;
+}
+@media (max-width: 992px) {
+	.slider1 {
+		display: none;
+	}
+	.slider2 {
+		display: block;
+	}
 }
