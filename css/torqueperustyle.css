@@ -3363,16 +3363,19 @@ a:hover {
 }
 .toquimetro {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-direction: column;
 	align-items: center;
 	border-bottom: 1px solid white;
 	/* padding-bottom: 10px; */
 	margin-bottom: 10px;
 	height: 210px;
+	width: 90%;
 }
 .toquimetro #toquimetro-enlace {
 	font: inherit;
+	padding-left: 0;
+	margin-bottom: 10px;
 }
 
 .toquimetro:hover {
@@ -3380,12 +3383,13 @@ a:hover {
 }
 
 .toquimetro-container {
-	margin-right: 20px;
+	margin-right: 0px;
 	width: 250px;
 	min-width: 150px;
+	font-size: 12px;
 }
 .toquimetro .toquimetro-img {
-	width: 150px;
+	width: 180px;
 	margin-bottom: 20px;
 	object-fit: cover;
 }
@@ -3702,9 +3706,10 @@ modificacion del menu productos
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	align-items: center;
+	align-items: flex-start;
 	border-bottom: 1px solid white;
-	/* padding-bottom: 10px; */
+	padding-top: 20px;
+	padding-bottom: 20px;
 	margin-bottom: 10px;
 	height: 210px;
 }
@@ -3714,12 +3719,12 @@ modificacion del menu productos
 }
 
 .toquimetro-container {
-	margin-right: 20px;
-	width: 250px;
+	/* margin-right: 20px; */
+	width: 200px;
 	min-width: 150px;
 }
 .toquimetro .toquimetro-img {
-	width: 150px;
+	width: 180px;
 	margin-bottom: 20px;
 	object-fit: cover;
 }
@@ -4127,3 +4132,5 @@ ul.slider li:target {
 		display: block;
 	}
 }
+
+/*  probando cambio del banner*/

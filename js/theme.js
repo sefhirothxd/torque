@@ -42,6 +42,7 @@
 				overlayer: true,
 				hover: false,
 				minHeight: '500px',
+				height: '600px',
 			});
 		}
 	}
