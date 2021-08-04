@@ -3805,6 +3805,10 @@ modificacion del menu productos
 
 /*-------------------------------------*/
 /*Torquimetros list */
+.main-toquimetro p {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
 .main-toquimetro-title {
 	margin: 20px 0;
 }
