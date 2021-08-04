@@ -3512,6 +3512,7 @@ a:hover {
 	display: flex;
 	flex-wrap: wrap;
 	/* justify-content: space-between; */
+	margin-left: 40px;
 	gap: 10px;
 }
 
@@ -3943,6 +3944,12 @@ modificacion del menu productos
 	height: 150px;
 }
 
+@media (max-width: 1199px) {
+	.list-items {
+		/* justify-content: center; */
+		margin-left: 80px;
+	}
+}
 @media (max-width: 992px) {
 	.main-toquimetro__content {
 		flex-direction: column;
@@ -3957,6 +3964,7 @@ modificacion del menu productos
 	}
 	.list-items {
 		justify-content: center;
+		margin-left: 0;
 	}
 }
 .container-donwload > h3 {
