@@ -9,6 +9,7 @@ let arrayHerramientas = [
 		peso: '1 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://limatools.com.pe/wp-content/uploads/2021/04/TORQUIMETRO-AGUJA.jpg',
+		tag: 'top',
 	},
 	{
 		id: 2,
@@ -20,6 +21,7 @@ let arrayHerramientas = [
 		peso: '2.5 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://http2.mlstatic.com/D_NQ_NP_712295-MLA42515459166_072020-O.webp',
+		tag: 'top',
 	},
 	{
 		id: 3,
@@ -31,6 +33,7 @@ let arrayHerramientas = [
 		peso: '2.5 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://4g-globalinversiones.com/wp-content/uploads/2020/05/13-100-Torqu%C3%ADmetro.jpg',
+		tag: 'top',
 	},
 	{
 		id: 4,
@@ -42,6 +45,7 @@ let arrayHerramientas = [
 		peso: '0.85 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://4g-globalinversiones.com/wp-content/uploads/2020/05/13-100-Torqu%C3%ADmetro.jpg',
+		tag: 'top',
 	},
 	{
 		id: 5,
@@ -53,6 +57,7 @@ let arrayHerramientas = [
 		peso: '3 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDqx_PUz6G0yjalZqVMfH9hFjP_nFchfWvYAHMJsARU7krjOB_pLmZVtCFv5rVDYCiBI&usqp=CAU',
+		tag: 'top',
 	},
 	{
 		id: 6,
@@ -64,6 +69,7 @@ let arrayHerramientas = [
 		peso: '3.15 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDqx_PUz6G0yjalZqVMfH9hFjP_nFchfWvYAHMJsARU7krjOB_pLmZVtCFv5rVDYCiBI&usqp=CAU',
+		tag: 'top',
 	},
 	{
 		id: 7,
@@ -75,6 +81,7 @@ let arrayHerramientas = [
 		peso: '3.15 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxDqx_PUz6G0yjalZqVMfH9hFjP_nFchfWvYAHMJsARU7krjOB_pLmZVtCFv5rVDYCiBI&usqp=CAU',
+		tag: 'top',
 	},
 	{
 		id: 8,
@@ -86,6 +93,7 @@ let arrayHerramientas = [
 		peso: '8.95 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://http2.mlstatic.com/D_NQ_NP_617510-MPE32284543475_092019-O.webp',
+		tag: 'top',
 	},
 	{
 		id: 9,
@@ -97,6 +105,7 @@ let arrayHerramientas = [
 		peso: '24.5 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZzf48jF8dotVUqArnBr2HlpYbsMdw8Byq3Nf-4duM8Jdns4BuumI3808luDtZNJKdOk&usqp=CAU',
+		tag: 'normal',
 	},
 	{
 		id: 10,
@@ -108,11 +117,16 @@ let arrayHerramientas = [
 		peso: '48.75 Lbs',
 		tipo: 'Ratchet',
 		img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZzf48jF8dotVUqArnBr2HlpYbsMdw8Byq3Nf-4duM8Jdns4BuumI3808luDtZNJKdOk&usqp=CAU',
+		tag: 'normal',
 	},
 ];
 let btnBuscar = document.getElementById('btn-buscar');
+let btnTodo = document.getElementById('btn-todos');
+let btnTop = document.getElementById('btn-top');
 let inputBuscar = document.getElementById('autoComplete');
 let containerList = document.getElementById('list-items');
+let containerMain = document.getElementById('list-container-items');
+
 
 // let array2 = [];
 
@@ -127,7 +141,16 @@ let containerList = document.getElementById('list-items');
 
 // console.log(array2,'aqui toy');
 
-arrayHerramientas.forEach((item) => {
+let arrayTop = arrayHerramientas.filter((item, index) => {
+	if (item.tag == 'top') {
+		console.log(item);
+		return item;
+	}
+});
+
+console.log(arrayTop);
+
+arrayTop.forEach((item) => {
 	containerList.innerHTML += `
     <div class="list-items__container-item" id="">
         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -147,7 +170,7 @@ inputBuscar.addEventListener('input', (e) => {
 	e.preventDefault();
 	if (inputBuscar.value.trim() == '') {
 		containerList.innerHTML = '';
-		arrayHerramientas.forEach((item) => {
+		arrayTop.forEach((item) => {
 			containerList.innerHTML += `
 			<div class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -199,7 +222,7 @@ btnBuscar.addEventListener('click', (e) => {
 	e.preventDefault();
 	if (inputBuscar.value.trim() == '') {
 		containerList.innerHTML = '';
-		arrayHerramientas.forEach((item) => {
+		arrayTop.forEach((item) => {
 			containerList.innerHTML += `
             <div class="list-items__container-item" id="">
         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -218,7 +241,7 @@ btnBuscar.addEventListener('click', (e) => {
 		let newArray = arrayHerramientas.filter((item) => {
 			if (
 				item.nombre.toLowerCase() == inputBuscar.value.toLowerCase() ||
-				item.modelo.toLowerCase() == inputBuscar.value
+				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase()
 			) {
 				return item;
 			}
@@ -243,4 +266,44 @@ btnBuscar.addEventListener('click', (e) => {
 	}
 
 	console.log(inputBuscar.value);
+});
+
+/*filtro boton*/
+
+btnTodo.addEventListener('click', () => {
+	containerList.innerHTML = '';
+	arrayHerramientas.forEach((item) => {
+		containerList.innerHTML += `
+		<div class="list-items__container-item" id="">
+			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<h3>${item.nombre}</h3>
+			<p>${item.modelo}</p>
+			<div class="list-items__content" id="list-items__content">
+				<p><b>Tipo:</b>  ${item.tipo}</p>
+				<p><b>Capacidad:</b>  ${item.capacidad}</p>
+				<p><b>Longitud:</b> ${item.longitud}</p>
+				<p><b>Peso:</b> ${item.peso}</p>
+			</div>
+		</div>
+		`;
+	});
+});
+
+btnTop.addEventListener('click', () => {
+	containerList.innerHTML = '';
+	arrayTop.forEach((item) => {
+		containerList.innerHTML += `
+		<div class="list-items__container-item" id="">
+			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<h3>${item.nombre}</h3>
+			<p>${item.modelo}</p>
+			<div class="list-items__content" id="list-items__content">
+				<p><b>Tipo:</b>  ${item.tipo}</p>
+				<p><b>Capacidad:</b>  ${item.capacidad}</p>
+				<p><b>Longitud:</b> ${item.longitud}</p>
+				<p><b>Peso:</b> ${item.peso}</p>
+			</div>
+		</div>
+		`;
+	});
 });

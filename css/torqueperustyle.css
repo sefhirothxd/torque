@@ -3508,10 +3508,10 @@ a:hover {
 }
 
 .list-items {
-	padding: 50px 20px 20px;
+	padding: 50px 0px 20px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: space-between;
 	gap: 10px;
 }
 
@@ -3542,6 +3542,19 @@ a:hover {
 
 #list-items__content b {
 	color: black;
+}
+
+.busqueda-container__filtro {
+	display: flex;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 20px;
+	border: 1px solid black;
+	margin-top: 30px;
+	background-color: #ccc;
+}
+.busqueda-container__filtro .btn-todos {
+	margin-right: 10px;
 }
 
 /*------------------end----------------*/
@@ -3929,6 +3942,7 @@ modificacion del menu productos
 	margin-top: 20px;
 	height: 150px;
 }
+
 @media (max-width: 992px) {
 	.main-toquimetro__content {
 		flex-direction: column;
@@ -3940,6 +3954,9 @@ modificacion del menu productos
 		width: 100%;
 		margin: 0;
 		margin-top: 30px;
+	}
+	.list-items {
+		justify-content: center;
 	}
 }
 .container-donwload > h3 {

@@ -23,7 +23,13 @@ const searchState = async (searchText) => {
 		listSearch.innerHTML = '';
 	}
 
-	outputHtml(matches);
+	if (searchText.substr(0, 1) === 'm') {
+		console.log(searchText.substr(0, 1), 'aqui toy');
+		outputHtmlModelo(matches);
+	} else if (searchText.substr(0, 1) === 't') {
+		console.log(searchText.substr(0, 1), 'aqui toy');
+		outputHtml(matches);
+	}
 };
 
 //mostrar resultado en el html
@@ -33,6 +39,20 @@ const outputHtml = (matches) => {
 			.map(
 				(match) => `
                 <h4 class="container-list-item">${match.nombre}</h4><small >${match.modelo}</small>
+        `
+			)
+			.join('');
+
+		listSearch.innerHTML = html;
+		listSearch.style.display = 'block';
+	}
+};
+const outputHtmlModelo = (matches) => {
+	if (matches.length > 0) {
+		const html = matches
+			.map(
+				(match) => `
+                <h4 class="container-list-item">${match.modelo}</h4>
         `
 			)
 			.join('');

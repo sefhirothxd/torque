@@ -320,7 +320,10 @@
 		<!-- End Header_Area -->
 
 		<!-- Banner area -->
-		<section class="busqueda-container" data-stellar-background-ratio="0.5">
+		<section
+			class="container busqueda-container"
+			data-stellar-background-ratio="0.5"
+		>
 			<div class="busqueda-container__hero">
 				<h1>BUSCADOR DE HERRAMIENTAS</h1>
 				<form class="busqueda-main" id="busqueda-main">
@@ -345,12 +348,34 @@
 						</div>
 					</div>
 				</form>
+				<div class="busqueda-container__filtro">
+					<!-- <button class="btn-todos" id="btn-todos">Todos</button>
+					<button class="btn-top" id="btn-top">Lo mas vendido</button> -->
+					<div class="btn-group" role="group" aria-label="Basic example">
+						<button
+							type="button"
+							class="btn btn-primary"
+							style="color: white"
+							id="btn-todos"
+						>
+							Todos
+						</button>
+						<button
+							type="button"
+							class="btn btn-primary"
+							id="btn-top"
+							style="color: white"
+						>
+							Lo mas vendido
+						</button>
+					</div>
+				</div>
 			</div>
 		</section>
 		<!-- End Banner area -->
 
 		<!-- Our Team Area -->
-		<section class="list-container-items">
+		<section class="list-container-items" id="list-container-items">
 			<div class="container">
 				<div class="list-items" id="list-items"></div>
 			</div>
