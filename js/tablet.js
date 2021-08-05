@@ -1,5 +1,7 @@
+var URLactual = window.location.pathname;
+
 // specify the columns
-const columnDefs = [
+let columnDefs = [
 	{ field: 'Nombre' },
 	{ field: 'Modelo', width: 90 },
 	{ field: 'Tipo', width: 120 },
@@ -9,7 +11,7 @@ const columnDefs = [
 ];
 
 // specify the data
-const rowData = [
+let rowData = [
 	{
 		Nombre: 'Toquimetro de golpe 1/8',
 		Tipo: 'RATCHET',
@@ -51,6 +53,113 @@ const rowData = [
 		Peso: '24.5 LBS',
 	},
 ];
+if (URLactual === '/multiplicador-de-torque.html') {
+	// specify the columns
+	columnDefs = [
+		{ field: 'Nombre' },
+		{ field: 'Modelo', width: 90 },
+		{ field: 'Encastre de entrada', width: 160 },
+		{ field: 'Encastre de salida', width: 150 },
+		{ field: 'Torque de entrada', width: 150 },
+		{ field: 'Torque de salida', width: 150 },
+		{ field: 'Proporción', width: 120 },
+		{ field: 'Peso', width: 120 },
+	];
+
+	// specify the data
+	rowData = [
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S290P',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '3/4"',
+			'Torque de entrada': '227 Lbs-pie',
+			'Torque de salida': '750 Lbs-pie',
+			Proporción: '3.0:1',
+			Peso: '4-7/8 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S291',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '3/4"',
+			'Torque de entrada': '303 Lbs-pie',
+			'Torque de salida': '1000 Lbs-pie',
+			Proporción: '3.3:1',
+			Peso: '5-7/8 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S292',
+			'Encastre de entrada': '3/4"',
+			'Encastre de salida': '1"',
+			'Torque de entrada': '571 Lbs-pie',
+			'Torque de salida': '2000 Lbs-pie',
+			Proporción: '3.75:1',
+			Peso: '13-7/8 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S391',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '3/4"',
+			'Torque de entrada': '200 Lbs-pie',
+			'Torque de salida': '1200 Lbs-pie',
+			Proporción: '6:1',
+			Peso: '13 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S392B',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '1"',
+			'Torque de entrada': '162 Lbs-pie',
+			'Torque de salida': '2200 Lbs-pie',
+			Proporción: '13.6:1',
+			Peso: '20-5/8 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S393A',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '1"',
+			'Torque de entrada': '173 Lbs-pie',
+			'Torque de salida': '3200 Lbs-pie',
+			Proporción: '18.5:1',
+			Peso: '22-3/8 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S394',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '1-1/2"',
+			'Torque de entrada': '189 Lbs-pie',
+			'Torque de salida': '5000 Lbs-pie',
+			Proporción: '26.5:1',
+			Peso: '34.0 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S395',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '1-1/2"',
+			'Torque de entrada': '154 Lbs-pie',
+			'Torque de salida': '8000 Lbs-pie',
+			Proporción: '52.0:1',
+			Peso: '50.3 Lbs',
+		},
+		{
+			Nombre: 'Moltiplicador de torque',
+			Modelo: '9S2492',
+			'Encastre de entrada': '1/2"',
+			'Encastre de salida': '1"',
+			'Torque de entrada': '162 Lbs-pie',
+			'Torque de salida': '2200 Lbs-pie',
+			Proporción: '13.6:1',
+			Peso: '17.2 Lbs',
+		},
+	];
+}
 
 // let the grid know which columns and what data to use
 const gridOptions = {

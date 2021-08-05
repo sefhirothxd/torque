@@ -33,6 +33,18 @@
 			rel="stylesheet"
 			href="vendors/font-awesome/css/font-awesome.min.css"
 		/>
+		<!-- slick -->
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+		<!-- tablet -->
+		<script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.noStyle.js"></script>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css"
+		/>
 		<!--Theme Styles CSS-->
 		<link
 			rel="stylesheet"
@@ -320,188 +332,245 @@
 
 		<!-- Our Team Area -->
 		<section class="our_team_area">
-			<div class="container">
-				<div class="row team_row">
-					<div class="gallery">
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S290p.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S290p.jpg"
-										alt="Multiplicador modelo 9S290p"
-										title="Multiplicador de llave modelo 9S290p"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9s290p</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+			<div class="container main-toquimetro">
+				<h2 class="toquimetro-title">MULTIPLICADOR DE TORQUE</h2>
+				<div class="main-toquimetro__subtitle" id="main-toquimetro__subtitle">
+					<h3 class="main-toquimetro__title">
+						TU SERIES Square Drive Hydraulic Torque Wrench
+					</h3>
+					<p>
+						Herramienta que se utiliza para aplicar un torque determinado a
+						determinadas piezas, como ser tornillos, tuercas, etc.
+					</p>
+				</div>
 
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S291.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S291.jpg"
-										alt="Multiplicador modelo 9S291"
-										title="Multiplicador de llave modelo 9S291"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S291</li>
-									</ul>
-								</div>
-							</div>
+				<div class="w3-content slider1" style="max-width: 1200px">
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S290p.jpg"
+						style="display: block"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S291.jpg"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S292.jpg"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S391.jpg"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S392B.jpg"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S393A.jpg"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S394.jpg"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S395.jpg"
+					/>
+					<img
+						class="mySlides"
+						src="./images/multiplicador/multiplicador 9S492.jpg"
+					/>
+					<div class="w3-row-padding w3-section list-galary">
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S290p.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(1)"
+							/>
 						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S291.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(2)"
+							/>
+						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S292.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(3)"
+							/>
+						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S391.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(4)"
+							/>
+						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S392B.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(5)"
+							/>
+						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S393A.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(6)"
+							/>
+						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S394.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(7)"
+							/>
+						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S395.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(8)"
+							/>
+						</div>
+						<div class="w3-col s4">
+							<img
+								class="demo w3-opacity w3-hover-opacity-off"
+								src="./images/multiplicador/multiplicador 9S492.jpg"
+								style="width: 100%; cursor: pointer"
+								onclick="currentDiv(9)"
+							/>
+						</div>
+					</div>
+				</div>
+				<div class="w3-content w3-display-container slider2">
+					<div class="w3-display-container mySlides2" style="display: block">
+						<img
+							src="./images/multiplicador/multiplicador 9S290p.jpg"
+							style="width: 100%"
+						/>
+					</div>
 
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S391.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S391.jpg"
-										alt="Multiplicador modelo 9S391"
-										title="Multiplicador de llave modelo 9S391"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S391</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S291.jpg"
+							style="width: 100%"
+						/>
+					</div>
 
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S292.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S292.jpg"
-										alt="Multiplicador modelo 9S292"
-										title="Multiplicador de llave modelo 9S292"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S292</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S292.jpg"
+							style="width: 100%"
+						/>
+					</div>
 
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S392B.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S392B.jpg"
-										alt="Multiplicador modelo 9S392B"
-										title="Multiplicador de llave modelo 9S392B"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S392B</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S391.jpg"
+							style="width: 100%"
+						/>
+					</div>
 
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S393A.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S393A.jpg"
-										alt="Multiplicador modelo 9S393A"
-										title="Multiplicador de llave modelo 9S393A"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S393A</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S392B.jpg"
+							style="width: 100%"
+						/>
+					</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S393A.jpg"
+							style="width: 100%"
+						/>
+					</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S394.jpg"
+							style="width: 100%"
+						/>
+					</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S395.jpg"
+							style="width: 100%"
+						/>
+					</div>
+					<div class="w3-display-container mySlides2">
+						<img
+							src="./images/multiplicador/multiplicador 9S492.jpg"
+							style="width: 100%"
+						/>
+					</div>
 
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S492.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S492.jpg"
-										alt="Multiplicador modelo 9S492"
-										title="Multiplicador de llave modelo 9S492"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S492</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S394.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S394.jpg"
-										alt="Multiplicador modelo 9S394"
-										title="Multiplicador de llave modelo 9S394"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S394</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-md-3 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
-							<div class="team_membar">
-								<a
-									data-toggle="modal"
-									data-target=".bs-example-modal-md"
-									href="images/multiplicador/multiplicador 9S395.jpg"
-									rel="prettyPhoto"
-									><img
-										src="images/multiplicador/multiplicador 9S395.jpg"
-										alt="Multiplicador modelo 9S395"
-										title="Multiplicador de llave modelo 9S395"
-								/></a>
-								<div class="team_content">
-									<ul>
-										<li>Modelo 9S395</li>
-									</ul>
-								</div>
-							</div>
-						</div>
+					<button
+						class="w3-button w3-display-left w3-black"
+						onclick="plusDivs(-1)"
+					>
+						&#10094;
+					</button>
+					<button
+						class="w3-button w3-display-right w3-black"
+						onclick="plusDivs(1)"
+					>
+						&#10095;
+					</button>
+				</div>
+				<div class="main-toquimetro__content">
+					<div class="main-toquimetro__content-text">
+						<p>
+							The TU Series is a dependable workhorse, strong enough to conquer
+							demanding applications with an accuracy +/- 3%. The TU can handle
+							those ultimate applications where the work subjects tools to
+							brutal and unforgiving usage. The TU Square Drive Hydraulic Torque
+							Wrench is the wrench you can rely on when the critical work must
+							get done right…the first time! Contact us for a Free Demo today!
+						</p>
+						<ul class="list-caracter">
+							<li>Encastre desde 1/4" hasta 1"</li>
+							<li>
+								Productos de origen Estadounidense y certificados de garantía
+							</li>
+							<li>Rango de torque desde 3N.m hasta 2700N.m</li>
+							<li>Manufactured With AQ Certified Alloys</li>
+							<li>Genuine TorcUP Design</li>
+						</ul>
+						<p class="main-toquimetro__content-text-p">
+							Who says that you have to sacrifice looks for strength? Good looks
+							are just the start, with a distinct advantage added to the drive
+							plate, segment and ratchet. These three components take the brunt
+							of wear and tear, and in the TU they are made of Vascomax®, which
+							means they are 30% stronger and 15% harder than the industry
+							standard. Around the world the TU Series will always remain
+							distinctive among the field of torque wrenches. Contact us for a
+							Free Demo today!
+						</p>
+						<div id="myGrid" class="ag-theme-alpine"></div>
+					</div>
+					<div class="container-donwload">
+						<h3>Download</h3>
+						<a href=""
+							><i class="fa fa-file pdf-document" aria-hidden="true"></i
+							>Torquimetros Manual
+						</a>
+						<a href=""
+							><i class="fa fa-file pdf-document" aria-hidden="true"></i
+							>Torquimetros Manual</a
+						>
 					</div>
 				</div>
 			</div>
@@ -668,6 +737,10 @@
 		<script src="js/jquery.min.js"></script>
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
+		<!-- slick js -->
+		<script src="./js/galary.js"></script>
+		<!-- table js -->
+		<script src="./js/tablet.js"></script>
 		<!-- lightboxsimple JS -->
 	</body>
 </html>
