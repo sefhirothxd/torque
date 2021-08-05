@@ -4,7 +4,7 @@ var URLactual = window.location.pathname;
 let columnDefs = [
 	{ field: 'Nombre' },
 	{ field: 'Modelo', width: 90 },
-	{ field: 'Tipo', width: 120 },
+	// { field: 'Tipo', width: 120 },
 	{ field: 'Capacidad', width: 250 },
 	{ field: 'Longitud', width: 95 },
 	{ field: 'Peso', width: 90 },
@@ -13,40 +13,40 @@ let columnDefs = [
 // specify the data
 let rowData = [
 	{
-		Nombre: 'Toquimetro de golpe 1/8',
-		Tipo: 'RATCHET',
+		Nombre: 'Encastre  1/8"',
+		// Tipo: 'RATCHET',
 		Modelo: '3478',
 		Capacidad: '30-200 LBS.pulg/3.9-22 N.m',
 		Longitud: '10.15',
 		Peso: '0.85 LBS',
 	},
 	{
-		Nombre: 'Toquimetro de golpe 3/8',
-		Tipo: 'RATCHET',
+		Nombre: 'Encastre  3/8"',
+		// Tipo: 'RATCHET',
 		Modelo: '3447',
 		Capacidad: '5-75 LBS.pie/10.2-98.3 Nm',
 		Longitud: '15.15',
 		Peso: '2.5 LBS',
 	},
 	{
-		Nombre: 'Toquimetro de golpe 3/8',
-		Tipo: 'RATCHET',
+		Nombre: 'Encastre  3/8"',
+		// Tipo: 'RATCHET',
 		Modelo: '3477',
 		Capacidad: '10-100 LBS.pie/16.9-132.2 Nm',
 		Longitud: '15.15',
 		Peso: '2.5 LBS',
 	},
 	{
-		Nombre: 'Toquimetro de golpe 1/4',
-		Tipo: 'RATCHET',
+		Nombre: 'Encastre  1/4"',
+		// Tipo: 'RATCHET',
 		Modelo: '2477',
 		Capacidad: '20-150 LBS.pulg/2.8-16.4 Nm',
 		Longitud: '10.15',
 		Peso: '0.9 Lbs',
 	},
 	{
-		Nombre: 'Toquimetro de golpe 1',
-		Tipo: 'Cabeza Fija',
+		Nombre: 'Encastre  1"',
+		// Tipo: 'Cabeza Fija',
 		Modelo: '8448',
 		Capacidad: '200-1000 LBS.pie/305-1320 Nm',
 		Longitud: '69',
@@ -157,6 +157,141 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			'Torque de salida': '2200 Lbs-pie',
 			Proporción: '13.6:1',
 			Peso: '17.2 Lbs',
+		},
+	];
+}
+
+if (URLactual === '/llave-de-control-de-torque-electrica.html') {
+	// alert('aqui estoy');
+	// specify the columns
+	columnDefs = [
+		{ field: 'Nombre', width: 400 },
+		{ field: 'Modelo', width: 100 },
+		{ field: 'Art N°', width: 120 },
+		{ field: 'Rango de Torque(Nm)' },
+		{ field: 'Peso(Kg)', width: 100 },
+	];
+
+	// specify the data
+	rowData = [
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 1"',
+			Modelo: 'TESM-105',
+			'Art N°': '50 105 113',
+			'Rango de Torque(Nm)': '280-1200',
+			'Peso(Kg)': '10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 1.1/2"',
+			Modelo: 'TESM-355',
+			'Art N°': '50 355 133',
+			'Rango de Torque(Nm)': '360-3500',
+			'Peso(Kg)': '14.5',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 1.1/2"',
+			Modelo: 'TESM-505',
+			'Art N°': '50 505 143',
+			'Rango de Torque(Nm)': '700-5000',
+			'Peso(Kg)': '16.7',
+		},
+		{
+			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
+		},
+		{
+			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Modelo: 'TESM-84',
+			'Art N°': '50 084 103',
+			'Rango de Torque(Nm)': '150-850',
+			'Peso(Kg)': '9.8/10',
 		},
 	];
 }
