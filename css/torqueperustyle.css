@@ -3318,7 +3318,7 @@ a:hover {
 .product-main {
 	max-width: 1200px;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	margin: 0 auto;
 }
 .product-container hr {
@@ -3659,7 +3659,7 @@ modificacion del menu productos
 .product-main {
 	max-width: 1200px;
 	display: flex;
-	justify-content: flex-start;
+	justify-content: center;
 	margin: 0 auto;
 }
 .product-containerFix hr {
@@ -3840,7 +3840,7 @@ modificacion del menu productos
 	border: 1px solid #000;
 }
 .card-torquimetrp-text {
-	width: 50%;
+	width: 60%;
 }
 
 .title-card {
