@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"nombre": "Torquimetros  de reloj Encabres 1/4",
+		"nombre": "Torquimetros  de reloj Encastre 1/4",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 2470",
 		"max":"30",
@@ -13,7 +13,7 @@
 	},
 	{
 		"id": 2,
-		"nombre": "Torquimetros  de reloj Encabres 3/8",
+		"nombre": "Torquimetros  de reloj Encastre 3/8",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 3447",
 		"max":"75",
@@ -25,7 +25,7 @@
 	},
 	{
 		"id": 3,
-		"nombre": "Torquimetros  de reloj Encabres 3/8",
+		"nombre": "Torquimetros  de reloj Encastre 3/8",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 3447",
 		"max":"100",
@@ -37,7 +37,7 @@
 	},
 	{
 		"id": 4,
-		"nombre": "Torquimetros  de reloj Encabres 3/8",
+		"nombre": "Torquimetros  de reloj Encastre 3/8",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 3478",
 		"max":"200",
@@ -49,7 +49,7 @@
 	},
 	{
 		"id": 5,
-		"nombre": "Torquimetros  de reloj Encabres 1/2",
+		"nombre": "Torquimetros  de reloj Encastre 1/2",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 4476",
 		"max":"1600",
@@ -61,7 +61,7 @@
 	},
 	{
 		"id": 6,
-		"nombre": "Torquimetros  de reloj Encabres 1/2",
+		"nombre": "Torquimetros  de reloj Encastre 1/2",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 4477",
 		"max":"150",
@@ -73,7 +73,7 @@
 	},
 	{
 		"id": 7,
-		"nombre": "Torquimetros  de reloj Encabres 1/2",
+		"nombre": "Torquimetros  de reloj Encastre 1/2",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 4478",
 		"max":"250",
@@ -85,7 +85,7 @@
 	},
 	{
 		"id": 8,
-		"nombre": "Torquimetros  de reloj Encabres 3/4",
+		"nombre": "Torquimetros  de reloj Encastre 3/4",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 6448",
 		"max":"600",
@@ -97,7 +97,7 @@
 	},
 	{
 		"id": 9,
-		"nombre": "Torquimetros  de reloj Encabres 1",
+		"nombre": "Torquimetros  de reloj Encastre 1",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 8448",
 		"max":"1000",
@@ -109,7 +109,7 @@
 	},
 	{
 		"id": 10,
-		"nombre": "Torquimetros  de reloj Encabres 1",
+		"nombre": "Torquimetros  de reloj Encastre 1",
 		"marca": "WRIGHT",
 		"modelo": "Modelo 4476",
 		"max":"2000",
@@ -118,6 +118,150 @@
 		"peso": "48.75 Lbs",
 		"tipo": "Ratchet",
 		"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHZzf48jF8dotVUqArnBr2HlpYbsMdw8Byq3Nf-4duM8Jdns4BuumI3808luDtZNJKdOk&usqp=CAU"
+	}
+	,
+	{
+		"nombre": "Torquimetros de reloj Encastre 1/4",
+		"encastre": "1/4",
+		"tipo": "RATCHET",
+		"max":"30",
+		"modelo": "2470",
+		"capacidad": "0-30 LBS-pulg/0-3.5 Nm",
+		"longitud": "10",
+		"img": "./images/torquimetros/torquimetros reloj 2470.jpg",
+		"peso": "1 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 1/2",
+		"encastre": "1/2",
+		"tipo": "RATCHET",
+		"max":"250",
+		"modelo": "4471",
+		"capacidad": "0-250 LBS-pulg/0-350 Nm",
+		"longitud": "21-1/2",
+		"img": "./images/torquimetros/torquimetros reloj 2471.jpg",
+		"peso": "2-3/4 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 3/8",
+		"encastre": "3/8",
+		"tipo": "RATCHET",
+		"max":"150",
+		"modelo": "3470",
+		"capacidad": "0-150 LBS-pulg/0-18 Nm",
+		"longitud": "10",
+		"img": "./images/torquimetros/torquimetros reloj 3470.jpg",
+		"peso": "1 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 3/8",
+		"encastre": "3/8",
+		"tipo": "RATCHET",
+		"max":"250",
+		"modelo": "3471",
+		"capacidad": "0-250 LBS-pulg/0-30 Nm",
+		"longitud": "10",
+		"img": "./images/torquimetros/torquimetros reloj 3471.jpg",
+		"peso": "1 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 3/8",
+		"encastre": "3/8",
+		"tipo": "RATCHET",
+		"max":"50",
+		"modelo": "3473",
+		"capacidad": "0-50 LBS-pie/0-70 Nm",
+		"longitud": "14-7/8",
+		"img": "./images/torquimetros/torquimetros reloj 4470.jpg",
+		"peso": "1-3/4 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 1/2",
+		"encastre": "1/2",
+		"tipo": "RATCHET",
+		"max":"175",
+		"modelo": "4470",
+		"capacidad": "0-175 LBS-pie/0-240 Nm",
+		"longitud": "21-1/2",
+		"img": "./images/torquimetros/torquimetros reloj 4471.jpg",
+		"peso": "2-3/4 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 1/2",
+		"encastre": "1/2",
+		"tipo": "RATCHET",
+		"max":"250",
+		"modelo": "4471",
+		"capacidad": "0-250 LBS-pulg/0-350 Nm",
+		"longitud": "21-1/2",
+		"img": "./images/torquimetros/torquimetros reloj 6470.jpg",
+		"peso": "2-3/4 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 3/4",
+		"encastre": "3/4",
+		"tipo": "RATCHET",
+		"max":"600",
+		"modelo": "6470",
+		"capacidad": "0-600 LBS-pie/0-800 Nm",
+		"longitud": "46-1/2",
+		"img": "./images/torquimetros/torquimetros reloj 6471.jpg",
+		"peso": "9-1/4 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 3/4",
+		"encastre": "3/4",
+		"tipo": "RATCHET",
+		"max":"350",
+		"modelo": "6471",
+		"capacidad": "0-350 LBS-pie/0-480 Nm",
+		"longitud": "27-7/8",
+		"img": "./images/torquimetros/torquimetros reloj 6472.jpg",
+		"peso": "5-3/4 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 3/4",
+		"encastre": "3/4",
+		"tipo": "RATCHET",
+		"max":"600",
+		"modelo": "6472",
+		"capacidad": "0-600 LBS-pulg/0-800 Nm",
+		"longitud": "46-1/2",
+		"img": "./images/torquimetros/torquimetros reloj 8470.jpg",
+		"peso": "9-1/4 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 1",
+		"encastre": "1",
+		"tipo": "RATCHET",
+		"max":"1000",
+		"modelo": "8470",
+		"capacidad": "0-1000 LBS-pulg/0-1400 Nm",
+		"longitud": "74",
+		"img": "./images/torquimetros/torquimetros reloj 8471.jpg",
+		"peso": "18-1/2 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 1",
+		"encastre": "1",
+		"tipo": "RATCHET",
+		"max":"1000",
+		"modelo": "8471",
+		"capacidad": "0-1000 LBS-pulg/0-1400 Nm",
+		"longitud": "74",
+		"img": "./images/torquimetros/torquimetros reloj 8472.jpg",
+		"peso": "18-1/2 LBS"
+	},
+	{
+		"nombre": "Torquimetros de reloj Encastre 1",
+		"encastre": "1",
+		"tipo": "RATCHET",
+		"max":"2000",
+		"modelo": "8472",
+		"capacidad": "0-2000 LBS-pulg/0-1400 Nm",
+		"longitud": "122",
+		"img": "./images/torquimetros/torquimetros reloj 2470.jpg",
+		"peso": "44-1/2 LBS"
 	}
 
 ]
