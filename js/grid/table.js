@@ -2,8 +2,8 @@ var URLactual = window.location.pathname;
 
 // specify the columns
 let columnDefs = [
-	{ field: 'Nombre' },
 	{ field: 'Modelo', width: 90 },
+	{ field: 'Encastre', width: 90 },
 	// { field: 'Tipo', width: 120 },
 	{ field: 'Capacidad', width: 250 },
 	{ field: 'Longitud', width: 95 },
@@ -13,7 +13,7 @@ let columnDefs = [
 // specify the data
 let rowData = [
 	{
-		Nombre: 'Encastre  1/8"',
+		Encastre: '1/8"',
 		// Tipo: 'RATCHET',
 		Modelo: '3478',
 		Capacidad: '30-200 LBS.pulg/3.9-22 N.m',
@@ -21,7 +21,7 @@ let rowData = [
 		Peso: '0.85 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/8"',
+		Encastre: '3/8"',
 		// Tipo: 'RATCHET',
 		Modelo: '3447',
 		Capacidad: '5-75 LBS.pie/10.2-98.3 Nm',
@@ -29,7 +29,7 @@ let rowData = [
 		Peso: '2.5 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/8"',
+		Encastre: '3/8"',
 		// Tipo: 'RATCHET',
 		Modelo: '3477',
 		Capacidad: '10-100 LBS.pie/16.9-132.2 Nm',
@@ -37,7 +37,7 @@ let rowData = [
 		Peso: '2.5 LBS',
 	},
 	{
-		Nombre: 'Encastre  1/4"',
+		Encastre: '1/4"',
 		// Tipo: 'RATCHET',
 		Modelo: '2477',
 		Capacidad: '20-150 LBS.pulg/2.8-16.4 Nm',
@@ -45,7 +45,7 @@ let rowData = [
 		Peso: '0.9 Lbs',
 	},
 	{
-		Nombre: 'Encastre  1"',
+		Encastre: '1"',
 		// Tipo: 'Cabeza Fija',
 		Modelo: '8448',
 		Capacidad: '200-1000 LBS.pie/305-1320 Nm',
@@ -56,7 +56,7 @@ let rowData = [
 if (URLactual === '/multiplicador-de-torque.html') {
 	// specify the columns
 	columnDefs = [
-		{ field: 'Nombre' },
+		{ field: 'Encastre' },
 		{ field: 'Modelo', width: 90 },
 		{ field: 'Encastre de entrada', width: 160 },
 		{ field: 'Encastre de salida', width: 150 },
@@ -69,7 +69,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 	// specify the data
 	rowData = [
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S290P',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '3/4"',
@@ -79,7 +79,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '4-7/8 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S291',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '3/4"',
@@ -89,7 +89,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '5-7/8 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S292',
 			'Encastre de entrada': '3/4"',
 			'Encastre de salida': '1"',
@@ -99,7 +99,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '13-7/8 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S391',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '3/4"',
@@ -109,7 +109,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '13 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S392B',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1"',
@@ -119,7 +119,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '20-5/8 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S393A',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1"',
@@ -129,7 +129,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '22-3/8 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S394',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1-1/2"',
@@ -139,7 +139,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '34.0 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S395',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1-1/2"',
@@ -149,7 +149,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '50.3 Lbs',
 		},
 		{
-			Nombre: 'Moltiplicador de torque',
+			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S2492',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1"',
@@ -165,7 +165,7 @@ if (URLactual === '/llave-de-control-de-torque-electrica.html') {
 	// alert('aqui estoy');
 	// specify the columns
 	columnDefs = [
-		{ field: 'Nombre', width: 400 },
+		{ field: 'Encastre', width: 400 },
 		{ field: 'Modelo', width: 100 },
 		{ field: 'Art N°', width: 120 },
 		{ field: 'Rango de Torque(Nm)' },
@@ -175,119 +175,119 @@ if (URLactual === '/llave-de-control-de-torque-electrica.html') {
 	// specify the data
 	rowData = [
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 1"',
 			Modelo: 'TESM-105',
 			'Art N°': '50 105 113',
 			'Rango de Torque(Nm)': '280-1200',
 			'Peso(Kg)': '10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 1.1/2"',
+			Encastre: 'llave de control de torque eléctrica Encastre 1.1/2"',
 			Modelo: 'TESM-355',
 			'Art N°': '50 355 133',
 			'Rango de Torque(Nm)': '360-3500',
 			'Peso(Kg)': '14.5',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 1.1/2"',
+			Encastre: 'llave de control de torque eléctrica Encastre 1.1/2"',
 			Modelo: 'TESM-505',
 			'Art N°': '50 505 143',
 			'Rango de Torque(Nm)': '700-5000',
 			'Peso(Kg)': '16.7',
 		},
 		{
-			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Encastre: 'llave de control de torque inalámbricas Encastre 3/4" ',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Encastre: 'llave de control de torque inalámbricas Encastre 3/4" ',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Encastre: 'llave de control de torque inalámbricas Encastre 3/4" ',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque inalámbricas Encastre 3/4" ',
+			Encastre: 'llave de control de torque inalámbricas Encastre 3/4" ',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',
 			'Peso(Kg)': '9.8/10',
 		},
 		{
-			Nombre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
+			Encastre: 'llave de control de torque eléctrica Encastre 3/4 ó 1"',
 			Modelo: 'TESM-84',
 			'Art N°': '50 084 103',
 			'Rango de Torque(Nm)': '150-850',

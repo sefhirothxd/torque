@@ -3924,6 +3924,7 @@ modificacion del menu productos
 /*toquimetro golpe*/
 .main-toquimetro__subtitle > p {
 	margin: 20px 0;
+	font-size: 15px;
 }
 .toquimetro-title {
 	margin: 20px 0;
@@ -3990,10 +3991,15 @@ modificacion del menu productos
 }
 .list-caracter {
 	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
 	margin-top: 20px;
-	padding-top: 20px;
+	padding: 20px;
+	padding-left: 40px;
 }
 
+.list-caracter li {
+	list-style: decimal;
+}
 .main-toquimetro__container-img img {
 	width: 100%;
 }

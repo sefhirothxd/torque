@@ -2,8 +2,8 @@ var URLactual = window.location.pathname;
 
 // specify the columns
 let columnDefs = [
-	{ field: 'Nombre', width: 120 },
 	{ field: 'Modelo', width: 90 },
+	{ field: 'Encastre', width: 90 },
 	// { field: 'Tipo', width: 120 },
 	{ field: 'Capacidad', width: 250 },
 	{ field: 'Longitud', width: 95 },
@@ -13,7 +13,7 @@ let columnDefs = [
 // specify the data
 let rowData = [
 	{
-		Nombre: 'Encastre  1/4"',
+		Encastre: '1/4"',
 		// Tipo: 'RATCHET',
 		Modelo: '2470',
 		Capacidad: '0-30 LBS-pulg/0-3.5 Nm',
@@ -21,7 +21,7 @@ let rowData = [
 		Peso: '1 LBS',
 	},
 	{
-		Nombre: 'Encastre  1/2"',
+		Encastre: '1/2"',
 		// Tipo: 'RATCHET',
 		Modelo: '4471',
 		Capacidad: '0-250 LBS-pulg/0-350 Nm',
@@ -29,7 +29,7 @@ let rowData = [
 		Peso: '2-3/4 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/8"',
+		Encastre: '3/8"',
 		// Tipo: 'RATCHET',
 		Modelo: '3470',
 		Capacidad: '0-150 LBS-pulg/0-18 Nm',
@@ -37,7 +37,7 @@ let rowData = [
 		Peso: '1 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/8"',
+		Encastre: '3/8"',
 		// Tipo: 'RATCHET',
 		Modelo: '3471',
 		Capacidad: '0-250 LBS-pulg/0-30 Nm',
@@ -45,7 +45,7 @@ let rowData = [
 		Peso: '1 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/8"',
+		Encastre: '3/8"',
 		// Tipo: 'RATCHET',
 		Modelo: '3473',
 		Capacidad: '0-50 LBS-pie/0-70 Nm',
@@ -53,7 +53,7 @@ let rowData = [
 		Peso: '1-3/4 LBS',
 	},
 	{
-		Nombre: 'Encastre  1/2"',
+		Encastre: '1/2"',
 		// Tipo: 'RATCHET',
 		Modelo: '4470',
 		Capacidad: '0-175 LBS-pie/0-240 Nm',
@@ -61,7 +61,7 @@ let rowData = [
 		Peso: '2-3/4 LBS',
 	},
 	{
-		Nombre: 'Encastre  1/2"',
+		Encastre: '1/2"',
 		// Tipo: 'RATCHET',
 		Modelo: '4471',
 		Capacidad: '0-250 LBS-pulg/0-350 Nm',
@@ -69,7 +69,7 @@ let rowData = [
 		Peso: '2-3/4 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/4"',
+		Encastre: '3/4"',
 		// Tipo: 'RATCHET',
 		Modelo: '6470',
 		Capacidad: '0-600 LBS-pie/0-800 Nm',
@@ -77,7 +77,7 @@ let rowData = [
 		Peso: '9-1/4 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/4"',
+		Encastre: '3/4"',
 		// Tipo: 'RATCHET',
 		Modelo: '6471',
 		Capacidad: '0-350 LBS-pie/0-480 Nm',
@@ -85,7 +85,7 @@ let rowData = [
 		Peso: '5-3/4 LBS',
 	},
 	{
-		Nombre: 'Encastre  3/4"',
+		Encastre: '3/4"',
 		// Tipo: 'RATCHET',
 		Modelo: '6472',
 		Capacidad: '0-600 LBS-pulg/0-800 Nm',
@@ -93,7 +93,7 @@ let rowData = [
 		Peso: '9-1/4 LBS',
 	},
 	{
-		Nombre: 'Encastre  1"',
+		Encastre: '1"',
 		// Tipo: 'RATCHET',
 		Modelo: '8470',
 		Capacidad: '0-1000 LBS-pulg/0-1400 Nm',
@@ -101,7 +101,7 @@ let rowData = [
 		Peso: '18-1/2 LBS',
 	},
 	{
-		Nombre: 'Encastre  1"',
+		Encastre: '1"',
 		// Tipo: 'RATCHET',
 		Modelo: '8471',
 		Capacidad: '0-1000 LBS-pulg/0-1400 Nm',
@@ -109,7 +109,7 @@ let rowData = [
 		Peso: '18-1/2 LBS',
 	},
 	{
-		Nombre: 'Encastre  1"',
+		Encastre: '1"',
 		// Tipo: 'RATCHET',
 		Modelo: '8472',
 		Capacidad: '0-2000 LBS-pulg/0-1400 Nm',
