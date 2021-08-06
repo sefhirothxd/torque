@@ -5,7 +5,7 @@ let columnDefs = [
 	{ field: 'Nombre', width: 120 },
 	{ field: 'Modelo', width: 90 },
 	{ field: 'Tipo', width: 120 },
-	{ field: 'Capacidad', width: 250 },
+	{ field: 'Capacidad', width: 230 },
 	{ field: 'Longitud', width: 95 },
 	{ field: 'Peso', width: 120 },
 ];
