@@ -3,7 +3,7 @@ columnDefs = [
 	{ field: 'Encastre', width: 90 },
 	{ field: 'Rango de Torque(Nm)' },
 	{ field: 'Velocidad', width: 120 },
-	{ field: 'Peso(Kg)', width: 100 },
+	{ field: 'Peso(Kg)', width: 160 },
 ];
 
 // specify the data
