@@ -57,8 +57,8 @@ setInterval(() => {
 		}
 	}
 	if (x < 1200 && x >= 992) {
-		if (y == 86) {
-			document.querySelector('.product-container').style.top = '186px';
+		if (y == 50) {
+			document.querySelector('.product-container').style.top = '150px';
 			document.querySelector('.product-container').style.animationName =
 				'medida1200';
 		} else {
@@ -68,8 +68,9 @@ setInterval(() => {
 		}
 	}
 	if (x < 992) {
-		if (y == 137) {
-			document.querySelector('.product-container').style.top = '236px';
+		console.log(y, 'valor de y');
+		if (y == 51) {
+			document.querySelector('.product-container').style.top = '150px';
 			document.querySelector('.product-container').style.animationName =
 				'medida92';
 		} else {

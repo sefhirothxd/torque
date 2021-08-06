@@ -3308,7 +3308,7 @@ a:hover {
 	background: #bf2a2a;
 	left: 0;
 	color: #fff;
-	top: 100px;
+	top: 0px;
 	animation-name: example;
 	animation-duration: 500ms;
 	transition: 1s;
@@ -3616,21 +3616,21 @@ modificacion del menu productos
 @keyframes medida1200 {
 	0% {
 		opacity: 0.5;
-		top: 100px;
+		top: 50px;
 	}
 	100% {
 		opacity: 1;
-		top: 186px;
+		top: 150px;
 	}
 }
 @keyframes medida92 {
 	0% {
 		opacity: 0.5;
-		top: 150px;
+		top: 50px;
 	}
 	100% {
 		opacity: 1;
-		top: 236px;
+		top: 150px;
 	}
 }
 .list-productsFix ul li {
