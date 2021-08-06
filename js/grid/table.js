@@ -56,20 +56,18 @@ let rowData = [
 if (URLactual === '/multiplicador-de-torque.html') {
 	// specify the columns
 	columnDefs = [
-		{ field: 'Encastre' },
-		{ field: 'Modelo', width: 90 },
+		{ field: 'Modelo', width: 85 },
 		{ field: 'Encastre de entrada', width: 160 },
-		{ field: 'Encastre de salida', width: 150 },
+		// { field: 'Encastre de salida', width: 150 },
 		{ field: 'Torque de entrada', width: 150 },
-		{ field: 'Torque de salida', width: 150 },
-		{ field: 'Proporción', width: 120 },
+		{ field: 'Torque de salida', width: 140 },
+		{ field: 'Proporción', width: 110 },
 		{ field: 'Peso', width: 120 },
 	];
 
 	// specify the data
 	rowData = [
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S290P',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '3/4"',
@@ -79,7 +77,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '4-7/8 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S291',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '3/4"',
@@ -89,7 +86,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '5-7/8 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S292',
 			'Encastre de entrada': '3/4"',
 			'Encastre de salida': '1"',
@@ -99,7 +95,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '13-7/8 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S391',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '3/4"',
@@ -109,7 +104,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '13 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S392B',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1"',
@@ -119,7 +113,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '20-5/8 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S393A',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1"',
@@ -129,7 +122,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '22-3/8 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S394',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1-1/2"',
@@ -139,7 +131,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '34.0 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S395',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1-1/2"',
@@ -149,7 +140,6 @@ if (URLactual === '/multiplicador-de-torque.html') {
 			Peso: '50.3 Lbs',
 		},
 		{
-			Encastre: 'Moltiplicador de torque',
 			Modelo: '9S2492',
 			'Encastre de entrada': '1/2"',
 			'Encastre de salida': '1"',
