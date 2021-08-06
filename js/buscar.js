@@ -397,7 +397,8 @@ btnBuscar.addEventListener('click', (e) => {
 		let newArray = arrayHerramientas.filter((item) => {
 			if (
 				item.nombre.toLowerCase() == inputBuscar.value.toLowerCase() ||
-				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase()
+				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase() ||
+				item.max.toLowerCase() == inputBuscar.value.toLowerCase()
 			) {
 				return item;
 			}
