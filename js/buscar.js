@@ -4,6 +4,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 1/4',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 2470',
+		max: '30',
 		capacidad: '0-30 Lbs-pulg/0-3.5Nm',
 		longitud: '10"',
 		peso: '1 Lbs',
@@ -16,6 +17,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 3/8',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 3447',
+		max: '75',
 		capacidad: '5-75 Lbs-pie/10.2-98.3Nm',
 		longitud: '15.15"',
 		peso: '2.5 Lbs',
@@ -28,6 +30,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 3/8',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 3477',
+		max: '100',
 		capacidad: '10-100 Lbs-pie/16.9-132.2Nm',
 		longitud: '15.15"',
 		peso: '2.5 Lbs',
@@ -40,6 +43,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 3/8',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 3478',
+		max: '200',
 		capacidad: '30-200 Lbs-pulg/3.9-22Nm',
 		longitud: '10.15"',
 		peso: '0.85 Lbs',
@@ -52,6 +56,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 1/2',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 4476',
+		max: '1600',
 		capacidad: '700-1600 Lbs-pulg/84.4-175.2Nm',
 		longitud: '18"',
 		peso: '3 Lbs',
@@ -64,6 +69,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 1/2',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 4477',
+		max: '150',
 		capacidad: '20-150 Lbs-pie/34-197Nm',
 		longitud: '19"',
 		peso: '3.15 Lbs',
@@ -76,6 +82,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 1/2',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 4478',
+		max: '250',
 		capacidad: '50-250 Lbs-pie/47-332.2Nm',
 		longitud: '24.4"',
 		peso: '3.15 Lbs',
@@ -88,6 +95,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 3/4',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 6448',
+		max: '600',
 		capacidad: '100-600 Lbs-pie/169-779Nm',
 		longitud: '42"',
 		peso: '8.95 Lbs',
@@ -100,6 +108,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 1',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 8448',
+		max: '1000',
 		capacidad: '200-1000 Lbs-pie/305-1320Nm',
 		longitud: '69"',
 		peso: '24.5 Lbs',
@@ -112,6 +121,7 @@ let arrayHerramientas = [
 		nombre: 'Torquimetros  de reloj Encabres 1',
 		marca: 'WRIGHT',
 		modelo: 'Modelo 4476',
+		max: '2000',
 		capacidad: '300-2000 Lbs-pie/480-2700Nm',
 		longitud: '108-1/2"',
 		peso: '48.75 Lbs',
@@ -126,7 +136,6 @@ let btnTop = document.getElementById('btn-top');
 let inputBuscar = document.getElementById('autoComplete');
 let containerList = document.getElementById('list-items');
 let containerMain = document.getElementById('list-container-items');
-
 
 // let array2 = [];
 
@@ -193,7 +202,11 @@ inputBuscar.addEventListener('input', (e) => {
 		//    })
 		let newArray = arrayHerramientas.filter((state) => {
 			const regex = new RegExp(`${inputBuscar.value}`, 'gi');
-			return state.nombre.match(regex) || state.modelo.match(regex);
+			return (
+				state.nombre.match(regex) ||
+				state.modelo.match(regex) ||
+				state.max.match(regex)
+			);
 		});
 
 		containerList.innerHTML = '';
@@ -241,7 +254,8 @@ btnBuscar.addEventListener('click', (e) => {
 		let newArray = arrayHerramientas.filter((item) => {
 			if (
 				item.nombre.toLowerCase() == inputBuscar.value.toLowerCase() ||
-				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase()
+				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase() ||
+				state.max.match(regex)
 			) {
 				return item;
 			}

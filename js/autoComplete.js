@@ -14,7 +14,11 @@ const searchState = async (searchText) => {
 	//get match to current text input
 	let matches = states.filter((state) => {
 		const regex = new RegExp(`${searchText}`, 'gi');
-		return state.nombre.match(regex) || state.modelo.match(regex);
+		return (
+			state.nombre.match(regex) ||
+			state.modelo.match(regex) ||
+			state.max.match(regex)
+		);
 	});
 
 	console.log(matches);
@@ -29,6 +33,20 @@ const searchState = async (searchText) => {
 	} else if (searchText.substr(0, 1) === 't') {
 		console.log(searchText.substr(0, 1), 'aqui toy');
 		outputHtml(matches);
+	} else if (
+		searchText.substr(0, 1).includes('0') ||
+		searchText.substr(0, 1).includes('1') ||
+		searchText.substr(0, 1).includes('2') ||
+		searchText.substr(0, 1).includes('3') ||
+		searchText.substr(0, 1).includes('4') ||
+		searchText.substr(0, 1).includes('5') ||
+		searchText.substr(0, 1).includes('6') ||
+		searchText.substr(0, 1).includes('7') ||
+		searchText.substr(0, 1).includes('8') ||
+		searchText.substr(0, 1).includes('9')
+	) {
+		console.log(searchText.substr(0, 1), 'numeros');
+		outputHtmlCapacidad(matches);
 	}
 };
 
@@ -39,6 +57,20 @@ const outputHtml = (matches) => {
 			.map(
 				(match) => `
                 <h4 class="container-list-item">${match.nombre}</h4><small >${match.modelo}</small>
+        `
+			)
+			.join('');
+
+		listSearch.innerHTML = html;
+		listSearch.style.display = 'block';
+	}
+};
+const outputHtmlCapacidad = (matches) => {
+	if (matches.length > 0) {
+		const html = matches
+			.map(
+				(match) => `
+                <h4 class="container-list-item">${match.modelo}</h4><small style="padding-left:10px">${match.capacidad}</small>
         `
 			)
 			.join('');
