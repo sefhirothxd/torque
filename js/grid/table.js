@@ -7,18 +7,18 @@ let columnDefs = [
 	// { field: 'Tipo', width: 120 },
 	{ field: 'Capacidad', width: 250 },
 	{ field: 'Longitud', width: 95 },
-	{ field: 'Peso', width: 90 },
+	{ field: 'Peso', width: 120 },
 ];
 
 // specify the data
 let rowData = [
 	{
-		Encastre: '1/8"',
+		Encastre: '1/4"',
 		// Tipo: 'RATCHET',
-		Modelo: '3478',
-		Capacidad: '30-200 LBS.pulg/3.9-22 N.m',
+		Modelo: '2477',
+		Capacidad: '20-150 LBS.pulg/2.8-16.4 Nm',
 		Longitud: '10.15',
-		Peso: '0.85 LBS',
+		Peso: '0.9 Lbs',
 	},
 	{
 		Encastre: '3/8"',
@@ -37,20 +37,76 @@ let rowData = [
 		Peso: '2.5 LBS',
 	},
 	{
-		Encastre: '1/4"',
+		Encastre: '3/8"',
 		// Tipo: 'RATCHET',
-		Modelo: '2477',
-		Capacidad: '20-150 LBS.pulg/2.8-16.4 Nm',
+		Modelo: '3478',
+		Capacidad: '30-200 LBS.pulg/3.9-22 N.m',
 		Longitud: '10.15',
-		Peso: '0.9 Lbs',
+		Peso: '0.85 LBS',
+	},
+	{
+		Encastre: '3/8"',
+		// Tipo: 'RATCHET',
+		Modelo: '3479',
+		Capacidad: '150-1000 LBS.pulg/19.8-110.2 N.m',
+		Longitud: '15.75',
+		Peso: '2.5 LBS',
+	},
+	{
+		Encastre: '1/2"',
+		// Tipo: 'RATCHET',
+		Modelo: '4476',
+		Capacidad: '700-1600 LBS.pulg/84.4-175.2 N.m',
+		Longitud: '18',
+		Peso: '3.0 LBS',
+	},
+	{
+		Encastre: '1/2"',
+		// Tipo: 'RATCHET',
+		Modelo: '4477',
+		Capacidad: '20-150 LBS.pulg/34-197 N.m',
+		Longitud: '19"',
+		Peso: '3.15 LBS',
+	},
+	{
+		Encastre: '1/2"',
+		// Tipo: 'RATCHET',
+		Modelo: '4478',
+		Capacidad: '50-250 LBS.pulg/47-332 N.m',
+		Longitud: '24.4"',
+		Peso: '3.15 LBS',
+	},
+	{
+		Encastre: '3/4"',
+		// Tipo: 'RATCHET',
+		Modelo: '6448',
+		Capacidad: '100-600 LBS.pulg/169-779 N.m',
+		Longitud: '42"',
+		Peso: '8.95 LBS',
+	},
+	{
+		Encastre: '1"',
+		// Tipo: 'Cabeza Fija',
+		Modelo: '8447',
+		Capacidad: '200-1000 LBS.pie/305-1320 Nm',
+		Longitud: '70"',
+		Peso: '40 LBS',
 	},
 	{
 		Encastre: '1"',
 		// Tipo: 'Cabeza Fija',
 		Modelo: '8448',
 		Capacidad: '200-1000 LBS.pie/305-1320 Nm',
-		Longitud: '69',
+		Longitud: '69"',
 		Peso: '24.5 LBS',
+	},
+	{
+		Encastre: '1"',
+		// Tipo: 'Cabeza Fija',
+		Modelo: '8449',
+		Capacidad: '300-2000 LBS.pie/480-2700 Nm',
+		Longitud: '108-1/2"',
+		Peso: '48.75 LBS',
 	},
 ];
 if (URLactual === '/multiplicador-de-torque.html') {
@@ -58,7 +114,7 @@ if (URLactual === '/multiplicador-de-torque.html') {
 	columnDefs = [
 		{ field: 'Modelo', width: 85 },
 		{ field: 'Encastre de entrada', width: 160 },
-		// { field: 'Encastre de salida', width: 150 },
+		{ field: 'Encastre de salida', width: 150 },
 		{ field: 'Torque de entrada', width: 150 },
 		{ field: 'Torque de salida', width: 140 },
 		{ field: 'Proporción', width: 110 },
@@ -290,6 +346,7 @@ if (URLactual === '/llave-de-control-de-torque-electrica.html') {
 const gridOptions = {
 	columnDefs: columnDefs,
 	rowData: rowData,
+	rowClass: 'probando',
 };
 
 // lookup the container we want the Grid to use

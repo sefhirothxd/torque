@@ -1,6 +1,6 @@
 columnDefs = [
 	{ field: 'Modelo', width: 100 },
-	{ field: 'Encastre', width: 90 },
+	{ field: 'Encastre', width: 120 },
 	{ field: 'Rango de Torque(Nm)' },
 	{ field: 'Velocidad', width: 120 },
 	{ field: 'Peso(Kg)', width: 160 },

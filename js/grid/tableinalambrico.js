@@ -2,7 +2,7 @@ var URLactual = window.location.pathname;
 
 // specify the columns
 let columnDefs = [
-	{ field: 'Nombre', width: 120 },
+	{ field: 'Encastre', width: 120 },
 	{ field: 'Modelo', width: 90 },
 	{ field: 'Tipo', width: 120 },
 	{ field: 'Capacidad', width: 230 },
@@ -13,7 +13,7 @@ let columnDefs = [
 // specify the data
 let rowData = [
 	{
-		Nombre: 'Encastre  3/8"',
+		Encastre: '3/8"',
 		Tipo: 'Ratchet digital',
 		Modelo: '2465',
 		Capacidad: '10-100 LB-pie/13.5-135.5 Nm',
@@ -21,7 +21,7 @@ let rowData = [
 		Peso: '5.5 LBS',
 	},
 	{
-		Nombre: 'Encastre  1/2"',
+		Encastre: '1/2"',
 		Tipo: 'Ratchet digital',
 		Modelo: '2466',
 		Capacidad: '12.5-150 LB-pie/17-203 Nm',

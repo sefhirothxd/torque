@@ -21,14 +21,6 @@ let rowData = [
 		Peso: '1 LBS',
 	},
 	{
-		Encastre: '1/2"',
-		// Tipo: 'RATCHET',
-		Modelo: '4471',
-		Capacidad: '0-250 LBS-pulg/0-350 Nm',
-		Longitud: '21-1/2"',
-		Peso: '2-3/4 LBS',
-	},
-	{
 		Encastre: '3/8"',
 		// Tipo: 'RATCHET',
 		Modelo: '3470',
@@ -51,6 +43,14 @@ let rowData = [
 		Capacidad: '0-50 LBS-pie/0-70 Nm',
 		Longitud: '14-7/8"',
 		Peso: '1-3/4 LBS',
+	},
+	{
+		Encastre: '1/2"',
+		// Tipo: 'RATCHET',
+		Modelo: '4471',
+		Capacidad: '0-250 LBS-pulg/0-350 Nm',
+		Longitud: '21-1/2"',
+		Peso: '2-3/4 LBS',
 	},
 	{
 		Encastre: '1/2"',

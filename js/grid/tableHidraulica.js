@@ -1,7 +1,7 @@
 columnDefs = [
 	{ field: 'Art N°', width: 120 },
 	{ field: 'Serie', width: 100 },
-	{ field: 'Encastre', width: 100 },
+	{ field: 'Encastre', width: 130 },
 	{ field: 'Rango de Torque(Nm)' },
 	// { field: 'Velocidad', width: 100 },
 	{ field: 'Peso(Kg)', width: 160 },
