@@ -30,9 +30,11 @@
 			href="vendors/font-awesome/css/font-awesome.min.css"
 		/>
 		<!-- auutocomplete -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/css/autoComplete.02.min.css">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/css/autoComplete.min.css"
+		/>
 
-		
 		<!-- Camera Slider 
     <link rel="stylesheet" href="vendors/camera-slider/camera.css">
     <!-- Owlcarousel CSS- ->
@@ -321,14 +323,28 @@
 		>
 			<div class="busqueda-container__hero">
 				<h1>BUSCADOR DE HERRAMIENTAS</h1>
-			
-					<input id="autoComplete">
-				
-				
-				<!-- <div>
-					<h3>Busqueda de auto complete</h3>
-					<input id="autoComplete">
-				</div> -->
+				<form class="busqueda-main" id="busqueda-main">
+					<input
+						type="text"
+						placeholder="Buscar"
+						class="input-buscar"
+						id="autoComplete"
+						autocomplete="off"
+					/>
+					<button type="submit" id="btn-buscar" class="btn-buscar">
+						<i class="fa fa-search"></i>
+					</button>
+					<div class="list-search" id="list-search">
+						<div class="container-list-item" id="item-tool">
+							<h4>probando</h4>
+							<small>probando</small>
+						</div>
+						<div class="container-list-item" id="item-tool">
+							<h4>probando</h4>
+							<small>probando</small>
+						</div>
+					</div>
+				</form>
 				<div class="busqueda-container__filtro">
 					<!-- <button class="btn-todos" id="btn-todos">Todos</button>
 					<button class="btn-top" id="btn-top">Lo mas vendido</button> -->
@@ -504,7 +520,6 @@
 		<script src="js/wow.min.js"></script>
 		<!-- auto complete js -->
 		<script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/autoComplete.min.js"></script>
-
 		<script src="js/jquery.min.js"></script>
 		<!-- Theme JS -->
 		<script src="js/theme.js"></script>
@@ -513,6 +528,6 @@
 		<!-- Buscar JS -->
 		<script src="./js/buscar.js"></script>
 		<!-- Autocomplete -->
-		<script src="./js/newAutocomple.js"></script>
+		<script src="./js/autoComplete.js"></script>
 	</body>
 </html>

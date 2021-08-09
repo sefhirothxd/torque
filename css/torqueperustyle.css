@@ -4144,3 +4144,13 @@ ul.slider li:target {
 .probando {
 	text-align: center;
 }
+/*autocomplete*/
+
+.autoComplete_wrapper > input {
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+#autoComplete {
+	margin-top: 20px;
+	color: black;
+}
