@@ -4154,3 +4154,18 @@ ul.slider li:target {
 	margin-top: 20px;
 	color: black;
 }
+
+.autoComplete_wrapper > input {
+	width: 370px;
+	height: 40px;
+	padding-left: 10px;
+	font-size: 1rem;
+	color: black;
+	border-radius: 4px;
+	border: 1px solid black;
+	outline: none;
+}
+.autoComplete_wrapper > input::placeholder {
+	color: black;
+	transition: all 0.3s ease;
+}
