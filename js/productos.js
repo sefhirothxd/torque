@@ -68,7 +68,7 @@ setInterval(() => {
 		}
 	}
 	if (x < 992) {
-		console.log(y, 'valor de y');
+		// console.log(y, 'valor de y');
 		if (y == 51) {
 			document.querySelector('.product-container').style.top = '150px';
 			document.querySelector('.product-container').style.animationName =
@@ -81,8 +81,8 @@ setInterval(() => {
 	}
 }, 500);
 
-console.log(y);
-console.log(x, 'ancho');
+// console.log(y);
+// console.log(x, 'ancho');
 
 // window.addEventListener('scroll', () => {
 // 	let y =
