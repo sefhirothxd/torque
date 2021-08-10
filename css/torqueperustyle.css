@@ -4168,10 +4168,22 @@ ul.slider li:target {
 	outline: none;
 }
 
+
+.autoComplete_wrapper > input::placeholder {
+	color: #888;
+	transition: all 0.3s ease;
+}
+.autoComplete_wrapper > #autoComplete_list_1 {
+	width: 55%;
+	margin: 0 auto;
+}
 @media (max-width: 992px) {
 	.autoComplete_wrapper > input {
 		width: 100%;
 		font-size: 15px;
+	}
+	.autoComplete_wrapper > #autoComplete_list_1 {
+		width: 100%;
 	}
 }
 @media (max-width: 446px) {
@@ -4179,12 +4191,6 @@ ul.slider li:target {
 		font-size: 12px;
 	}
 }
-
-.autoComplete_wrapper > input::placeholder {
-	color: #888;
-	transition: all 0.3s ease;
-}
-
 /*index reparando la parte finla de las cards*/
 .port_item {
 	padding-top: 40px;
