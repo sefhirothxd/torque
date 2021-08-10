@@ -4250,3 +4250,13 @@ ul.slider li:target {
 		align-self: flex-start;
 	}
 }
+
+/*Filter busqueda*/
+
+.container-filter {
+	margin-top: 30px;
+}
+
+.container-filter h3 {
+	margin-bottom: 20px;
+}

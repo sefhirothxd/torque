@@ -279,6 +279,8 @@ let btnTop = document.getElementById('btn-top');
 let inputBuscar = document.getElementById('autoComplete');
 let containerList = document.getElementById('list-items');
 let containerMain = document.getElementById('list-container-items');
+let rangeInput = document.getElementById('rangePower');
+let rangeValue = document.getElementById('rangevalue');
 
 // let array2 = [];
 
@@ -374,56 +376,56 @@ inputBuscar.addEventListener('input', (e) => {
 });
 
 // boton buscar
-btnBuscar.addEventListener('click', (e) => {
-	e.preventDefault();
-	if (inputBuscar.value.trim() == '') {
-		containerList.innerHTML = '';
-		arrayTop.forEach((item) => {
-			containerList.innerHTML += `
-            <div class="list-items__container-item" id="">
-        <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-		<h3>${item.nombre}</h3>
-		<p>${item.modelo}</p>
-		<div class="list-items__content" id="list-items__content">
-			<p><b>Tipo:</b>  ${item.tipo}</p>
-			<p><b>Capacidad:</b>  ${item.capacidad}</p>
-			<p><b>Longitud:</b> ${item.longitud}</p>
-			<p><b>Peso:</b> ${item.peso}</p>
-		</div>
-    </div>
-            `;
-		});
-	} else {
-		let newArray = arrayHerramientas.filter((item) => {
-			if (
-				item.nombre.toLowerCase() == inputBuscar.value.toLowerCase() ||
-				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase() ||
-				item.max.toLowerCase() == inputBuscar.value.toLowerCase()
-			) {
-				return item;
-			}
-		});
+// btnBuscar.addEventListener('click', (e) => {
+// 	e.preventDefault();
+// 	if (inputBuscar.value.trim() == '') {
+// 		containerList.innerHTML = '';
+// 		arrayTop.forEach((item) => {
+// 			containerList.innerHTML += `
+//             <div class="list-items__container-item" id="">
+//         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+// 		<h3>${item.nombre}</h3>
+// 		<p>${item.modelo}</p>
+// 		<div class="list-items__content" id="list-items__content">
+// 			<p><b>Tipo:</b>  ${item.tipo}</p>
+// 			<p><b>Capacidad:</b>  ${item.capacidad}</p>
+// 			<p><b>Longitud:</b> ${item.longitud}</p>
+// 			<p><b>Peso:</b> ${item.peso}</p>
+// 		</div>
+//     </div>
+//             `;
+// 		});
+// 	} else {
+// 		let newArray = arrayHerramientas.filter((item) => {
+// 			if (
+// 				item.nombre.toLowerCase() == inputBuscar.value.toLowerCase() ||
+// 				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase() ||
+// 				item.max.toLowerCase() == inputBuscar.value.toLowerCase()
+// 			) {
+// 				return item;
+// 			}
+// 		});
 
-		containerList.innerHTML = '';
-		newArray.forEach((item) => {
-			containerList.innerHTML += `
-            <div class="list-items__container-item" id="">
-        <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-		<h3>${item.nombre}</h3>
-		<p>${item.modelo}</p>
-		<div class="list-items__content" id="list-items__content">
-			<p><b>Tipo:</b>  ${item.tipo}</p>
-			<p><b>Capacidad:</b>  ${item.capacidad}</p>
-			<p><b>Longitud:</b> ${item.longitud}</p>
-			<p><b>Peso:</b> ${item.peso}</p>
-		</div>
-    </div>
-           `;
-		});
-	}
+// 		containerList.innerHTML = '';
+// 		newArray.forEach((item) => {
+// 			containerList.innerHTML += `
+//             <div class="list-items__container-item" id="">
+//         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+// 		<h3>${item.nombre}</h3>
+// 		<p>${item.modelo}</p>
+// 		<div class="list-items__content" id="list-items__content">
+// 			<p><b>Tipo:</b>  ${item.tipo}</p>
+// 			<p><b>Capacidad:</b>  ${item.capacidad}</p>
+// 			<p><b>Longitud:</b> ${item.longitud}</p>
+// 			<p><b>Peso:</b> ${item.peso}</p>
+// 		</div>
+//     </div>
+//            `;
+// 		});
+// 	}
 
-	console.log(inputBuscar.value);
-});
+// 	console.log(inputBuscar.value);
+// });
 
 /*filtro boton*/
 
@@ -449,6 +451,35 @@ btnTodo.addEventListener('click', () => {
 btnTop.addEventListener('click', () => {
 	containerList.innerHTML = '';
 	arrayTop.forEach((item) => {
+		containerList.innerHTML += `
+		<div class="list-items__container-item" id="">
+			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<h3>${item.nombre}</h3>
+			<p>${item.modelo}</p>
+			<div class="list-items__content" id="list-items__content">
+				<p><b>Tipo:</b>  ${item.tipo}</p>
+				<p><b>Capacidad:</b>  ${item.capacidad}</p>
+				<p><b>Longitud:</b> ${item.longitud}</p>
+				<p><b>Peso:</b> ${item.peso}</p>
+			</div>
+		</div>
+		`;
+	});
+});
+
+rangeInput.addEventListener('mouseup', function () {
+	containerList.innerHTML = '';
+
+	arrayRage = arrayHerramientas.filter(
+		(item) => parseInt(item.max) >= parseInt(rangeInput.value)
+	);
+
+	arrayOrdenado = arrayRage.sort((a, b) => parseInt(a.max) - parseInt(b.max));
+
+	rangeValue.innerHTML = rangeInput.value;
+
+	console.log(arrayRage);
+	arrayOrdenado.forEach((item) => {
 		containerList.innerHTML += `
 		<div class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
