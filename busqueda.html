@@ -30,9 +30,11 @@
 			href="vendors/font-awesome/css/font-awesome.min.css"
 		/>
 		<!-- auutocomplete -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/css/autoComplete.02.min.css">
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.6/dist/css/autoComplete.02.min.css"
+		/>
 
-		
 		<!-- Camera Slider 
     <link rel="stylesheet" href="vendors/camera-slider/camera.css">
     <!-- Owlcarousel CSS- ->
@@ -109,7 +111,7 @@
 					<div class="navbar-header">
 						<button
 							type="button"
-							class="navbar-toggle collapsed"
+							class="navbar-toggle collapsed hamburger"
 							data-toggle="collapse"
 							data-target="#min_navbar"
 						>
@@ -124,7 +126,7 @@
 				</div>
 
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="col-md-9 p0">
+				<div class="col-md-9 p0 menu-absolute">
 					<div class="collapse navbar-collapse" id="min_navbar">
 						<ul class="nav navbar-nav navbar-right">
 							<li class="dropdown">
@@ -227,17 +229,17 @@
 							<li class="dropdown submenu open ocultar hidden">
 								<a
 									href="#"
-									class="dropdown-toggle"
+									class="dropdown-toggle btn-product-mobil"
 									data-toggle="dropdown"
 									aria-expanded="true"
 									>PRODUCTOS <b class="caret right"></b
 								></a>
-								<ul class="dropdown-menu">
+								<ul class="hidden ul-ocultar">
 									<li class="dropdown">
-										<a href="" class="dropdown submenu" data-toggle="dropdown"
+										<a href="#" class="" id="btn-producto-movil"
 											>TORQUÍMETROS <b class="caret right"></b
 										></a>
-										<ul class="dropdown-menu other_dropdwn">
+										<ul class="hidden ocultarproduct">
 											<li><a href="torquimetros-de-golpe.html">DE GOLPE</a></li>
 											<li>
 												<a href="torquimetros-de-golpe.html"
@@ -263,12 +265,12 @@
 										>
 									</li>
 									<li class="dropdown">
-										<a href="" class="dropdown submenu" data-toggle="dropdown"
+										<a href="#" class="" id="btn-llave-movil"
 											>LLAVE DE CONTROL DE TORQUE <b class="caret right"></b
 										></a>
-										<ul class="dropdown-menu other_dropdwn">
-											<a href="llave-de-control-de-torque-electrica.html"></a>
-												ELÉCTRICA</a
+										<ul class="hidden ocultarllave">
+											<a href="llave-de-control-de-torque-electrica.html"
+												>ELÉCTRICA</a
 											>
 
 											<a href="llave-de-control-de-torque-a-bateria.html">
@@ -285,20 +287,20 @@
 									</li>
 								</ul>
 							</li>
-							<!-- <li class="dropdown submenu">
+							<!--<li class="dropdown submenu">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown"
 									>UTILIZACI&Oacute;N <b class="caret right"></b
 								></a>
 								<ul class="dropdown-menu other_dropdwn">
-											<li><a href="videos-torqueperu.html">VIDEOS</a></li>
-									<li><a href="fotos-torqueperu.html">FOTOS</a></li>
-									<li><a href="personal-capacitado.html">PERSONAL CAPACITADO</a></li>
-									<li><a href="explicaciones.html">EXPLICACIONES</a></li>
-									<li>
+									<!--<li><a href="videos-torqueperu.html">VIDEOS</a></li>
+								<li><a href="fotos-torqueperu.html">FOTOS</a></li>
+								<li><a href="personal-capacitado.html">PERSONAL CAPACITADO</a></li>
+                                <li><a href="explicaciones.html">EXPLICACIONES</a></li>-->
+							<!--<li>
 										<a href="nombre-de-las-partes.html">NOMBRE DE LAS PARTES</a>
 									</li>
 								</ul>
-							</li> -->
+							</li>-->
 							<li><a href="contacto.html">CONTACTO</a></li>
 							<li class="container-icon">
 								<a href="busqueda.html" id="busqueda">
@@ -321,10 +323,9 @@
 		>
 			<div class="busqueda-container__hero">
 				<h1>BUSCADOR DE HERRAMIENTAS</h1>
-			
-					<input id="autoComplete">
-				
-				
+
+				<input id="autoComplete" />
+
 				<!-- <div>
 					<h3>Busqueda de auto complete</h3>
 					<input id="autoComplete">
@@ -361,10 +362,19 @@
 				<div class="container-filter">
 					<h3>Filtros</h3>
 					<div>
-						<label for="customRange2" class="form-label">Busqueda por potencia.</label>
-						<input type="range" class="form-range" min="0" value="1" max="2000" id="rangePower" >
+						<label for="customRange2" class="form-label"
+							>Busqueda por potencia.</label
+						>
+						<input
+							type="range"
+							class="form-range"
+							min="0"
+							value="1"
+							max="2000"
+							id="rangePower"
+						/>
 						<span class="highlight"></span>
-    					<output id="rangevalue">1</output>
+						<output id="rangevalue">1</output>
 					</div>
 				</div>
 				<div class="list-items" id="list-items"></div>

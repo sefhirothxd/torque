@@ -8,6 +8,13 @@ let x =
 
 let product = document.querySelector('.list-products');
 let productMovil = document.querySelector('.ocultar');
+let productOcultar = document.querySelector('.ocultarproduct');
+let ulProduct = document.querySelector('.ul-ocultar');
+let btnProduct = document.querySelector('#btn-producto-movil');
+let btnProduct2 = document.querySelector('.btn-product-mobil');
+let btnllave = document.querySelector('#btn-llave-movil');
+let btnllave2 = document.querySelector('.ocultarllave');
+let btnHamburger = document.querySelector('.hamburger');
 
 // if (x >= 1200) {
 // 	if (y > 50) {
@@ -80,6 +87,25 @@ setInterval(() => {
 		}
 	}
 }, 500);
+
+btnProduct.addEventListener('click', () => {
+	console.log('funciono');
+	productOcultar.classList.toggle('hidden');
+});
+btnProduct2.addEventListener('click', () => {
+	ulProduct.classList.toggle('hidden');
+	// ulProduct.style.display = 'block';
+});
+
+btnllave.addEventListener('click', () => {
+	console.log('funciono');
+	btnllave2.classList.toggle('hidden');
+});
+btnHamburger.addEventListener('click', () => {
+	ulProduct.classList.add('hidden');
+	productOcultar.classList.add('hidden');
+	btnllave2.classList.add('hidden');
+});
 
 // console.log(y);
 // console.log(x, 'ancho');

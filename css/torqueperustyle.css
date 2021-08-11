@@ -357,6 +357,7 @@ button:hover {
 /* Header Aera */
 .header_aera {
 	background: #000;
+	position: relative;
 	border-radius: 0;
 	border: 0;
 	margin: 0;
@@ -4321,5 +4322,17 @@ ul.slider li:target {
 		transition: 0.3s;
 		width: 40px;
 		margin-top: 10px;
+	}
+}
+
+/*menu absolute*/
+
+@media (max-width: 767px) {
+	.menu-absolute {
+		position: absolute;
+		background: black;
+		width: 100%;
+		top: 61px;
+		left: 0;
 	}
 }
