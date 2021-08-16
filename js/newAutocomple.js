@@ -742,7 +742,7 @@ const autoCompleteJS = new autoComplete({
 				let containerList = document.getElementById('list-items');
 
 				containerList.innerHTML = `
-				<a href="${selection.url}" target="_blank" class="list-items__container-item" id="">
+				<a href="${selection.url}"  class="list-items__container-item" id="">
 						<img class="img-herramientas" src="${selection.img}" alt="" srcset="" />
 						<h3>${selection.nombre}</h3>
 						<p>${selection.modelo}</p>

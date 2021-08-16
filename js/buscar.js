@@ -749,7 +749,7 @@ console.log(arrayTop);
 
 arrayTop.forEach((item) => {
 	containerList.innerHTML += `
-    <a href="${item.url}" target="_blank" class="list-items__container-item" id="">
+    <a href="${item.url}"  class="list-items__container-item" id="">
         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 		<h3>${item.nombre}</h3>
 		<p>${item.modelo}</p>
@@ -769,7 +769,7 @@ inputBuscar.addEventListener('input', (e) => {
 		containerList.innerHTML = '';
 		arrayTop.forEach((item) => {
 			containerList.innerHTML += `
-		<a href="${item.url}" target="_blank" class="list-items__container-item" id="">
+		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
@@ -800,7 +800,7 @@ inputBuscar.addEventListener('input', (e) => {
 		containerList.innerHTML = '';
 		newArray.forEach((item) => {
 			containerList.innerHTML += `
-			<a href="${item.url}" target="_blank" class="list-items__container-item" id="">
+			<a href="${item.url}" class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
@@ -876,7 +876,7 @@ btnTodo.addEventListener('click', () => {
 	containerList.innerHTML = '';
 	arrayHerramientas.forEach((item) => {
 		containerList.innerHTML += `
-		<a href="${item.url}" target="_blank" class="list-items__container-item" id="">
+		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
@@ -895,7 +895,7 @@ btnTop.addEventListener('click', () => {
 	containerList.innerHTML = '';
 	arrayTop.forEach((item) => {
 		containerList.innerHTML += `
-		<a href="${item.url}" target="_blank" class="list-items__container-item" id="">
+		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
@@ -924,7 +924,7 @@ rangeInput.addEventListener('mouseup', function () {
 	console.log(arrayRage);
 	arrayOrdenado.forEach((item) => {
 		containerList.innerHTML += `
-		<a href="${item.url}" target="_blank" class="list-items__container-item" id="">
+		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
