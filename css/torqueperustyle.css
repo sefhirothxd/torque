@@ -3394,7 +3394,31 @@ a:hover {
 	margin-bottom: 20px;
 	object-fit: cover;
 }
+.enlace-iconrow {
+	transition: padding 300ms ease-in-out;
+}
+.enlace-iconrow:hover {
+	padding-left: 5px !important;
+	transition: padding 300ms ease-in-out;
+}
+.enlace-iconrow i {
+	visibility: hidden;
+	opacity: 0;
+	transition: visibility 0s, opacity 0.3s linear;
+}
+.enlace-iconrow:hover i {
+	visibility: visible;
+	opacity: 1;
+}
 
+@keyframes icon-row {
+	0% {
+		padding-right: 0;
+	}
+	100% {
+		padding-right: 5px;
+	}
+}
 @media (max-width: 768px) {
 	.toquimetro .toquimetro-img {
 		display: none;
