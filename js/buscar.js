@@ -10,7 +10,7 @@ let arrayHerramientas = [
 		peso: '0.9 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 2477.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
 		tag: 'top',
 	},
 	{
@@ -24,7 +24,7 @@ let arrayHerramientas = [
 		peso: '2.5 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 3447.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
 		tag: 'top',
 	},
 	{
@@ -38,7 +38,7 @@ let arrayHerramientas = [
 		peso: '2.5 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 3477.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
 		tag: 'top',
 	},
 	{
@@ -52,7 +52,7 @@ let arrayHerramientas = [
 		peso: '0.85 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 3478.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
 		tag: 'top',
 	},
 	{
@@ -66,7 +66,7 @@ let arrayHerramientas = [
 		peso: '2.5 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 3479.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
 		tag: 'top',
 	},
 	{
@@ -80,7 +80,7 @@ let arrayHerramientas = [
 		peso: '3.0 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 4476.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
 		tag: 'top',
 	},
 	{
@@ -94,7 +94,7 @@ let arrayHerramientas = [
 		peso: '3.15 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 4477.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
 		tag: 'top',
 	},
 	{
@@ -108,7 +108,7 @@ let arrayHerramientas = [
 		peso: '3.15 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 4478.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
 		tag: 'top',
 	},
 	{
@@ -122,7 +122,7 @@ let arrayHerramientas = [
 		peso: '8.95 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 6448.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
 		tag: 'top',
 	},
 	{
@@ -136,7 +136,7 @@ let arrayHerramientas = [
 		peso: '40 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 8447.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
 		tag: 'top',
 	},
 	{
@@ -150,7 +150,7 @@ let arrayHerramientas = [
 		peso: '24.5 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 8448.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe c.jpg',
 	},
 	{
 		id: 12,
@@ -163,7 +163,7 @@ let arrayHerramientas = [
 		peso: '48.75 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
-		img: './images/torquimetros/torquimetros de golpe 8449.jpg',
+		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe d.jpg',
 	},
 	{
 		id: 13,
@@ -175,7 +175,7 @@ let arrayHerramientas = [
 		capacidad: '0-30 LBS-pulg/0-3.5 Nm',
 		longitud: '10',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 2470.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
 		peso: '1 LBS',
 	},
 	{
@@ -188,7 +188,7 @@ let arrayHerramientas = [
 		capacidad: '0-250 LBS-pulg/0-350 Nm',
 		longitud: '21-1/2',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 2471.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
 		peso: '2-3/4 LBS',
 	},
 	{
@@ -201,7 +201,7 @@ let arrayHerramientas = [
 		capacidad: '0-150 LBS-pulg/0-18 Nm',
 		longitud: '10',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 3470.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
 		peso: '1 LBS',
 	},
 	{
@@ -214,7 +214,7 @@ let arrayHerramientas = [
 		capacidad: '0-250 LBS-pulg/0-30 Nm',
 		longitud: '10',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 3471.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
 		peso: '1 LBS',
 	},
 	{
@@ -226,7 +226,7 @@ let arrayHerramientas = [
 		capacidad: '0-50 LBS-pie/0-70 Nm',
 		longitud: '14-7/8',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 3473.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
 		peso: '1-3/4 LBS',
 	},
 	{
@@ -239,7 +239,7 @@ let arrayHerramientas = [
 		capacidad: '0-175 LBS-pie/0-240 Nm',
 		longitud: '21-1/2',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 4470.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
 		peso: '2-3/4 LBS',
 	},
 	{
@@ -252,7 +252,7 @@ let arrayHerramientas = [
 		capacidad: '0-250 LBS-pulg/0-350 Nm',
 		longitud: '21-1/2',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 4471.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
 		peso: '2-3/4 LBS',
 	},
 	{
@@ -265,7 +265,7 @@ let arrayHerramientas = [
 		capacidad: '0-600 LBS-pie/0-800 Nm',
 		longitud: '46-1/2',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 6470.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
 		peso: '9-1/4 LBS',
 	},
 	{
@@ -278,7 +278,7 @@ let arrayHerramientas = [
 		capacidad: '0-350 LBS-pie/0-480 Nm',
 		longitud: '27-7/8',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 6471.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
 		peso: '5-3/4 LBS',
 	},
 	{
@@ -291,7 +291,7 @@ let arrayHerramientas = [
 		capacidad: '0-600 LBS-pulg/0-800 Nm',
 		longitud: '46-1/2',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 6472.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
 		peso: '9-1/4 LBS',
 	},
 	{
@@ -304,7 +304,7 @@ let arrayHerramientas = [
 		capacidad: '0-1000 LBS-pulg/0-1400 Nm',
 		longitud: '74',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 8470.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
 		peso: '18-1/2 LBS',
 	},
 	{
@@ -317,7 +317,7 @@ let arrayHerramientas = [
 		capacidad: '0-1000 LBS-pulg/0-1400 Nm',
 		longitud: '74',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 8471.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
 		peso: '18-1/2 LBS',
 	},
 	{
@@ -330,7 +330,7 @@ let arrayHerramientas = [
 		capacidad: '0-2000 LBS-pulg/0-1400 Nm',
 		longitud: '122',
 		url: 'torquimetros-de-reloj.html',
-		img: './images/torquimetros/torquimetros reloj 8472.jpg',
+		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj d.jpg',
 		peso: '44-1/2 LBS',
 	},
 	{
@@ -343,7 +343,7 @@ let arrayHerramientas = [
 		capacidad: '3-15 Lb-pulg',
 		longitud: '8"',
 		url: 'torquimetros-destornillador.html',
-		img: './images/torquimetros/atornillador wrigthtool 2463.jpg',
+		img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
 		peso: '1 LBS',
 	},
 	{
@@ -356,7 +356,7 @@ let arrayHerramientas = [
 		capacidad: '5-40 Lb-pulg',
 		longitud: '8"',
 		url: 'torquimetros-destornillador.html',
-		img: './images/torquimetros/atornillador wrigthtool 2464.jpg',
+		img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
 		peso: '1 LBS',
 	},
 	{
@@ -369,7 +369,7 @@ let arrayHerramientas = [
 		capacidad: '10-100 LB-pie/13.5-135.5 Nm',
 		longitud: '23.3"',
 		url: 'torquimetros-digital-inalambrico.html',
-		img: './images/torquimetros/torquimetro digital inalambrico 2465.jpg',
+		img: './images/torquimetros/torquimetro digital/torquimetro digital inalambrico.jpg',
 		peso: '5.5 LBS',
 	},
 	{
@@ -382,7 +382,7 @@ let arrayHerramientas = [
 		capacidad: '12.5-150 LB-pie/17-203 Nm',
 		longitud: '23.5"',
 		url: 'torquimetros-digital-inalambrico.html',
-		img: './images/torquimetros/torquimetro digital inalambrico 2466.jpg',
+		img: './images/torquimetros/torquimetro digital/torquimetro digital inalambrico.jpg',
 		peso: '5.7 LBS',
 	},
 	{
@@ -396,7 +396,7 @@ let arrayHerramientas = [
 		capacidad: '227-750 Lbs',
 		proporcion: '3.0:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S290p.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador a.jpg',
 		peso: '4-7/8 Lbs',
 	},
 	{
@@ -410,7 +410,7 @@ let arrayHerramientas = [
 		capacidad: '303-1000 Lbs',
 		proporcion: '3.3:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S291.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador b.jpg',
 		peso: '5-7/8 Lbs',
 	},
 	{
@@ -424,7 +424,7 @@ let arrayHerramientas = [
 		capacidad: '571-2000 Lbs',
 		proporcion: '3.75:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S292.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador c.jpg',
 		peso: '13-7/8 Lbs',
 	},
 	{
@@ -438,7 +438,7 @@ let arrayHerramientas = [
 		capacidad: '200-1200 Lbs',
 		proporcion: '6:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S391.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador d.jpg',
 		peso: '13 Lbs',
 	},
 	{
@@ -452,7 +452,7 @@ let arrayHerramientas = [
 		capacidad: '162-2200 Lbs',
 		proporcion: '13.6:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S392B.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador e.jpg',
 		peso: '20-5/8 Lbs',
 	},
 	{
@@ -466,7 +466,7 @@ let arrayHerramientas = [
 		capacidad: '173-3200 Lbs',
 		proporcion: '18.5:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S393A.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador e.jpg',
 		peso: '22-3/8 Lbs',
 	},
 	{
@@ -480,7 +480,7 @@ let arrayHerramientas = [
 		capacidad: '189-5000 Lbs',
 		proporcion: '26.5:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S394.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador f.jpg',
 		peso: '34.0 Lbs',
 	},
 	{
@@ -494,7 +494,7 @@ let arrayHerramientas = [
 		capacidad: '154-8000 Lbs',
 		proporcion: '52.0:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S395.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador f.jpg',
 		peso: '50.3 Lbs',
 	},
 	{
@@ -508,7 +508,7 @@ let arrayHerramientas = [
 		capacidad: '162-2200 Lbs',
 		proporcion: '13.6:1',
 		url: 'multiplicador-de-torque.html',
-		img: './images/multiplicador/multiplicador 9S492.jpg',
+		img: './images/multiplicador/multiplicador/multiplicador g.jpg',
 		peso: '17.2 Lbs',
 	},
 	{
@@ -520,7 +520,7 @@ let arrayHerramientas = [
 		modelo: 'modelo TESM-84',
 		velocidad: '10 RPM',
 		url: 'llave-de-control-de-torque-electrica.html',
-		img: './images/llave/llave de control de torque electrica tesm84.jpg',
+		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '150-850',
 		peso: '9.8/10 ',
 	},
@@ -533,7 +533,7 @@ let arrayHerramientas = [
 		modelo: 'modelo TESM-105',
 		velocidad: '5 RPM',
 		url: 'llave-de-control-de-torque-electrica.html',
-		img: './images/llave/llave de control de torque electrica tesm105.jpg',
+		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '280-1200',
 		peso: '10',
 	},
@@ -546,7 +546,7 @@ let arrayHerramientas = [
 		modelo: 'modelo TESM-355',
 		velocidad: '3 RPM',
 		url: 'llave-de-control-de-torque-electrica.html',
-		img: './images/llave/llave de control de torque electrica tesm355.jpg',
+		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '360-3500',
 		peso: '14.5 Kg',
 	},
@@ -559,7 +559,7 @@ let arrayHerramientas = [
 		modelo: 'modelo TESM-505',
 		velocidad: '1.2 RPM',
 		url: 'llave-de-control-de-torque-electrica.html',
-		img: './images/llave/llave de control de torque electrica tesm505.jpg',
+		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '50-700 N.m',
 		peso: '16.7',
 	},
@@ -571,7 +571,7 @@ let arrayHerramientas = [
 		modelo: 'CP8613',
 		velocidad: '10 RPM',
 		url: 'llave-de-control-de-torque-a-bateria.html',
-		img: './images/llave/llaves control de torque inalambrica 8613.jpg',
+		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica a.jpg',
 		capacidad: '300-1300 N.m',
 		peso: '5.3 Kg / 11.7 Lbs',
 	},
@@ -583,7 +583,7 @@ let arrayHerramientas = [
 		modelo: 'CP8626',
 		velocidad: '5 RPM',
 		url: 'llave-de-control-de-torque-a-bateria.html',
-		img: './images/llave/llaves control de torque inalambrica 8626.jpg',
+		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica b.jpg',
 		capacidad: '700-2600 N.m',
 		peso: '7.2 Kg / 15.9 Lbs',
 	},
@@ -595,7 +595,7 @@ let arrayHerramientas = [
 		modelo: 'CP8641',
 		velocidad: '3 RPM',
 		url: 'llave-de-control-de-torque-a-bateria.html',
-		img: './images/llave/llaves control de torque inalambrica 8641.jpg',
+		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica c.jpg',
 		capacidad: '1000-4100 N.m',
 		peso: '11.4 Kg / 25.13 Lbs',
 	},
@@ -607,7 +607,7 @@ let arrayHerramientas = [
 		modelo: 'CP8681',
 		velocidad: '1.2 RPM',
 		url: 'llave-de-control-de-torque-a-bateria.html',
-		img: './images/llave/llaves control de torque inalambrica 8681.jpg',
+		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica d.jpg',
 		capacidad: '2600-8100 N.m',
 		peso: '16.5 Kg / 36.4 Lbs',
 	},
