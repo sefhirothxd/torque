@@ -714,15 +714,16 @@ button:hover {
 /* End slider_area_tow */
 /* Banner Area */
 .banner_area {
-	background: url('../images/wt.png') no-repeat fixed;
-	background-position: center;
+	/* background: url('../images/wt.png') no-repeat fixed; */
+	/* background-position: center; */
 	text-align: center;
 	position: relative;
 	z-index: 1;
 	padding-bottom: 70px;
-	background-size: cover;
+	/* background-size: cover; */
+	background-color: #051322;
 }
-.banner_area:after {
+/* .banner_area:after {
 	content: '';
 	position: absolute;
 	top: 0;
@@ -732,7 +733,7 @@ button:hover {
 	bottom: 0;
 	display: block;
 	z-index: -1;
-}
+} */
 .banner_area h2,
 h1 {
 	color: #a00000;
@@ -753,19 +754,20 @@ h1 {
 }
 
 .banner_area-mt {
-	background: url('../images/bg-mt.png') no-repeat fixed;
+	/* background: url('../images/bg-mt.png') no-repeat fixed; */
 	background-position: center;
 	text-align: center;
 	position: relative;
 	z-index: 1;
 	padding-bottom: 70px;
 	/*background-size:cover;*/
+	background-color: #051322;
 }
 .banner_area-mt:after {
 	content: '';
 	position: absolute;
 	top: 0;
-	background-color: rgba(0, 0, 0, 0.6);
+	/* background-color: rgba(0, 0, 0, 0.6); */
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -1340,7 +1342,7 @@ a:hover {
 /*--------------------------------------------------*/
 .our_team_area {
 	padding-bottom: 70px;
-	background: #fefefe;
+	background: #f1f1f1;
 }
 .our_team_area .team_row {
 	padding-top: 70px;
@@ -3849,7 +3851,7 @@ modificacion del menu productos
 	justify-content: flex-start;
 	/* width: 50%; */
 	padding: 30px 0;
-	border: 1px solid #000;
+	border: 1px solid #c1bebe;
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
@@ -3863,7 +3865,7 @@ modificacion del menu productos
 	/* height: 200px; */
 	object-fit: contain;
 	margin-right: 20px;
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 }
 .card-torquimetrp-text {
 	width: 60%;
