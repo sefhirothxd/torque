@@ -8,7 +8,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 2477',
 				max: '150',
-				capacidad: '20-150 Lbs-pulg/2.8-16.4Nm',
+				capacidad: '20-150 Lbs-pulg/2.8-16.4 Nm',
 				longitud: '10.15',
 				peso: '0.9 Lbs',
 				tipo: 'Ratchet',
@@ -22,7 +22,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 3447',
 				max: '75',
-				capacidad: '5-75 Lbs-pie/10.2-98.3Nm',
+				capacidad: '5-75 Lbs-pie/10.2-98.3 Nm',
 				longitud: '15.15',
 				peso: '2.5 Lbs',
 				tipo: 'Ratchet',
@@ -36,7 +36,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 3477',
 				max: '100',
-				capacidad: '10-100 Lbs-pie/16.9-132.2Nm',
+				capacidad: '10-100 Lbs-pie/16.9-132.2 Nm',
 				longitud: '15.15',
 				peso: '2.5 Lbs',
 				tipo: 'Ratchet',
@@ -50,7 +50,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 3478',
 				max: '200',
-				capacidad: '30-200 Lbs-pulg/3.9-22Nm',
+				capacidad: '30-200 Lbs-pulg/3.9-22 Nm',
 				longitud: '10.15',
 				peso: '0.85 Lbs',
 				tipo: 'Ratchet',
@@ -64,7 +64,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 3479',
 				max: '1000',
-				capacidad: '150-1000 Lbs-pulg/19.8-110.2Nm',
+				capacidad: '150-1000 Lbs-pulg/19.8-110.2 Nm',
 				longitud: '15.75',
 				peso: '2.5 Lbs',
 				tipo: 'Ratchet',
@@ -78,7 +78,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 4476',
 				max: '1600',
-				capacidad: '700-1600 Lbs-pie/84.4-175.2Nm',
+				capacidad: '700-1600 Lbs-pie/84.4-175.2 Nm',
 				longitud: '18',
 				peso: '3.0 Lbs',
 				tipo: 'Ratchet',
@@ -92,7 +92,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 4477',
 				max: '150',
-				capacidad: '20-150 Lbs-pie/34-197Nm',
+				capacidad: '20-150 Lbs-pie/34-197 Nm',
 				longitud: '19',
 				peso: '3.15 Lbs',
 				tipo: 'Ratchet',
@@ -106,7 +106,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 4478',
 				max: '250',
-				capacidad: '50-250 Lbs-pie/47-332.2Nm',
+				capacidad: '50-250 Lbs-pie/47-332.2 Nm',
 				longitud: '24.4',
 				peso: '3.15 Lbs',
 				tipo: 'Ratchet',
@@ -120,7 +120,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 6448',
 				max: '600',
-				capacidad: '100-600 Lbs-pie/169-779Nm',
+				capacidad: '100-600 Lbs-pie/169-779 Nm',
 				longitud: '42',
 				peso: '8.95 Lbs',
 				tipo: 'Ratchet',
@@ -134,7 +134,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 8447',
 				max: '1000',
-				capacidad: '200-1000 Lbs-pie/305-1320Nm',
+				capacidad: '200-1000 Lbs-pie/305-1320 Nm',
 				longitud: '70',
 				peso: '40 Lbs',
 				tipo: 'Ratchet',
@@ -148,7 +148,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 8448',
 				max: '1000',
-				capacidad: '200-1000 Lbs-pie/305-1320Nm',
+				capacidad: '200-1000 Lbs-pie/305-1320 Nm',
 				longitud: '69',
 				peso: '24.5 Lbs',
 				tipo: 'Ratchet',
@@ -161,7 +161,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 8449',
 				max: '2000',
-				capacidad: '300-2000 Lbs-pie/480-2700Nm',
+				capacidad: '300-2000 Lbs-pie/480-2700 Nm',
 				longitud: '108-1/2',
 				peso: '48.75 Lbs',
 				tipo: 'Ratchet',
@@ -179,7 +179,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '10',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '1 LBS',
+				peso: '1 Lbs',
 			},
 			{
 				id: 14,
@@ -192,7 +192,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '21-1/2',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '2-3/4 LBS',
+				peso: '2-3/4 Lbs',
 			},
 			{
 				id: 15,
@@ -205,7 +205,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '10',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '1 LBS',
+				peso: '1 Lbs',
 			},
 			{
 				id: 16,
@@ -218,7 +218,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '10',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '1 LBS',
+				peso: '1 Lbs',
 			},
 			{
 				nombre: 'Torquimetros de reloj encastre 3/8',
@@ -230,7 +230,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '14-7/8',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '1-3/4 LBS',
+				peso: '1-3/4 Lbs',
 			},
 			{
 				id: 17,
@@ -243,7 +243,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '21-1/2',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '2-3/4 LBS',
+				peso: '2-3/4 Lbs',
 			},
 			{
 				id: 18,
@@ -256,7 +256,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '21-1/2',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '2-3/4 LBS',
+				peso: '2-3/4 Lbs',
 			},
 			{
 				id: 19,
@@ -269,7 +269,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '46-1/2',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-				peso: '9-1/4 LBS',
+				peso: '9-1/4 Lbs',
 			},
 			{
 				id: 20,
@@ -282,7 +282,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '27-7/8',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-				peso: '5-3/4 LBS',
+				peso: '5-3/4 Lbs',
 			},
 			{
 				id: 21,
@@ -295,7 +295,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '46-1/2',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
-				peso: '9-1/4 LBS',
+				peso: '9-1/4 Lbs',
 			},
 			{
 				id: 22,
@@ -308,7 +308,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '74',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-				peso: '18-1/2 LBS',
+				peso: '18-1/2 Lbs',
 			},
 			{
 				id: 23,
@@ -321,7 +321,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '74',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
-				peso: '18-1/2 LBS',
+				peso: '18-1/2 Lbs',
 			},
 			{
 				id: 24,
@@ -334,7 +334,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '122',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj d.jpg',
-				peso: '44-1/2 LBS',
+				peso: '44-1/2 Lbs',
 			},
 			{
 				id: 25,
@@ -347,7 +347,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '8"',
 				url: 'torquimetros-destornillador.html',
 				img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
-				peso: '1 LBS',
+				peso: '1 Lbs',
 			},
 			{
 				id: 26,
@@ -360,7 +360,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '8"',
 				url: 'torquimetros-destornillador.html',
 				img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
-				peso: '1 LBS',
+				peso: '1 Lbs',
 			},
 			{
 				id: 27,
@@ -373,7 +373,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '23.3"',
 				url: 'torquimetros-digital-inalambrico.html',
 				img: './images/torquimetros/torquimetro digital/torquimetro digital inalambrico.jpg',
-				peso: '5.5 LBS',
+				peso: '5.5 Lbs',
 			},
 			{
 				id: 28,
@@ -386,7 +386,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '23.5"',
 				url: 'torquimetros-digital-inalambrico.html',
 				img: './images/torquimetros/torquimetro digital/torquimetro digital inalambrico.jpg',
-				peso: '5.7 LBS',
+				peso: '5.7 Lbs',
 			},
 			{
 				id: 29,
@@ -524,8 +524,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
-				capacidad: '150-850',
-				peso: '9.8/10 ',
+				capacidad: '150-850 Nm',
+				peso: '9.8/10 kg ',
 			},
 			{
 				id: 39,
@@ -537,8 +537,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '5 RPM',
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
-				capacidad: '280-1200',
-				peso: '10',
+				capacidad: '280-1200 Nm',
+				peso: '10 Kg',
 			},
 			{
 				id: 40,
@@ -550,7 +550,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '3 RPM',
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
-				capacidad: '360-3500',
+				capacidad: '360-3500 Nm',
 				peso: '14.5 Kg',
 			},
 			{
@@ -563,8 +563,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '1.2 RPM',
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
-				capacidad: '50-700 N.m',
-				peso: '16.7',
+				capacidad: '50-700 Nm',
+				peso: '16.7 Kg',
 			},
 			{
 				id: 42,
@@ -575,7 +575,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-a-bateria.html',
 				img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica a.jpg',
-				capacidad: '300-1300 N.m',
+				capacidad: '300-1300 Nm',
 				peso: '5.3 Kg / 11.7 Lbs',
 			},
 			{
@@ -587,7 +587,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '5 RPM',
 				url: 'llave-de-control-de-torque-a-bateria.html',
 				img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica b.jpg',
-				capacidad: '700-2600 N.m',
+				capacidad: '700-2600 Nm',
 				peso: '7.2 Kg / 15.9 Lbs',
 			},
 			{
@@ -599,7 +599,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '3 RPM',
 				url: 'llave-de-control-de-torque-a-bateria.html',
 				img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica c.jpg',
-				capacidad: '1000-4100 N.m',
+				capacidad: '1000-4100 Nm',
 				peso: '11.4 Kg / 25.13 Lbs',
 			},
 			{
@@ -611,7 +611,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '1.2 RPM',
 				url: 'llave-de-control-de-torque-a-bateria.html',
 				img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica d.jpg',
-				capacidad: '2600-8100 N.m',
+				capacidad: '2600-8100 Nm',
 				peso: '16.5 Kg / 36.4 Lbs',
 			},
 			{
@@ -624,7 +624,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '20 RPM',
 				url: 'llave-de-control-de-torque-neumatica.html',
 				img: './images/llave/multiplicador/multiplicador.jpg',
-				capacidad: '320-1300 N.m',
+				capacidad: '320-1300 Nm',
 				peso: '4.4 Kg / 9.7 Lbs',
 			},
 			{
@@ -637,7 +637,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-neumatica.html',
 				img: './images/llave/multiplicador/multiplicador.jpg',
-				capacidad: '700-2600 N.m',
+				capacidad: '700-2600 Nm',
 				peso: '5.7 Kg / 12.5 Lbs',
 			},
 			{
@@ -650,7 +650,7 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-neumatica.html',
 				img: './images/llave/multiplicador/multiplicador.jpg',
-				capacidad: '1000-4100 N.m',
+				capacidad: '1000-4100 Nm',
 				peso: '11.4 Kg / 25.13 Lbs',
 			},
 			{
@@ -663,8 +663,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '20 RPM',
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
-				capacidad: '320-4900 N.m',
-				peso: '4.9',
+				capacidad: '320-4900 Nm',
+				peso: '4.9 Kg',
 			},
 			{
 				id: 50,
@@ -676,8 +676,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
-				capacidad: '320-5200 N.m',
-				peso: '5.4',
+				capacidad: '320-5200 Nm',
+				peso: '5.4 Kg',
 			},
 			{
 				id: 51,
@@ -689,8 +689,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
-				capacidad: '1000-4100 N.m',
-				peso: '7.8',
+				capacidad: '1000-4100 Nm',
+				peso: '7.8 Kg',
 			},
 			{
 				id: 52,
@@ -702,8 +702,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
-				capacidad: '440-1000 N.m',
-				peso: '7.8',
+				capacidad: '440-1000 Nm',
+				peso: '7.8 Kg',
 			},
 			{
 				id: 53,
@@ -715,8 +715,8 @@ const autoCompleteJS = new autoComplete({
 				velocidad: '10 RPM',
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
-				capacidad: '950-15200 N.m',
-				peso: '12',
+				capacidad: '950-15200 Nm',
+				peso: '12 Kg',
 			},
 		],
 		keys: ['nombre', 'modelo', 'capacidad'],
@@ -757,9 +757,7 @@ const autoCompleteJS = new autoComplete({
 						<h3>${selection.nombre}</h3>
 						<p>${selection.modelo}</p>
 						<div class="list-items__content" id="list-items__content">
-							<p><b>tipo:</b>  ${selection.tipo}</p>
 							<p><b>capacidad:</b>  ${selection.capacidad}</p>
-							<p><b>longitud:</b> ${selection.longitud}</p>
 							<p><b>peso:</b> ${selection.peso}</p>
 						</div>
 					</a>

@@ -4,7 +4,7 @@ var URLactual = window.location.pathname;
 let columnDefs = [
 	{ field: 'Encastre', width: 120 },
 	{ field: 'Modelo', width: 90 },
-	{ field: 'Tipo', width: 120 },
+	{ field: 'Tipo', width: 140 },
 	{ field: 'Capacidad', width: 230 },
 	{ field: 'Longitud', width: 95 },
 	{ field: 'Peso', width: 120 },
