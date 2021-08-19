@@ -761,7 +761,6 @@ const autoCompleteJS = new autoComplete({
 								<p><b>Encastre entrada:</b>  ${selection.encastreEntrada}</p>
 								<p><b>Encastre salida:</b>  ${selection.encastreSalida}</p>
 								<p><b>capacidad:</b>  ${selection.capacidad}</p>
-								<p><b>longitud:</b> ${selection.longitud}</p>
 								<p><b>peso:</b> ${selection.peso}</p>
 							</div>
 						</a>
