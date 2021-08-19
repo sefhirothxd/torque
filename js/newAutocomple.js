@@ -392,8 +392,8 @@ const autoCompleteJS = new autoComplete({
 				id: 29,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S290P',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '3/4"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '3/4"',
 				'Torque de entrada': '227 Lbs-pie',
 				'Torque de salida': '750 Lbs-pie',
 				capacidad: '227-750 Lbs',
@@ -406,8 +406,8 @@ const autoCompleteJS = new autoComplete({
 				id: 30,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S291',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '3/4"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '3/4"',
 				'Torque de entrada': '303 Lbs-pie',
 				'Torque de salida': '1000 Lbs-pie',
 				capacidad: '303-1000 Lbs',
@@ -420,8 +420,8 @@ const autoCompleteJS = new autoComplete({
 				id: 31,
 				nombre: 'Multiplicador de torque encastre 3/4',
 				modelo: 'modelo 9S292',
-				'encastre de entrada': '3/4"',
-				'encastre de salida': '1"',
+				encastreEntrada: '3/4"',
+				encastreSalida: '1"',
 				'Torque de entrada': '571 Lbs-pie',
 				'Torque de salida': '2000 Lbs-pie',
 				capacidad: '571-2000 Lbs',
@@ -434,8 +434,8 @@ const autoCompleteJS = new autoComplete({
 				id: 32,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S391',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '3/4"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '3/4"',
 				'Torque de entrada': '200 Lbs-pie',
 				'Torque de salida': '1200 Lbs-pie',
 				capacidad: '200-1200 Lbs',
@@ -448,8 +448,8 @@ const autoCompleteJS = new autoComplete({
 				id: 33,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S392B',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '1"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '1"',
 				'Torque de entrada': '162 Lbs-pie',
 				'Torque de salida': '2200 Lbs-pie',
 				capacidad: '162-2200 Lbs',
@@ -462,8 +462,8 @@ const autoCompleteJS = new autoComplete({
 				id: 34,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S393A',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '1"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '1"',
 				'Torque de entrada': '173 Lbs-pie',
 				'Torque de salida': '3200 Lbs-pie',
 				capacidad: '173-3200 Lbs',
@@ -476,8 +476,8 @@ const autoCompleteJS = new autoComplete({
 				id: 35,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S394',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '1-1/2"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '1-1/2"',
 				'Torque de entrada': '189 Lbs-pie',
 				'Torque de salida': '5000 Lbs-pie',
 				capacidad: '189-5000 Lbs',
@@ -490,8 +490,8 @@ const autoCompleteJS = new autoComplete({
 				id: 36,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S395',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '1-1/2"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '1-1/2"',
 				'Torque de entrada': '154 Lbs-pie',
 				'Torque de salida': '8000 Lbs-pie',
 				capacidad: '154-8000 Lbs',
@@ -504,8 +504,8 @@ const autoCompleteJS = new autoComplete({
 				id: 37,
 				nombre: 'Multiplicador de torque encastre 1/2',
 				modelo: 'modelo 9S492',
-				'encastre de entrada': '1/2"',
-				'encastre de salida': '1"',
+				encastreEntrada: '1/2"',
+				encastreSalida: '1"',
 				'Torque de entrada': '162 Lbs-pie',
 				'Torque de salida': '2200 Lbs-pie',
 				capacidad: '162-2200 Lbs',
@@ -517,7 +517,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 38,
 				nombre: 'Llave de control de torque electricas encastre 3/4',
-				'Art N°': '50 084 103',
+				artN: '50 084 103',
 				encastre: '3/4 ó 1"',
 				max: '850',
 				modelo: 'modelo TESM-84',
@@ -530,7 +530,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 39,
 				nombre: 'Llave de control de torque electricas encastre 1',
-				'Art N°': '50 105 113',
+				artN: '50 105 113',
 				encastre: '1"',
 				max: '1200',
 				modelo: 'modelo TESM-105',
@@ -543,7 +543,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 40,
 				nombre: 'Llave de control de torque electricas encastre 1.1/2',
-				'Art N°': '50 335 133',
+				artN: '50 335 133',
 				encastre: '1.1/2"',
 				max: '3500',
 				modelo: 'modelo TESM-355',
@@ -556,7 +556,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 41,
 				nombre: 'Llave de control de torque electricas encastre 1.1/2',
-				'Art N°': '50 505 143',
+				artN: '50 505 143',
 				encastre: '1.1/2"',
 				max: '700',
 				modelo: 'modelo TESM-505',
@@ -617,7 +617,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 46,
 				nombre: 'Llave de control de torque neumatica encastre 3/4',
-				'Art N°': '615 180 0120',
+				artN: '615 180 0120',
 				max: '1300',
 				modelo: 'CP6613',
 				encastre: '3/4"',
@@ -630,7 +630,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 47,
 				nombre: 'Llave de control de torque neumatica encastre 1"',
-				'Art N°': '615 180 0130',
+				artN: '615 180 0130',
 				max: '2600',
 				modelo: 'CP6626',
 				encastre: '1"',
@@ -643,7 +643,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 48,
 				nombre: 'Llave de control de torque neumatica encastre 1"',
-				'Art N°': '615 180 0140',
+				artN: '615 180 0140',
 				max: '4100',
 				modelo: 'CP6641',
 				encastre: '1"',
@@ -656,7 +656,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 49,
 				nombre: 'Llave de control de torque hidraulica encastre 1 o 1.1/2"',
-				'Art N°': '71 051 000',
+				artN: '71 051 000',
 				max: '4900',
 				modelo: 'BL-51',
 				encastre: '1 ó 1.1/2"',
@@ -669,7 +669,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 50,
 				nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
-				'Art N°': '71 052 000',
+				artN: '71 052 000',
 				max: '5200',
 				modelo: 'BL-52',
 				encastre: '1.1/2"',
@@ -682,7 +682,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 51,
 				nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
-				'Art N°': '71 082 000',
+				artN: '71 082 000',
 				max: '4100',
 				modelo: 'BL-82',
 				encastre: '1.1/2"',
@@ -695,7 +695,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 52,
 				nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
-				'Art N°': '71 102 000',
+				artN: '71 102 000',
 				max: '1000',
 				modelo: 'BL-102',
 				encastre: '1.1/2"',
@@ -708,7 +708,7 @@ const autoCompleteJS = new autoComplete({
 			{
 				id: 53,
 				nombre: 'Llave de control de torque hidraulica encastre 1.1/2 ó 2.1/2"',
-				'Art N°': '71 152 000',
+				artN: '71 152 000',
 				max: '15200',
 				modelo: 'BL-152',
 				encastre: '1.1/2 ó 2.1/2"',
@@ -751,14 +751,15 @@ const autoCompleteJS = new autoComplete({
 				autoCompleteJS.input.value = selection.nombre;
 				let containerList = document.getElementById('list-items');
 
-				if (selection.longitud) {
+				if (selection.encastreEntrada && selection.encastreSalida) {
 					containerList.innerHTML = `
 					<a href="${selection.url}"  class="list-items__container-item" id="">
 							<img class="img-herramientas" src="${selection.img}" alt="" srcset="" />
 							<h3>${selection.nombre}</h3>
 							<p>${selection.modelo}</p>
 							<div class="list-items__content" id="list-items__content">
-								<p><b>tipo:</b>  ${selection.tipo}</p>
+								<p><b>Encastre entrada:</b>  ${selection.encastreEntrada}</p>
+								<p><b>Encastre salida:</b>  ${selection.encastreSalida}</p>
 								<p><b>capacidad:</b>  ${selection.capacidad}</p>
 								<p><b>longitud:</b> ${selection.longitud}</p>
 								<p><b>peso:</b> ${selection.peso}</p>
@@ -766,15 +767,33 @@ const autoCompleteJS = new autoComplete({
 						</a>
 						`;
 					console.log('existe longitud');
-				} else {
+				}
+				if (selection.longitud !== undefined) {
 					containerList.innerHTML = `
 					<a href="${selection.url}"  class="list-items__container-item" id="">
 							<img class="img-herramientas" src="${selection.img}" alt="" srcset="" />
 							<h3>${selection.nombre}</h3>
 							<p>${selection.modelo}</p>
 							<div class="list-items__content" id="list-items__content">
-								<p><b>capacidad:</b>  ${selection.capacidad}</p>
-								<p><b>peso:</b> ${selection.peso}</p>
+								<p><b>Tipo:</b>  ${selection.tipo}</p>
+								<p><b>Capacidad:</b> <br>  ${selection.capacidad}</p>
+								<p><b>Longitud:</b> ${selection.longitud}</p>
+								<p><b>Peso:</b> ${selection.peso}</p>
+							</div>
+						</a>
+						`;
+					console.log('no existe');
+				}
+				if (selection.artN) {
+					containerList.innerHTML = `
+					<a href="${selection.url}"  class="list-items__container-item" id="">
+							<img class="img-herramientas" src="${selection.img}" alt="" srcset="" />
+							<h3>${selection.nombre}</h3>
+							<p>${selection.modelo}</p>
+							<div class="list-items__content" id="list-items__content">
+								<p><b>Capacidad:</b> ${selection.capacidad}</p>
+								<p><b>Art N°:</b> ${selection.artN}</p>
+								<p><b>Peso:</b> ${selection.peso}</p>
 							</div>
 						</a>
 						`;

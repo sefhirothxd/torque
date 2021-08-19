@@ -389,8 +389,8 @@ let arrayHerramientas = [
 		id: 29,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S290P',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '3/4"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '3/4"',
 		'Torque de entrada': '227 Lbs-pie',
 		'Torque de salida': '750 Lbs-pie',
 		capacidad: '227-750 Lbs',
@@ -403,8 +403,8 @@ let arrayHerramientas = [
 		id: 30,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S291',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '3/4"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '3/4"',
 		'Torque de entrada': '303 Lbs-pie',
 		'Torque de salida': '1000 Lbs-pie',
 		capacidad: '303-1000 Lbs',
@@ -417,8 +417,8 @@ let arrayHerramientas = [
 		id: 31,
 		nombre: 'Multiplicador de torque encastre 3/4',
 		modelo: 'modelo 9S292',
-		'encastre de entrada': '3/4"',
-		'encastre de salida': '1"',
+		encastreEntrada: '3/4"',
+		encastreSalida: '1"',
 		'Torque de entrada': '571 Lbs-pie',
 		'Torque de salida': '2000 Lbs-pie',
 		capacidad: '571-2000 Lbs',
@@ -431,8 +431,8 @@ let arrayHerramientas = [
 		id: 32,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S391',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '3/4"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '3/4"',
 		'Torque de entrada': '200 Lbs-pie',
 		'Torque de salida': '1200 Lbs-pie',
 		capacidad: '200-1200 Lbs',
@@ -445,8 +445,8 @@ let arrayHerramientas = [
 		id: 33,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S392B',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '1"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '1"',
 		'Torque de entrada': '162 Lbs-pie',
 		'Torque de salida': '2200 Lbs-pie',
 		capacidad: '162-2200 Lbs',
@@ -459,8 +459,8 @@ let arrayHerramientas = [
 		id: 34,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S393A',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '1"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '1"',
 		'Torque de entrada': '173 Lbs-pie',
 		'Torque de salida': '3200 Lbs-pie',
 		capacidad: '173-3200 Lbs',
@@ -473,8 +473,8 @@ let arrayHerramientas = [
 		id: 35,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S394',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '1-1/2"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '1-1/2"',
 		'Torque de entrada': '189 Lbs-pie',
 		'Torque de salida': '5000 Lbs-pie',
 		capacidad: '189-5000 Lbs',
@@ -487,8 +487,8 @@ let arrayHerramientas = [
 		id: 36,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S395',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '1-1/2"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '1-1/2"',
 		'Torque de entrada': '154 Lbs-pie',
 		'Torque de salida': '8000 Lbs-pie',
 		capacidad: '154-8000 Lbs',
@@ -501,8 +501,8 @@ let arrayHerramientas = [
 		id: 37,
 		nombre: 'Multiplicador de torque encastre 1/2',
 		modelo: 'modelo 9S492',
-		'encastre de entrada': '1/2"',
-		'encastre de salida': '1"',
+		encastreEntrada: '1/2"',
+		encastreSalida: '1"',
 		'Torque de entrada': '162 Lbs-pie',
 		'Torque de salida': '2200 Lbs-pie',
 		capacidad: '162-2200 Lbs',
@@ -514,7 +514,7 @@ let arrayHerramientas = [
 	{
 		id: 38,
 		nombre: 'Llave de control de torque electricas encastre 3/4',
-		'Art N°': '50 084 103',
+		artN: '50 084 103',
 		encastre: '3/4 ó 1"',
 		max: '850',
 		modelo: 'modelo TESM-84',
@@ -527,7 +527,7 @@ let arrayHerramientas = [
 	{
 		id: 39,
 		nombre: 'Llave de control de torque electricas encastre 1',
-		'Art N°': '50 105 113',
+		artN: '50 105 113',
 		encastre: '1"',
 		max: '1200',
 		modelo: 'modelo TESM-105',
@@ -540,7 +540,7 @@ let arrayHerramientas = [
 	{
 		id: 40,
 		nombre: 'Llave de control de torque electricas encastre 1.1/2',
-		'Art N°': '50 335 133',
+		artN: '50 335 133',
 		encastre: '1.1/2"',
 		max: '3500',
 		modelo: 'modelo TESM-355',
@@ -553,7 +553,7 @@ let arrayHerramientas = [
 	{
 		id: 41,
 		nombre: 'Llave de control de torque electricas encastre 1.1/2',
-		'Art N°': '50 505 143',
+		artN: '50 505 143',
 		encastre: '1.1/2"',
 		max: '700',
 		modelo: 'modelo TESM-505',
@@ -614,7 +614,7 @@ let arrayHerramientas = [
 	{
 		id: 46,
 		nombre: 'Llave de control de torque neumatica encastre 3/4',
-		'Art N°': '615 180 0120',
+		artN: '615 180 0120',
 		max: '1300',
 		modelo: 'CP6613',
 		encastre: '3/4"',
@@ -627,7 +627,7 @@ let arrayHerramientas = [
 	{
 		id: 47,
 		nombre: 'Llave de control de torque neumatica encastre 1"',
-		'Art N°': '615 180 0130',
+		artN: '615 180 0130',
 		max: '2600',
 		modelo: 'CP6626',
 		encastre: '1"',
@@ -640,7 +640,7 @@ let arrayHerramientas = [
 	{
 		id: 48,
 		nombre: 'Llave de control de torque neumatica encastre 1"',
-		'Art N°': '615 180 0140',
+		artN: '615 180 0140',
 		max: '4100',
 		modelo: 'CP6641',
 		encastre: '1"',
@@ -653,7 +653,7 @@ let arrayHerramientas = [
 	{
 		id: 49,
 		nombre: 'Llave de control de torque hidraulica encastre 1 o 1.1/2"',
-		'Art N°': '71 051 000',
+		artN: '71 051 000',
 		max: '4900',
 		modelo: 'BL-51',
 		encastre: '1 ó 1.1/2"',
@@ -666,7 +666,7 @@ let arrayHerramientas = [
 	{
 		id: 50,
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
-		'Art N°': '71 052 000',
+		artN: '71 052 000',
 		max: '5200',
 		modelo: 'BL-52',
 		encastre: '1.1/2"',
@@ -679,7 +679,7 @@ let arrayHerramientas = [
 	{
 		id: 51,
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
-		'Art N°': '71 082 000',
+		artN: '71 082 000',
 		max: '4100',
 		modelo: 'BL-82',
 		encastre: '1.1/2"',
@@ -692,7 +692,7 @@ let arrayHerramientas = [
 	{
 		id: 52,
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
-		'Art N°': '71 102 000',
+		artN: '71 102 000',
 		max: '1000',
 		modelo: 'BL-102',
 		encastre: '1.1/2"',
@@ -705,7 +705,7 @@ let arrayHerramientas = [
 	{
 		id: 53,
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2 ó 2.1/2"',
-		'Art N°': '71 152 000',
+		artN: '71 152 000',
 		max: '15200',
 		modelo: 'BL-152',
 		encastre: '1.1/2 ó 2.1/2"',
@@ -768,18 +768,21 @@ inputBuscar.addEventListener('input', (e) => {
 	if (inputBuscar.value.trim() == '') {
 		containerList.innerHTML = '';
 		arrayTop.forEach((item) => {
-			if (item.longitud === undefined) {
+			if (item.encastreEntrada && item.encastreSalida) {
 				containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
 				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
+					<p><b>Encastre entrada:</b>  ${item.encastreEntrada}</p>
+					<p><b>Encastre salida:</b>  ${item.encastreSalida}</p>
 					<p><b>Capacidad:</b>  ${item.capacidad}</p>
 					<p><b>Peso:</b> ${item.peso}</p>
 				</div>
 			</a>`;
-			} else {
+			}
+			if (item.longitud !== undefined) {
 				containerList.innerHTML += `
 				<a href="${item.url}"  class="list-items__container-item" id="">
 					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -789,6 +792,20 @@ inputBuscar.addEventListener('input', (e) => {
 						<p><b>Tipo:</b>  ${item.tipo}</p>
 						<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
 						<p><b>Longitud:</b> ${item.longitud}</p>
+						<p><b>Peso:</b> ${item.peso}</p>
+					</div>
+				</a>
+				`;
+			}
+			if (item.artN) {
+				containerList.innerHTML += `
+				<a href="${item.url}"  class="list-items__container-item" id="">
+					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<h3>${item.nombre}</h3>
+					<p>${item.modelo}</p>
+					<div class="list-items__content" id="list-items__content">
+						<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+						<p><b>Art N°:</b> ${item.artN}</p>
 						<p><b>Peso:</b> ${item.peso}</p>
 					</div>
 				</a>
@@ -807,18 +824,21 @@ inputBuscar.addEventListener('input', (e) => {
 
 		containerList.innerHTML = '';
 		newArray.forEach((item) => {
-			if (item.longitud === undefined) {
+			if (item.encastreEntrada && item.encastreSalida) {
 				containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
 				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
+					<p><b>Encastre entrada:</b>  ${item.encastreEntrada}</p>
+					<p><b>Encastre salida:</b>  ${item.encastreSalida}</p>
 					<p><b>Capacidad:</b>  ${item.capacidad}</p>
 					<p><b>Peso:</b> ${item.peso}</p>
 				</div>
 			</a>`;
-			} else {
+			}
+			if (item.longitud !== undefined) {
 				containerList.innerHTML += `
 				<a href="${item.url}"  class="list-items__container-item" id="">
 					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -826,8 +846,22 @@ inputBuscar.addEventListener('input', (e) => {
 					<p>${item.modelo}</p>
 					<div class="list-items__content" id="list-items__content">
 						<p><b>Tipo:</b>  ${item.tipo}</p>
-						<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+						<p><b>Capacidad:</b><br> ${item.capacidad}</p>
 						<p><b>Longitud:</b> ${item.longitud}</p>
+						<p><b>Peso:</b> ${item.peso}</p>
+					</div>
+				</a>
+				`;
+			}
+			if (item.artN) {
+				containerList.innerHTML += `
+				<a href="${item.url}"  class="list-items__container-item" id="">
+					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<h3>${item.nombre}</h3>
+					<p>${item.modelo}</p>
+					<div class="list-items__content" id="list-items__content">
+						<p><b>Capacidad:</b>${item.capacidad}</p>
+						<p><b>Art N°:</b> ${item.artN}</p>
 						<p><b>Peso:</b> ${item.peso}</p>
 					</div>
 				</a>
@@ -844,18 +878,21 @@ inputBuscar.addEventListener('input', (e) => {
 btnTodo.addEventListener('click', () => {
 	containerList.innerHTML = '';
 	arrayHerramientas.forEach((item) => {
-		if (item.longitud === undefined) {
+		if (item.encastreEntrada && item.encastreSalida) {
 			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
 			<div class="list-items__content" id="list-items__content">
+				<p><b>Encastre entrada:</b>  ${item.encastreEntrada}</p>
+				<p><b>Encastre salida:</b>  ${item.encastreSalida}</p>
 				<p><b>Capacidad:</b>  ${item.capacidad}</p>
 				<p><b>Peso:</b> ${item.peso}</p>
 			</div>
 		</a>`;
-		} else {
+		}
+		if (item.longitud !== undefined) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
 				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -870,24 +907,41 @@ btnTodo.addEventListener('click', () => {
 			</a>
 			`;
 		}
+		if (item.artN) {
+			containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Capacidad:</b> ${item.capacidad}</p>
+					<p><b>Art N°:</b> ${item.artN}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>
+			`;
+		}
 	});
 });
 
 btnTop.addEventListener('click', () => {
 	containerList.innerHTML = '';
-	arrayTop.forEach((item) => {
-		if (item.longitud === undefined) {
+	top.forEach((item) => {
+		if (item.encastreEntrada && item.encastreSalida) {
 			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
 			<div class="list-items__content" id="list-items__content">
+				<p><b>Encastre entrada:</b>  ${item.encastreEntrada}</p>
+				<p><b>Encastre salida:</b>  ${item.encastreSalida}</p>
 				<p><b>Capacidad:</b>  ${item.capacidad}</p>
 				<p><b>Peso:</b> ${item.peso}</p>
 			</div>
 		</a>`;
-		} else {
+		}
+		if (item.longitud !== undefined) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
 				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -897,6 +951,20 @@ btnTop.addEventListener('click', () => {
 					<p><b>Tipo:</b>  ${item.tipo}</p>
 					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
 					<p><b>Longitud:</b> ${item.longitud}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>
+			`;
+		}
+		if (item.artN) {
+			containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+					<p><b>Art N°:</b> ${item.artN}</p>
 					<p><b>Peso:</b> ${item.peso}</p>
 				</div>
 			</a>
@@ -918,18 +986,21 @@ rangeInput.addEventListener('mouseup', function () {
 
 	console.log(arrayRage);
 	arrayOrdenado.forEach((item) => {
-		if (item.longitud === undefined) {
+		if (item.encastreEntrada && item.encastreSalida) {
 			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
 			<div class="list-items__content" id="list-items__content">
+				<p><b>Encastre entrada:</b>  ${item.encastreEntrada}</p>
+				<p><b>Encastre salida:</b>  ${item.encastreSalida}</p>
 				<p><b>Capacidad:</b>  ${item.capacidad}</p>
 				<p><b>Peso:</b> ${item.peso}</p>
 			</div>
 		</a>`;
-		} else {
+		}
+		if (item.longitud !== undefined) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
 				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
@@ -937,8 +1008,22 @@ rangeInput.addEventListener('mouseup', function () {
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
 					<p><b>Tipo:</b>  ${item.tipo}</p>
-					<p><b>Capacidad:</b><br>  ${item.capacidad}</p>
+					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
 					<p><b>Longitud:</b> ${item.longitud}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>
+			`;
+		}
+		if (item.artN) {
+			containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+					<p><b>Art N°:</b> ${item.artN}</p>
 					<p><b>Peso:</b> ${item.peso}</p>
 				</div>
 			</a>
