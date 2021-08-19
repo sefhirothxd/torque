@@ -5,7 +5,7 @@ let arrayHerramientas = [
 		marca: 'WRIGHT',
 		modelo: 'modelo 2477',
 		max: '150',
-		capacidad: '20-150 Lbs-pulg/2.8-16.4 Nm',
+		capacidad: '20-150 Lbs-pie/2.8-16.4 Nm',
 		longitud: '10.15',
 		peso: '0.9 Lbs',
 		tipo: 'Ratchet',
@@ -47,7 +47,7 @@ let arrayHerramientas = [
 		marca: 'WRIGHT',
 		modelo: 'modelo 3478',
 		max: '200',
-		capacidad: '30-200 Lbs-pulg/3.9-22 Nm',
+		capacidad: '30-200 Lbs-pie/3.9-22 Nm',
 		longitud: '10.15',
 		peso: '0.85 Lbs',
 		tipo: 'Ratchet',
@@ -61,7 +61,7 @@ let arrayHerramientas = [
 		marca: 'WRIGHT',
 		modelo: 'modelo 3479',
 		max: '1000',
-		capacidad: '150-1000 Lbs-pulg/19.8-110.2 Nm',
+		capacidad: '150-1000 Lbs-pie/19.8-110.2 Nm',
 		longitud: '15.75',
 		peso: '2.5 Lbs',
 		tipo: 'Ratchet',
@@ -159,7 +159,7 @@ let arrayHerramientas = [
 		modelo: 'modelo 8449',
 		max: '2000',
 		capacidad: '300-2000 Lbs-pie/480-2700 Nm',
-		longitud: '108-1/2',
+		longitud: '108.5',
 		peso: '48.75 Lbs',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
@@ -172,7 +172,7 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '30',
 		modelo: 'modelo 2470',
-		capacidad: '0-30 LBS-pulg/0-3.5 Nm',
+		capacidad: '0-30 LBS-pie/0-3.5 Nm',
 		longitud: '10',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
@@ -185,11 +185,11 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '250',
 		modelo: 'modelo 4471',
-		capacidad: '0-250 LBS-pulg/0-350 Nm',
-		longitud: '21-1/2',
+		capacidad: '0-250 LBS-pie/0-350 Nm',
+		longitud: '21.5',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '2-3/4 Lbs',
+		peso: '2.75 Lbs',
 	},
 	{
 		id: 15,
@@ -198,7 +198,7 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '150',
 		modelo: 'modelo 3470',
-		capacidad: '0-150 LBS-pulg/0-18 Nm',
+		capacidad: '0-150 LBS-pie/0-18 Nm',
 		longitud: '10',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
@@ -211,7 +211,7 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '250',
 		modelo: 'modelo 3471',
-		capacidad: '0-250 LBS-pulg/0-30 Nm',
+		capacidad: '0-250 LBS-pie/0-30 Nm',
 		longitud: '10',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
@@ -227,7 +227,7 @@ let arrayHerramientas = [
 		longitud: '14-7/8',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '1-3/4 Lbs',
+		peso: '1.75 Lbs',
 	},
 	{
 		id: 17,
@@ -237,10 +237,10 @@ let arrayHerramientas = [
 		max: '175',
 		modelo: 'modelo 4470',
 		capacidad: '0-175 LBS-pie/0-240 Nm',
-		longitud: '21-1/2',
+		longitud: '21.5',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '2-3/4 Lbs',
+		peso: '2.75 Lbs',
 	},
 	{
 		id: 18,
@@ -249,11 +249,11 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '250',
 		modelo: 'modelo 4471',
-		capacidad: '0-250 LBS-pulg/0-350 Nm',
-		longitud: '21-1/2',
+		capacidad: '0-250 LBS-pie/0-350 Nm',
+		longitud: '21.5',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '2-3/4 Lbs',
+		peso: '2.75 Lbs',
 	},
 	{
 		id: 19,
@@ -263,7 +263,7 @@ let arrayHerramientas = [
 		max: '600',
 		modelo: 'modelo 6470',
 		capacidad: '0-600 LBS-pie/0-800 Nm',
-		longitud: '46-1/2',
+		longitud: '46.5',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
 		peso: '9-1/4 Lbs',
@@ -288,8 +288,8 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '600',
 		modelo: 'modelo 6472',
-		capacidad: '0-600 LBS-pulg/0-800 Nm',
-		longitud: '46-1/2',
+		capacidad: '0-600 LBS-pie/0-800 Nm',
+		longitud: '46.5',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
 		peso: '9-1/4 Lbs',
@@ -301,11 +301,11 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '1000',
 		modelo: 'modelo 8470',
-		capacidad: '0-1000 LBS-pulg/0-1400 Nm',
+		capacidad: '0-1000 LBS-pie/0-1400 Nm',
 		longitud: '74',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-		peso: '18-1/2 Lbs',
+		peso: '18.5 Lbs',
 	},
 	{
 		id: 23,
@@ -314,11 +314,11 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '1000',
 		modelo: 'modelo 8471',
-		capacidad: '0-1000 LBS-pulg/0-1400 Nm',
+		capacidad: '0-1000 LBS-pie/0-1400 Nm',
 		longitud: '74',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
-		peso: '18-1/2 Lbs',
+		peso: '18.5 Lbs',
 	},
 	{
 		id: 24,
@@ -327,11 +327,11 @@ let arrayHerramientas = [
 		tipo: 'RATCHET',
 		max: '2000',
 		modelo: 'modelo 8472',
-		capacidad: '0-2000 LBS-pulg/0-1400 Nm',
+		capacidad: '0-2000 LBS-pie/0-1400 Nm',
 		longitud: '122',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj d.jpg',
-		peso: '44-1/2 Lbs',
+		peso: '44.5 Lbs',
 	},
 	{
 		id: 25,
@@ -340,7 +340,7 @@ let arrayHerramientas = [
 		max: '15',
 		tipo: 'RATCHET',
 		modelo: 'modelo 2463',
-		capacidad: '3-15 Lb-pulg',
+		capacidad: '3-15 Lb-pie',
 		longitud: '8"',
 		url: 'torquimetros-destornillador.html',
 		img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
@@ -353,7 +353,7 @@ let arrayHerramientas = [
 		max: '40',
 		tipo: 'RATCHET',
 		modelo: 'modelo 2464',
-		capacidad: '5-40 Lb-pulg',
+		capacidad: '5-40 Lb-pie',
 		longitud: '8"',
 		url: 'torquimetros-destornillador.html',
 		img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
@@ -397,7 +397,7 @@ let arrayHerramientas = [
 		proporcion: '3.0:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador a.jpg',
-		peso: '4-7/8 Lbs',
+		peso: '4.87 Lbs',
 	},
 	{
 		id: 30,
@@ -411,7 +411,7 @@ let arrayHerramientas = [
 		proporcion: '3.3:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador b.jpg',
-		peso: '5-7/8 Lbs',
+		peso: '5.87 Lbs',
 	},
 	{
 		id: 31,
@@ -425,7 +425,7 @@ let arrayHerramientas = [
 		proporcion: '3.75:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador c.jpg',
-		peso: '13-7/8 Lbs',
+		peso: '13.87 Lbs',
 	},
 	{
 		id: 32,
@@ -453,7 +453,7 @@ let arrayHerramientas = [
 		proporcion: '13.6:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador e.jpg',
-		peso: '20-5/8 Lbs',
+		peso: '20.62 Lbs',
 	},
 	{
 		id: 34,
@@ -467,7 +467,7 @@ let arrayHerramientas = [
 		proporcion: '18.5:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador e.jpg',
-		peso: '22-3/8 Lbs',
+		peso: '22.37 Lbs',
 	},
 	{
 		id: 35,
@@ -522,7 +522,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '150-850 Nm',
-		peso: '9.8/10 kg ',
+		peso: '10 kg / 22 Lbs ',
 	},
 	{
 		id: 39,
@@ -535,7 +535,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '280-1200 Nm',
-		peso: '10 Kg',
+		peso: '10 Kg / 22 Lbs',
 	},
 	{
 		id: 40,
@@ -548,7 +548,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '360-3500 Nm',
-		peso: '14.5 Kg',
+		peso: '14.5 Kg / 32 Lbs',
 	},
 	{
 		id: 41,
@@ -561,7 +561,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '50-700 Nm',
-		peso: '16.7 Kg',
+		peso: '16.7 Kg / 36.8 Lbs',
 	},
 	{
 		id: 42,
@@ -661,7 +661,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '320-4900 Nm',
-		peso: '4.9 Kg',
+		peso: '4.9 Kg / 10.8 Lbs',
 	},
 	{
 		id: 50,
@@ -674,7 +674,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '320-5200 Nm',
-		peso: '5.4 Kg',
+		peso: '5.4 Kg / 11.9 Lbs',
 	},
 	{
 		id: 51,
@@ -687,7 +687,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '1000-4100 Nm',
-		peso: '7.8 Kg',
+		peso: '7.8 Kg / 17.2 Lbs',
 	},
 	{
 		id: 52,
@@ -700,7 +700,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '440-1000 Nm',
-		peso: '7.8 Kg',
+		peso: '7.8 Kg / 17.2 Lbs',
 	},
 	{
 		id: 53,
@@ -713,7 +713,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '950-15200 Nm',
-		peso: '12 Kg',
+		peso: '12 Kg / 26.4 Lbs',
 	},
 ];
 let btnBuscar = document.getElementById('btn-buscar');
@@ -754,7 +754,9 @@ arrayTop.forEach((item) => {
 		<h3>${item.nombre}</h3>
 		<p>${item.modelo}</p>
 		<div class="list-items__content" id="list-items__content">
-			<p><b>Capacidad:</b>  ${item.capacidad}</p>
+			<p><b>Tipo:</b>  ${item.tipo}</p>
+			<p><b>Capacidad:</b><br>${item.capacidad}</p>
+			<p><b>Longitud:</b> ${item.longitud}</p>
 			<p><b>Peso:</b> ${item.peso}</p>
 		</div>
     </a>
@@ -766,24 +768,34 @@ inputBuscar.addEventListener('input', (e) => {
 	if (inputBuscar.value.trim() == '') {
 		containerList.innerHTML = '';
 		arrayTop.forEach((item) => {
-			containerList.innerHTML += `
-		<a href="${item.url}"  class="list-items__container-item" id="">
-			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-			<h3>${item.nombre}</h3>
-			<p>${item.modelo}</p>
-			<div class="list-items__content" id="list-items__content">
-				<p><b>Capacidad:</b>  ${item.capacidad}</p>
-				<p><b>Peso:</b> ${item.peso}</p>
-			</div>
-		</a>
-            `;
+			if (item.longitud === undefined) {
+				containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Capacidad:</b>  ${item.capacidad}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>`;
+			} else {
+				containerList.innerHTML += `
+				<a href="${item.url}"  class="list-items__container-item" id="">
+					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<h3>${item.nombre}</h3>
+					<p>${item.modelo}</p>
+					<div class="list-items__content" id="list-items__content">
+						<p><b>Tipo:</b>  ${item.tipo}</p>
+						<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+						<p><b>Longitud:</b> ${item.longitud}</p>
+						<p><b>Peso:</b> ${item.peso}</p>
+					</div>
+				</a>
+				`;
+			}
 		});
 	} else {
-		//     let newArray = arrayHerramientas.filter((item)=>{
-		//         if (item.nombre == inputBuscar.value || item.modelo == inputBuscar.value) {
-		//             return item;
-		//         }
-		//    })
 		let newArray = arrayHerramientas.filter((state) => {
 			const regex = new RegExp(`${inputBuscar.value}`, 'gi');
 			return (
@@ -795,81 +807,45 @@ inputBuscar.addEventListener('input', (e) => {
 
 		containerList.innerHTML = '';
 		newArray.forEach((item) => {
-			containerList.innerHTML += `
-			<a href="${item.url}" class="list-items__container-item" id="">
-			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-			<h3>${item.nombre}</h3>
-			<p>${item.modelo}</p>
-			<div class="list-items__content" id="list-items__content">
-				<p><b>Capacidad:</b>  ${item.capacidad}</p>
-				<p><b>Peso:</b> ${item.peso}</p>
-			</div>
-		</a>
-           `;
+			if (item.longitud === undefined) {
+				containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Capacidad:</b>  ${item.capacidad}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>`;
+			} else {
+				containerList.innerHTML += `
+				<a href="${item.url}"  class="list-items__container-item" id="">
+					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<h3>${item.nombre}</h3>
+					<p>${item.modelo}</p>
+					<div class="list-items__content" id="list-items__content">
+						<p><b>Tipo:</b>  ${item.tipo}</p>
+						<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+						<p><b>Longitud:</b> ${item.longitud}</p>
+						<p><b>Peso:</b> ${item.peso}</p>
+					</div>
+				</a>
+				`;
+			}
 		});
 	}
 
 	console.log(inputBuscar.value);
 });
 
-// boton buscar
-// btnBuscar.addEventListener('click', (e) => {
-// 	e.preventDefault();
-// 	if (inputBuscar.value.trim() == '') {
-// 		containerList.innerHTML = '';
-// 		arrayTop.forEach((item) => {
-// 			containerList.innerHTML += `
-//             <div class="list-items__container-item" id="">
-//         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-// 		<h3>${item.nombre}</h3>
-// 		<p>${item.modelo}</p>
-// 		<div class="list-items__content" id="list-items__content">
-// 			<p><b>Tipo:</b>  ${item.tipo}</p>
-// 			<p><b>Capacidad:</b>  ${item.capacidad}</p>
-// 			<p><b>Longitud:</b> ${item.longitud}</p>
-// 			<p><b>Peso:</b> ${item.peso}</p>
-// 		</div>
-//     </div>
-//             `;
-// 		});
-// 	} else {
-// 		let newArray = arrayHerramientas.filter((item) => {
-// 			if (
-// 				item.nombre.toLowerCase() == inputBuscar.value.toLowerCase() ||
-// 				item.modelo.toLowerCase() == inputBuscar.value.toLowerCase() ||
-// 				item.max.toLowerCase() == inputBuscar.value.toLowerCase()
-// 			) {
-// 				return item;
-// 			}
-// 		});
-
-// 		containerList.innerHTML = '';
-// 		newArray.forEach((item) => {
-// 			containerList.innerHTML += `
-//             <div class="list-items__container-item" id="">
-//         <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
-// 		<h3>${item.nombre}</h3>
-// 		<p>${item.modelo}</p>
-// 		<div class="list-items__content" id="list-items__content">
-// 			<p><b>Tipo:</b>  ${item.tipo}</p>
-// 			<p><b>Capacidad:</b>  ${item.capacidad}</p>
-// 			<p><b>Longitud:</b> ${item.longitud}</p>
-// 			<p><b>Peso:</b> ${item.peso}</p>
-// 		</div>
-//     </div>
-//            `;
-// 		});
-// 	}
-
-// 	console.log(inputBuscar.value);
-// });
-
 /*filtro boton*/
 
 btnTodo.addEventListener('click', () => {
 	containerList.innerHTML = '';
 	arrayHerramientas.forEach((item) => {
-		containerList.innerHTML += `
+		if (item.longitud === undefined) {
+			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
@@ -878,15 +854,30 @@ btnTodo.addEventListener('click', () => {
 				<p><b>Capacidad:</b>  ${item.capacidad}</p>
 				<p><b>Peso:</b> ${item.peso}</p>
 			</div>
-		</a>
-		`;
+		</a>`;
+		} else {
+			containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Tipo:</b>  ${item.tipo}</p>
+					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+					<p><b>Longitud:</b> ${item.longitud}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>
+			`;
+		}
 	});
 });
 
 btnTop.addEventListener('click', () => {
 	containerList.innerHTML = '';
 	arrayTop.forEach((item) => {
-		containerList.innerHTML += `
+		if (item.longitud === undefined) {
+			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
@@ -895,8 +886,22 @@ btnTop.addEventListener('click', () => {
 				<p><b>Capacidad:</b>  ${item.capacidad}</p>
 				<p><b>Peso:</b> ${item.peso}</p>
 			</div>
-		</a>
-		`;
+		</a>`;
+		} else {
+			containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Tipo:</b>  ${item.tipo}</p>
+					<p><b>Capacidad:</b> <br>  ${item.capacidad}</p>
+					<p><b>Longitud:</b> ${item.longitud}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>
+			`;
+		}
 	});
 });
 
@@ -913,7 +918,8 @@ rangeInput.addEventListener('mouseup', function () {
 
 	console.log(arrayRage);
 	arrayOrdenado.forEach((item) => {
-		containerList.innerHTML += `
+		if (item.longitud === undefined) {
+			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
 			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
 			<h3>${item.nombre}</h3>
@@ -922,7 +928,21 @@ rangeInput.addEventListener('mouseup', function () {
 				<p><b>Capacidad:</b>  ${item.capacidad}</p>
 				<p><b>Peso:</b> ${item.peso}</p>
 			</div>
-		</a>
-		`;
+		</a>`;
+		} else {
+			containerList.innerHTML += `
+			<a href="${item.url}"  class="list-items__container-item" id="">
+				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<h3>${item.nombre}</h3>
+				<p>${item.modelo}</p>
+				<div class="list-items__content" id="list-items__content">
+					<p><b>Tipo:</b>  ${item.tipo}</p>
+					<p><b>Capacidad:</b><br>  ${item.capacidad}</p>
+					<p><b>Longitud:</b> ${item.longitud}</p>
+					<p><b>Peso:</b> ${item.peso}</p>
+				</div>
+			</a>
+			`;
+		}
 	});
 });

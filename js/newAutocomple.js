@@ -8,7 +8,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 2477',
 				max: '150',
-				capacidad: '20-150 Lbs-pulg/2.8-16.4 Nm',
+				capacidad: '20-150 Lbs-pie/2.8-16.4 Nm',
 				longitud: '10.15',
 				peso: '0.9 Lbs',
 				tipo: 'Ratchet',
@@ -50,7 +50,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 3478',
 				max: '200',
-				capacidad: '30-200 Lbs-pulg/3.9-22 Nm',
+				capacidad: '30-200 Lbs-pie/3.9-22 Nm',
 				longitud: '10.15',
 				peso: '0.85 Lbs',
 				tipo: 'Ratchet',
@@ -64,7 +64,7 @@ const autoCompleteJS = new autoComplete({
 				marca: 'WRIGHT',
 				modelo: 'modelo 3479',
 				max: '1000',
-				capacidad: '150-1000 Lbs-pulg/19.8-110.2 Nm',
+				capacidad: '150-1000 Lbs-pie/19.8-110.2 Nm',
 				longitud: '15.75',
 				peso: '2.5 Lbs',
 				tipo: 'Ratchet',
@@ -162,7 +162,7 @@ const autoCompleteJS = new autoComplete({
 				modelo: 'modelo 8449',
 				max: '2000',
 				capacidad: '300-2000 Lbs-pie/480-2700 Nm',
-				longitud: '108-1/2',
+				longitud: '108.5',
 				peso: '48.75 Lbs',
 				tipo: 'Ratchet',
 				url: 'torquimetros-de-golpe.html',
@@ -175,7 +175,7 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '30',
 				modelo: 'modelo 2470',
-				capacidad: '0-30 LBS-pulg/0-3.5 Nm',
+				capacidad: '0-30 LBS-pie/0-3.5 Nm',
 				longitud: '10',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
@@ -188,11 +188,11 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '250',
 				modelo: 'modelo 4471',
-				capacidad: '0-250 LBS-pulg/0-350 Nm',
-				longitud: '21-1/2',
+				capacidad: '0-250 LBS-pie/0-350 Nm',
+				longitud: '21.5',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '2-3/4 Lbs',
+				peso: '2.75 Lbs',
 			},
 			{
 				id: 15,
@@ -201,7 +201,7 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '150',
 				modelo: 'modelo 3470',
-				capacidad: '0-150 LBS-pulg/0-18 Nm',
+				capacidad: '0-150 LBS-pie/0-18 Nm',
 				longitud: '10',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
@@ -214,7 +214,7 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '250',
 				modelo: 'modelo 3471',
-				capacidad: '0-250 LBS-pulg/0-30 Nm',
+				capacidad: '0-250 LBS-pie/0-30 Nm',
 				longitud: '10',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
@@ -230,7 +230,7 @@ const autoCompleteJS = new autoComplete({
 				longitud: '14-7/8',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '1-3/4 Lbs',
+				peso: '1.75 Lbs',
 			},
 			{
 				id: 17,
@@ -240,10 +240,10 @@ const autoCompleteJS = new autoComplete({
 				max: '175',
 				modelo: 'modelo 4470',
 				capacidad: '0-175 LBS-pie/0-240 Nm',
-				longitud: '21-1/2',
+				longitud: '21.5',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '2-3/4 Lbs',
+				peso: '2.75 Lbs',
 			},
 			{
 				id: 18,
@@ -252,11 +252,11 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '250',
 				modelo: 'modelo 4471',
-				capacidad: '0-250 LBS-pulg/0-350 Nm',
-				longitud: '21-1/2',
+				capacidad: '0-250 LBS-pie/0-350 Nm',
+				longitud: '21.5',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '2-3/4 Lbs',
+				peso: '2.75 Lbs',
 			},
 			{
 				id: 19,
@@ -266,7 +266,7 @@ const autoCompleteJS = new autoComplete({
 				max: '600',
 				modelo: 'modelo 6470',
 				capacidad: '0-600 LBS-pie/0-800 Nm',
-				longitud: '46-1/2',
+				longitud: '46.5',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
 				peso: '9-1/4 Lbs',
@@ -291,8 +291,8 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '600',
 				modelo: 'modelo 6472',
-				capacidad: '0-600 LBS-pulg/0-800 Nm',
-				longitud: '46-1/2',
+				capacidad: '0-600 LBS-pie/0-800 Nm',
+				longitud: '46.5',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
 				peso: '9-1/4 Lbs',
@@ -304,11 +304,11 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '1000',
 				modelo: 'modelo 8470',
-				capacidad: '0-1000 LBS-pulg/0-1400 Nm',
+				capacidad: '0-1000 LBS-pie/0-1400 Nm',
 				longitud: '74',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-				peso: '18-1/2 Lbs',
+				peso: '18.5 Lbs',
 			},
 			{
 				id: 23,
@@ -317,11 +317,11 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '1000',
 				modelo: 'modelo 8471',
-				capacidad: '0-1000 LBS-pulg/0-1400 Nm',
+				capacidad: '0-1000 LBS-pie/0-1400 Nm',
 				longitud: '74',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
-				peso: '18-1/2 Lbs',
+				peso: '18.5 Lbs',
 			},
 			{
 				id: 24,
@@ -330,11 +330,11 @@ const autoCompleteJS = new autoComplete({
 				tipo: 'RATCHET',
 				max: '2000',
 				modelo: 'modelo 8472',
-				capacidad: '0-2000 LBS-pulg/0-1400 Nm',
+				capacidad: '0-2000 LBS-pie/0-1400 Nm',
 				longitud: '122',
 				url: 'torquimetros-de-reloj.html',
 				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj d.jpg',
-				peso: '44-1/2 Lbs',
+				peso: '44.5 Lbs',
 			},
 			{
 				id: 25,
@@ -343,7 +343,7 @@ const autoCompleteJS = new autoComplete({
 				max: '15',
 				tipo: 'RATCHET',
 				modelo: 'modelo 2463',
-				capacidad: '3-15 Lb-pulg',
+				capacidad: '3-15 Lb-pie',
 				longitud: '8"',
 				url: 'torquimetros-destornillador.html',
 				img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
@@ -356,7 +356,7 @@ const autoCompleteJS = new autoComplete({
 				max: '40',
 				tipo: 'RATCHET',
 				modelo: 'modelo 2464',
-				capacidad: '5-40 Lb-pulg',
+				capacidad: '5-40 Lb-pie',
 				longitud: '8"',
 				url: 'torquimetros-destornillador.html',
 				img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
@@ -400,7 +400,7 @@ const autoCompleteJS = new autoComplete({
 				proporcion: '3.0:1',
 				url: 'multiplicador-de-torque.html',
 				img: './images/multiplicador/multiplicador/multiplicador a.jpg',
-				peso: '4-7/8 Lbs',
+				peso: '4.87 Lbs',
 			},
 			{
 				id: 30,
@@ -414,7 +414,7 @@ const autoCompleteJS = new autoComplete({
 				proporcion: '3.3:1',
 				url: 'multiplicador-de-torque.html',
 				img: './images/multiplicador/multiplicador/multiplicador b.jpg',
-				peso: '5-7/8 Lbs',
+				peso: '5.87 Lbs',
 			},
 			{
 				id: 31,
@@ -428,7 +428,7 @@ const autoCompleteJS = new autoComplete({
 				proporcion: '3.75:1',
 				url: 'multiplicador-de-torque.html',
 				img: './images/multiplicador/multiplicador/multiplicador c.jpg',
-				peso: '13-7/8 Lbs',
+				peso: '13.87 Lbs',
 			},
 			{
 				id: 32,
@@ -456,7 +456,7 @@ const autoCompleteJS = new autoComplete({
 				proporcion: '13.6:1',
 				url: 'multiplicador-de-torque.html',
 				img: './images/multiplicador/multiplicador/multiplicador e.jpg',
-				peso: '20-5/8 Lbs',
+				peso: '20.62 Lbs',
 			},
 			{
 				id: 34,
@@ -470,7 +470,7 @@ const autoCompleteJS = new autoComplete({
 				proporcion: '18.5:1',
 				url: 'multiplicador-de-torque.html',
 				img: './images/multiplicador/multiplicador/multiplicador e.jpg',
-				peso: '22-3/8 Lbs',
+				peso: '22.37 Lbs',
 			},
 			{
 				id: 35,
@@ -525,7 +525,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 				capacidad: '150-850 Nm',
-				peso: '9.8/10 kg ',
+				peso: '10 kg / 22 Lbs ',
 			},
 			{
 				id: 39,
@@ -538,7 +538,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 				capacidad: '280-1200 Nm',
-				peso: '10 Kg',
+				peso: '10 Kg / 22 Lbs',
 			},
 			{
 				id: 40,
@@ -551,7 +551,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 				capacidad: '360-3500 Nm',
-				peso: '14.5 Kg',
+				peso: '14.5 Kg / 32 Lbs',
 			},
 			{
 				id: 41,
@@ -564,7 +564,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-electrica.html',
 				img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 				capacidad: '50-700 Nm',
-				peso: '16.7 Kg',
+				peso: '16.7 Kg / 36.8 Lbs',
 			},
 			{
 				id: 42,
@@ -664,7 +664,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 				capacidad: '320-4900 Nm',
-				peso: '4.9 Kg',
+				peso: '4.9 Kg / 10.8 Lbs',
 			},
 			{
 				id: 50,
@@ -677,7 +677,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 				capacidad: '320-5200 Nm',
-				peso: '5.4 Kg',
+				peso: '5.4 Kg / 11.9 Lbs',
 			},
 			{
 				id: 51,
@@ -690,7 +690,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 				capacidad: '1000-4100 Nm',
-				peso: '7.8 Kg',
+				peso: '7.8 Kg / 17.2 Lbs',
 			},
 			{
 				id: 52,
@@ -703,7 +703,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 				capacidad: '440-1000 Nm',
-				peso: '7.8 Kg',
+				peso: '7.8 Kg / 17.2 Lbs',
 			},
 			{
 				id: 53,
@@ -716,7 +716,7 @@ const autoCompleteJS = new autoComplete({
 				url: 'llave-de-control-de-torque-hidraulica.html',
 				img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 				capacidad: '950-15200 Nm',
-				peso: '12 Kg',
+				peso: '12 Kg / 26.4 Lbs',
 			},
 		],
 		keys: ['nombre', 'modelo', 'capacidad'],
@@ -751,17 +751,35 @@ const autoCompleteJS = new autoComplete({
 				autoCompleteJS.input.value = selection.nombre;
 				let containerList = document.getElementById('list-items');
 
-				containerList.innerHTML = `
-				<a href="${selection.url}"  class="list-items__container-item" id="">
-						<img class="img-herramientas" src="${selection.img}" alt="" srcset="" />
-						<h3>${selection.nombre}</h3>
-						<p>${selection.modelo}</p>
-						<div class="list-items__content" id="list-items__content">
-							<p><b>capacidad:</b>  ${selection.capacidad}</p>
-							<p><b>peso:</b> ${selection.peso}</p>
-						</div>
-					</a>
-					`;
+				if (selection.longitud) {
+					containerList.innerHTML = `
+					<a href="${selection.url}"  class="list-items__container-item" id="">
+							<img class="img-herramientas" src="${selection.img}" alt="" srcset="" />
+							<h3>${selection.nombre}</h3>
+							<p>${selection.modelo}</p>
+							<div class="list-items__content" id="list-items__content">
+								<p><b>tipo:</b>  ${selection.tipo}</p>
+								<p><b>capacidad:</b>  ${selection.capacidad}</p>
+								<p><b>longitud:</b> ${selection.longitud}</p>
+								<p><b>peso:</b> ${selection.peso}</p>
+							</div>
+						</a>
+						`;
+					console.log('existe longitud');
+				} else {
+					containerList.innerHTML = `
+					<a href="${selection.url}"  class="list-items__container-item" id="">
+							<img class="img-herramientas" src="${selection.img}" alt="" srcset="" />
+							<h3>${selection.nombre}</h3>
+							<p>${selection.modelo}</p>
+							<div class="list-items__content" id="list-items__content">
+								<p><b>capacidad:</b>  ${selection.capacidad}</p>
+								<p><b>peso:</b> ${selection.peso}</p>
+							</div>
+						</a>
+						`;
+					console.log('no existe');
+				}
 			},
 		},
 	},
