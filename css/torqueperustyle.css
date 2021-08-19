@@ -3533,6 +3533,24 @@ a:hover {
 	width: 100%;
 	outline: none;
 }
+.range-filter {
+	display: flex;
+	flex-direction: column;
+}
+@media (max-width: 540px) {
+	.range-filter {
+		display: none;
+	}
+}
+.range-filter__input-container {
+	display: flex;
+	align-items: center;
+}
+#rangevalue {
+	padding-bottom: 7px;
+	margin-left: 4px;
+}
+
 .list-container-items {
 	min-height: 50vh;
 	padding-bottom: 70px;
@@ -3579,7 +3597,8 @@ a:hover {
 
 .busqueda-container__filtro {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
+	align-items: center;
 	width: 100%;
 	padding: 20px;
 	border: 1px solid black;
