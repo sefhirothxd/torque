@@ -3554,6 +3554,7 @@ a:hover {
 .list-container-items {
 	min-height: 50vh;
 	padding-bottom: 70px;
+	background: #eeeeee;
 }
 
 .list-items {
@@ -3573,7 +3574,9 @@ a:hover {
 	object-fit: contain;
 }
 .list-items__container-item {
-	border: 2px solid black;
+	/* border: 2px solid rgb(46, 46, 46); */
+	background: #fff;
+	border-radius: 10px;
 	display: inline-block;
 	width: 250px;
 	min-width: 150px;
@@ -3581,13 +3584,18 @@ a:hover {
 	text-align: center;
 	margin-right: 10px;
 }
+.list-items__container-item:hover{
+box-shadow: 0px 2px 10px 0px rgba(15, 12, 12, 0.2);
+transform: scale(1.02);
+}
 .list-items__container-item h3 {
 	font-size: 18px;
+	color: #ba2929;
 }
 
 .list-items__container-item #list-items__content {
 	text-align: left;
-	color: red;
+	color: #ba2929;
 	font-weight: 600;
 }
 
@@ -3601,9 +3609,9 @@ a:hover {
 	align-items: center;
 	width: 100%;
 	padding: 20px;
-	border: 1px solid black;
+	/* border: 1px solid black; */
 	margin-top: 30px;
-	background-color: #ccc;
+	/* background-color: #f9f9f9; */
 }
 .busqueda-container__filtro .btn-todos {
 	margin-right: 10px;
@@ -4228,26 +4236,26 @@ ul.slider li:target {
 }
 .autoComplete_wrapper > input {
 	font-size: 1.2rem;
-	font-weight: 700;
+	/* font-weight: 700; */
 }
 #autoComplete {
 	margin-top: 20px;
 	color: black;
 }
 .autoComplete_wrapper > input {
-	width: 55%;
-	height: 60px;
-	padding-left: 10px;
-	font-size: 18px;
-	color: black;
-	border-radius: 4px;
-	border: 1px solid black;
-	outline: none;
+    width: 55%;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: black;
+    border-radius: 10px;
+    border: 2px solid #888;
+    outline: none;
 }
 
 .autoComplete_wrapper > input::placeholder {
-	color: #888;
-	transition: all 0.3s ease;
+	color: rgb(182, 182, 182);
+	/* transition: all 0.3s ease; */
 }
 .autoComplete_wrapper > #autoComplete_list_1 {
 	width: 55%;
