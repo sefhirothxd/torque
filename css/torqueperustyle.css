@@ -2702,7 +2702,7 @@ a:hover {
 .footer_area .footer_row .footer_about address .my_address {
 	padding: 0;
 	margin: 0;
-	padding-top: 15px;
+	/* padding-top: 15px; */
 }
 .footer_area .footer_row .footer_about address .my_address li {
 	list-style: none;
