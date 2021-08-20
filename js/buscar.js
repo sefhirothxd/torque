@@ -123,7 +123,6 @@ let arrayHerramientas = [
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
-		tag: 'top',
 	},
 	{
 		id: 10,
@@ -137,7 +136,6 @@ let arrayHerramientas = [
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
-		tag: 'top',
 	},
 	{
 		id: 11,
@@ -982,7 +980,7 @@ rangeInput.addEventListener('mouseup', function () {
 
 	arrayOrdenado = arrayRage.sort((a, b) => parseInt(a.max) - parseInt(b.max));
 
-	rangeValue.innerHTML = rangeInput.value + ' libras pie';
+	rangeValue.innerHTML = rangeInput.value + ' Libras pie';
 
 	console.log(arrayRage);
 	arrayOrdenado.forEach((item) => {
