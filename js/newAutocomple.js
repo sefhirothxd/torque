@@ -181,19 +181,6 @@ const autoCompleteJS = new autoComplete({
 			},
 			{
 				id: 14,
-				nombre: 'Torquimetros de reloj encastre 1/2"',
-				encastre: '1/2',
-				tipo: 'RATCHET',
-				max: '250',
-				modelo: 'modelo 4471',
-				capacidad: '50 - 250 lbs-pie / 68 - 339 Nm',
-				longitud: '21.5',
-				url: 'torquimetros-de-reloj.html',
-				img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-				peso: '2.75 Lbs',
-			},
-			{
-				id: 15,
 				nombre: 'Torquimetros de reloj encastre 3/8"',
 				encastre: '3/8',
 				tipo: 'RATCHET',
@@ -206,7 +193,7 @@ const autoCompleteJS = new autoComplete({
 				peso: '1 Lbs',
 			},
 			{
-				id: 16,
+				id: 15,
 				nombre: 'Torquimetros de reloj encastre 3/8"',
 				encastre: '3/8',
 				tipo: 'RATCHET',
@@ -219,6 +206,7 @@ const autoCompleteJS = new autoComplete({
 				peso: '1 Lbs',
 			},
 			{
+				id: 16,
 				nombre: 'Torquimetros de reloj encastre 3/8"',
 				encastre: '3/8',
 				tipo: 'RATCHET',
