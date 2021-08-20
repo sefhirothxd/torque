@@ -3537,7 +3537,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 }
-@media (max-width: 540px) {
+@media (max-width: 560px) {
 	.range-filter {
 		display: none;
 	}
@@ -3547,6 +3547,7 @@ a:hover {
 	align-items: center;
 }
 #rangevalue {
+	width: 150px;
 	padding-bottom: 7px;
 	margin-left: 4px;
 }

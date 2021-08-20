@@ -982,7 +982,7 @@ rangeInput.addEventListener('mouseup', function () {
 
 	arrayOrdenado = arrayRage.sort((a, b) => parseInt(a.max) - parseInt(b.max));
 
-	rangeValue.innerHTML = rangeInput.value;
+	rangeValue.innerHTML = rangeInput.value + ' libras pie';
 
 	console.log(arrayRage);
 	arrayOrdenado.forEach((item) => {
