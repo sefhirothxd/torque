@@ -15,22 +15,17 @@ let btnProduct2 = document.querySelector('.btn-product-mobil');
 let btnllave = document.querySelector('#btn-llave-movil');
 let btnllave2 = document.querySelector('.ocultarllave');
 let btnHamburger = document.querySelector('.hamburger');
-
-// if (x >= 1200) {
-// 	if (y > 50) {
-// 		document.querySelector('.product-container').style.top = '184px';
-// 		document.querySelector('.product-container').style.animationName =
-// 			'probando';
-// 	} else {
-// 		document.querySelector('.product-container').style.top = '150px';
-// 		document.querySelector('.product-container').style.animationName =
-// 			'example';
-// 	}
-// } else if (x < 1200) {
-// 	document.querySelector('.product-container').style.top = '150px';
-// } else if (x == 137) {
-// 	document.querySelector('.product-container').style.top = '150px';
-// }
+/*seccion desplegable*/
+let contenedorDesplegable = document.querySelector('.port_item');
+let btn_todoCard = document.querySelector('.todos-card');
+let btn_torquimetroCard = document.querySelector('.torquimetro-card');
+let btn_multiplicadorCard = document.querySelector('.multiplicador-card');
+let btn_llaveCard = document.querySelector('.llave-card');
+/*lis para cambiar los estados*/
+let li_todos = document.querySelector('.li-todo');
+let li_torqui = document.querySelector('.li-torquimetro');
+let li_multi = document.querySelector('.li-multiplicador');
+let li_llave = document.querySelector('.li-llave');
 
 setInterval(() => {
 	// console.log('verifico');
@@ -107,62 +102,199 @@ btnHamburger.addEventListener('click', () => {
 	btnllave2.classList.add('hidden');
 });
 
-// console.log(y);
-// console.log(x, 'ancho');
+btn_todoCard.addEventListener('click', () => {
+	li_todos.classList.add('active');
+	li_torqui.classList.remove('active');
+	li_multi.classList.remove('active');
+	li_llave.classList.remove('active');
 
-// window.addEventListener('scroll', () => {
-// 	let y =
-// 		window.scrollY +
-// 		document.querySelector('#min_navbar').getBoundingClientRect().top;
-// 	let x =
-// 		window.innerWidth ||
-// 		document.documentElement.clientWidth ||
-// 		document.body.clientWidth;
+	contenedorDesplegable.innerHTML = `
+		<div class="portfolio_item__card">
+		<h3>Torquimetros</h3>
+		<div class="portfolio_item__card--content">
+			<img
+				class=""
+				src="images/torquimetros.jpg"
+				alt="Torquimetros"
+			/>
+			<section class="portfolio_item__card--content__text">
+				<p>tenemos:</p>
+				<ul>
+					<li>
+						<a href="torquimetros-de-golpe.html"
+							>Torqu&iacute;metros de Golpe</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
+							>Torqu&iacute;metros de Reloj</a
+						>
+					</li>
+				</ul>
+				<p>Encastre de diferentes medidas...</p>
+				<a href="torquimetros-de-golpe.html" class="button_all"
+					>Ver Más</a
+				>
+			</section>
+		</div>
+	</div>
+	<div class="portfolio_item__card">
+		<h3>MULPLICADOR DE TORQUE</h3>
+		<div class="portfolio_item__card--content">
+			<img
+				class=""
+				src="images/multiplicador torque.jpg"
+				alt="Torquimetros"
+			/>
+			<section class="portfolio_item__card--content__text">
+				<p>Encastre en variedad de medidas...</p>
+				<ul>
+					<li>Torque de salida 750 Lbs-pie</li>
+					<li>Torque de salida 1000 Lbs-pie</li>
+					<li>Torque de salida 1200 Lbs-pie</li>
+					<li>Torque de salida 2000 Lbs-pie</li>
+					<li>Torque de salida 2200 Lbs-pie</li>
+					<li>Torque de salida 3200 Lbs-pie</li>
+					<li>Torque de salida 5000 Lbs-pie</li>
+					<li>Torque de salida 8000 Lbs-pie</li>
+				</ul>
+				<a href="multiplicador-de-torque.html" class="button_all"
+					>Ver Más</a
+				>
+			</section>
+		</div>
+	</div>
+	<div class="portfolio_item__card">
+		<h3>LLAVES DE CONTROL DE TORQUE</h3>
+		<div class="portfolio_item__card--content">
+			<img class="" src="images/llaves.jpg" alt="Torquimetros" />
+			<section class="portfolio_item__card--content__text">
+				<p>
+					<a href="llave-de-control-de-torque-electrica.html"
+						>Llave de controld de torque <b>el&eacute;ctrica</b></a
+					><br />
+					<a href="llave-de-control-de-torque-a-bateria.html"
+						>Llave de controld de torque a <b>bater&iacute;a</b></a
+					><br />
+					<a href="llave-de-control-de-torque-neumatica.html"
+						>Llave de controld de torque <b>neum&aacute;tica</b></a
+					><br />
+					<a href="llave-de-control-de-torque-hidraulica.html"
+						>Llave de controld de torque <b>hidr&aacute;ulica</b></a
+					><br />
+				</p>
+				<a href="llave-de-control.html" class="button_all">Ver Más</a>
+			</section>
+		</div>
+	</div>	
+		
+		`;
+});
+btn_torquimetroCard.addEventListener('click', () => {
+	li_todos.classList.remove('active');
+	li_torqui.classList.add('active');
+	li_multi.classList.remove('active');
+	li_llave.classList.remove('active');
+	console.log('funciono');
+	contenedorDesplegable.innerHTML = `
+	<div class="portfolio_item__card">
+	<h3>Torquimetros</h3>
+	<div class="portfolio_item__card--content">
+		<img
+			class=""
+			src="images/torquimetros.jpg"
+			alt="Torquimetros"
+		/>
+		<section class="portfolio_item__card--content__text">
+			<p>tenemos:</p>
+			<ul>
+				<li>
+					<a href="torquimetros-de-golpe.html"
+						>Torqu&iacute;metros de Golpe</a
+					>
+				</li>
+				<li>
+					<a href="torquimetros-de-reloj.html"
+						>Torqu&iacute;metros de Reloj</a
+					>
+				</li>
+			</ul>
+			<p>Encastre de diferentes medidas...</p>
+			<a href="torquimetros-de-golpe.html" class="button_all"
+				>Ver Más</a
+			>
+		</section>
+	</div>
+</div>
 
-// 	console.log(y);
-// 	console.log(x, 'ancho');
+	
+	`;
+});
+btn_multiplicadorCard.addEventListener('click', () => {
+	li_todos.classList.remove('active');
+	li_torqui.classList.remove('active');
+	li_multi.classList.add('active');
+	li_llave.classList.remove('active');
 
-// 	if (x >= 1200) {
-// 		if (y > 50) {
-// 			document.querySelector('.product-container').style.top = '100px';
-// 			document.querySelector('.product-container').style.animationName =
-// 				'probando';
-// 		} else {
-// 			document.querySelector('.product-container').style.top = '150px';
-// 			document.querySelector('.product-container').style.animationName =
-// 				'example';
-// 		}
-// 	}
-// 	if (x < 1200 && x >= 992) {
-// 		if (y == 86) {
-// 			document.querySelector('.product-container').style.top = '186px';
-// 			document.querySelector('.product-container').style.animationName =
-// 				'medida1200';
-// 		} else {
-// 			document.querySelector('.product-container').style.top = '100px';
-// 			document.querySelector('.product-container').style.animationName =
-// 				'probando';
-// 		}
-// 	}
-// 	if (x < 992) {
-// 		if (y == 137) {
-// 			document.querySelector('.product-container').style.top = '236px';
-// 			document.querySelector('.product-container').style.animationName =
-// 				'medida92';
-// 		} else {
-// 			document.querySelector('.product-container').style.top = '100px';
-// 			document.querySelector('.product-container').style.animationName =
-// 				'probando';
-// 		}
-// 	}
+	contenedorDesplegable.innerHTML = `
+	<div class="portfolio_item__card">
+		<h3>MULPLICADOR DE TORQUE</h3>
+		<div class="portfolio_item__card--content">
+			<img
+				class=""
+				src="images/multiplicador torque.jpg"
+				alt="Torquimetros"
+			/>
+			<section class="portfolio_item__card--content__text">
+				<p>Encastre en variedad de medidas...</p>
+				<ul>
+					<li>Torque de salida 750 Lbs-pie</li>
+					<li>Torque de salida 1000 Lbs-pie</li>
+					<li>Torque de salida 1200 Lbs-pie</li>
+					<li>Torque de salida 2000 Lbs-pie</li>
+					<li>Torque de salida 2200 Lbs-pie</li>
+					<li>Torque de salida 3200 Lbs-pie</li>
+					<li>Torque de salida 5000 Lbs-pie</li>
+					<li>Torque de salida 8000 Lbs-pie</li>
+				</ul>
+				<a href="multiplicador-de-torque.html" class="button_all"
+					>Ver Más</a
+				>
+			</section>
+		</div>
+	</div>
+		`;
+});
+btn_llaveCard.addEventListener('click', () => {
+	li_todos.classList.remove('active');
+	li_torqui.classList.remove('active');
+	li_multi.classList.remove('active');
+	li_llave.classList.add('active');
 
-// if (y > 50) {
-// 	document.querySelector('.product-container').style.top = '100px';
-// 	document.querySelector('.product-container').style.animationName =
-// 		'probando';
-// } else {
-// 	document.querySelector('.product-container').style.top = '150px';
-// 	document.querySelector('.product-container').style.animationName =
-// 		'example';
-// }
-// });
+	contenedorDesplegable.innerHTML = `
+	<div class="portfolio_item__card">
+		<h3>LLAVES DE CONTROL DE TORQUE</h3>
+		<div class="portfolio_item__card--content">
+			<img class="" src="images/llaves.jpg" alt="Torquimetros" />
+			<section class="portfolio_item__card--content__text">
+				<p>
+					<a href="llave-de-control-de-torque-electrica.html"
+						>Llave de controld de torque <b>el&eacute;ctrica</b></a
+					><br />
+					<a href="llave-de-control-de-torque-a-bateria.html"
+						>Llave de controld de torque a <b>bater&iacute;a</b></a
+					><br />
+					<a href="llave-de-control-de-torque-neumatica.html"
+						>Llave de controld de torque <b>neum&aacute;tica</b></a
+					><br />
+					<a href="llave-de-control-de-torque-hidraulica.html"
+						>Llave de controld de torque <b>hidr&aacute;ulica</b></a
+					><br />
+				</p>
+				<a href="llave-de-control.html" class="button_all">Ver Más</a>
+			</section>
+		</div>
+	</div>	
+		
+		`;
+});
