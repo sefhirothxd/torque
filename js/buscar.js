@@ -1,6 +1,7 @@
 let arrayHerramientas = [
 	{
 		id: 1,
+		alt: 'Torquimetros  de golpe encastre 1/4',
 		nombre: 'Torquimetros  de golpe encastre 1/4"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 2477',
@@ -8,14 +9,16 @@ let arrayHerramientas = [
 		min: '2',
 		capacidad: '2.5 - 12.5 Lbs-pie / 3.40 - 16.90 Nm',
 		longitud: '10"',
-		peso: '0.40 Kg / 0.9 Lbs',
+		peso: '0.40 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
 		tag: 'top',
+		alt: 'Torquimetros de golpe encastre 1/4',
 	},
 	{
 		id: 2,
+		alt: 'Torquimetros  de golpe encastre 3/8',
 		nombre: 'Torquimetros  de golpe encastre 3/8"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 3447',
@@ -23,7 +26,7 @@ let arrayHerramientas = [
 		min: '15',
 		capacidad: '15 - 75 Lbs-pie / 20.30 - 101.70 Nm',
 		longitud: '15.15"',
-		peso: '1.13 Kg / 2.5 Lbs',
+		peso: '1.13 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
@@ -31,6 +34,7 @@ let arrayHerramientas = [
 	},
 	{
 		id: 3,
+		alt: 'Torquimetros  de golpe encastre 3/8',
 		nombre: 'Torquimetros  de golpe encastre 3/8"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 3477',
@@ -38,7 +42,7 @@ let arrayHerramientas = [
 		min: '20',
 		capacidad: '20 - 100 Lbs-pie / 27.10 - 135.60 Nm',
 		longitud: '15.15"',
-		peso: '1.13 Kg / 2.5 Lbs',
+		peso: '1.13 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
@@ -46,6 +50,7 @@ let arrayHerramientas = [
 	},
 	{
 		id: 4,
+		alt: 'Torquimetros  de golpe encastre 3/8',
 		nombre: 'Torquimetros  de golpe encastre 3/8"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 3478',
@@ -53,7 +58,7 @@ let arrayHerramientas = [
 		min: '3',
 		capacidad: '3.33 - 16.66 Lbs-pie / 4.50 - 22.60 Nm',
 		longitud: '10"',
-		peso: '0.38 Kg / 0.85 Lbs',
+		peso: '0.38 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
@@ -61,6 +66,7 @@ let arrayHerramientas = [
 	},
 	{
 		id: 5,
+		alt: 'Torquimetros  de golpe encastre 3/8',
 		nombre: 'Torquimetros  de golpe encastre 3/8"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 3479',
@@ -68,7 +74,7 @@ let arrayHerramientas = [
 		min: '16',
 		capacidad: '16.66 - 83.33 Lbs-pie / 22.60-113 Nm',
 		longitud: '15.5"',
-		peso: '1.13 Kg / 2.5 Lbs',
+		peso: '1.13 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe a.jpg',
@@ -76,6 +82,7 @@ let arrayHerramientas = [
 	},
 	{
 		id: 6,
+		alt: 'Torquimetros  de golpe encastre 1/2',
 		nombre: 'Torquimetros  de golpe encastre 1/2"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 4476',
@@ -83,7 +90,7 @@ let arrayHerramientas = [
 		min: '58',
 		capacidad: '58.33 - 133.33 Lbs-pie / 79.10-180.80 Nm',
 		longitud: '19"',
-		peso: '1.36 Kg / 3.0 Lbs',
+		peso: '1.36 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
@@ -91,6 +98,7 @@ let arrayHerramientas = [
 	},
 	{
 		id: 7,
+		alt: 'Torquimetros  de golpe encastre 1/2',
 		nombre: 'Torquimetros  de gople encastre 1/2"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 4477',
@@ -98,7 +106,7 @@ let arrayHerramientas = [
 		min: '30',
 		capacidad: '30 - 150 Lbs-pie / 40.70 - 203.40 Nm',
 		longitud: '19"',
-		peso: '1.42 Kg / 3.15 Lbs',
+		peso: '1.42 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
@@ -106,6 +114,7 @@ let arrayHerramientas = [
 	},
 	{
 		id: 8,
+		alt: 'Torquimetros  de golpe encastre 1/2',
 		nombre: 'Torquimetros  de golpe encastre 1/2"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 4478',
@@ -113,7 +122,7 @@ let arrayHerramientas = [
 		min: '50',
 		capacidad: '50 - 250 Lbs-pie / 67.80 - 339 Nm',
 		longitud: '24"',
-		peso: '1.42 Kg / 3.15 Lbs',
+		peso: '1.42 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
@@ -121,6 +130,7 @@ let arrayHerramientas = [
 	},
 	{
 		id: 9,
+		alt: 'Torquimetros  de golpe encastre 3/4',
 		nombre: 'Torquimetros  de golpe encastre 3/4"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 6448',
@@ -128,13 +138,14 @@ let arrayHerramientas = [
 		min: '120',
 		capacidad: '120 - 600 Lbs-pie /  163 - 813 Nm',
 		longitud: '41"',
-		peso: '4.05 Kg / 8.95 Lbs',
+		peso: '4.05 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
 	},
 	{
 		id: 10,
+		alt: 'Torquimetros  de golpe encastre 1',
 		nombre: 'Torquimetros  de golpe encastre 1"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 8447',
@@ -142,13 +153,14 @@ let arrayHerramientas = [
 		min: '200',
 		capacidad: '200 - 1000 Lbs-pie / 271 - 1356 Nm',
 		longitud: '70"',
-		peso: '18.14 Kg / 40 Lbs',
+		peso: '18.14 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe b.jpg',
 	},
 	{
 		id: 11,
+		alt: 'Torquimetros  de golpe encastre 1',
 		nombre: 'Torquimetros  de golpe encastre 1"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 8448',
@@ -156,13 +168,14 @@ let arrayHerramientas = [
 		min: '200',
 		capacidad: '200 - 1000 Lbs-pie / 271 - 1356 Nm',
 		longitud: '70',
-		peso: '11.11 Kg / 24.5 Lbs',
+		peso: '11.11 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe c.jpg',
 	},
 	{
 		id: 12,
+		alt: 'Torquimetros  de golpe encastre 1',
 		nombre: 'Torquimetros  de golpe encastre 1"',
 		marca: 'WRIGHT',
 		modelo: 'modelo 8449',
@@ -170,13 +183,14 @@ let arrayHerramientas = [
 		min: '400',
 		capacidad: '400 - 2000 Lbs-pie / 542.33 - 2711.64 Nm',
 		longitud: '108"',
-		peso: '22.11 Kg / 48.75 Lbs',
+		peso: '22.11 Kg',
 		tipo: 'Ratchet',
 		url: 'torquimetros-de-golpe.html',
 		img: './images/torquimetros/torquimetros de golpe/torquimetros de golpe d.jpg',
 	},
 	{
 		id: 13,
+		alt: 'Torquimetros de reloj encastre 1/4',
 		nombre: 'Torquimetros de reloj encastre 1/4"',
 		encastre: '1/4',
 		tipo: 'RATCHET',
@@ -187,10 +201,11 @@ let arrayHerramientas = [
 		longitud: '11.25"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '0.45 Kg / 1 Lbs',
+		peso: '0.45 Kg',
 	},
 	{
 		id: 14,
+		alt: 'Torquimetros de reloj encastre 3/8',
 		nombre: 'Torquimetros de reloj encastre 3/8"',
 		encastre: '3/8',
 		tipo: 'RATCHET',
@@ -201,10 +216,11 @@ let arrayHerramientas = [
 		longitud: '11.25"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '0.45 Kg / 1 Lbs',
+		peso: '0.45 Kg',
 	},
 	{
 		id: 15,
+		alt: 'Torquimetros de reloj encastre 3/8',
 		nombre: 'Torquimetros de reloj encastre 3/8"',
 		encastre: '3/8',
 		tipo: 'RATCHET',
@@ -215,10 +231,11 @@ let arrayHerramientas = [
 		longitud: '11.25"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '0.45 Kg / 1 Lbs',
+		peso: '0.45 Kg',
 	},
 	{
 		id: 16,
+		alt: 'Torquimetros de reloj encastre 3/8',
 		nombre: 'Torquimetros de reloj encastre 3/8"',
 		encastre: '3/8',
 		tipo: 'RATCHET',
@@ -229,10 +246,11 @@ let arrayHerramientas = [
 		longitud: '14.88"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '0.79 Kg / 1.75 Lbs',
+		peso: '0.79 Kg',
 	},
 	{
 		id: 17,
+		alt: 'Torquimetros de reloj encastre 1/2',
 		nombre: 'Torquimetros de reloj encastre 1/2"',
 		encastre: '1/2',
 		tipo: 'RATCHET',
@@ -243,10 +261,11 @@ let arrayHerramientas = [
 		longitud: '21.75"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '1.24 Kg / 2.75 Lbs',
+		peso: '1.24 Kg',
 	},
 	{
 		id: 18,
+		alt: 'Torquimetros de reloj encastre 1/2',
 		nombre: 'Torquimetros de reloj encastre 1/2"',
 		encastre: '1/2',
 		tipo: 'RATCHET',
@@ -257,10 +276,11 @@ let arrayHerramientas = [
 		longitud: '21.75"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj a.jpg',
-		peso: '1.24 Kg / 2.75 Lbs',
+		peso: '1.24 Kg',
 	},
 	{
 		id: 19,
+		alt: 'Torquimetros de reloj encastre 3/4',
 		nombre: 'Torquimetros de reloj encastre 3/4"',
 		encastre: '3/4',
 		tipo: 'RATCHET',
@@ -271,10 +291,11 @@ let arrayHerramientas = [
 		longitud: '46.75"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-		peso: '4.19 Kg / 9.25 Lbs',
+		peso: '4.19 Kg',
 	},
 	{
 		id: 20,
+		alt: 'Torquimetros de reloj encastre 3/4',
 		nombre: 'Torquimetros de reloj encastre 3/4"',
 		encastre: '3/4',
 		tipo: 'RATCHET',
@@ -285,10 +306,11 @@ let arrayHerramientas = [
 		longitud: '28"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-		peso: '2.60 Kg / 5.75 Lbs',
+		peso: '2.60 Kg',
 	},
 	{
 		id: 21,
+		alt: 'Torquimetros de reloj encastre 3/4',
 		nombre: 'Torquimetros de reloj encastre 3/4"',
 		encastre: '3/4',
 		tipo: 'RATCHET',
@@ -299,10 +321,11 @@ let arrayHerramientas = [
 		longitud: '46.75"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
-		peso: '4.19 Kg / 9.25 Lbs',
+		peso: '4.19 Kg',
 	},
 	{
 		id: 22,
+		alt: 'Torquimetros de reloj encastre 1',
 		nombre: 'Torquimetros de reloj encastre 1"',
 		encastre: '1',
 		tipo: 'RATCHET',
@@ -313,10 +336,11 @@ let arrayHerramientas = [
 		longitud: '74"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj b.jpg',
-		peso: '8.39 Kg / 18.5 Lbs',
+		peso: '8.39 Kg',
 	},
 	{
 		id: 23,
+		alt: 'Torquimetros de reloj encastre 1',
 		nombre: 'Torquimetros de reloj encastre 1"',
 		encastre: '1',
 		tipo: 'RATCHET',
@@ -327,10 +351,11 @@ let arrayHerramientas = [
 		longitud: '74"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj c.jpg',
-		peso: '8.39 Kg / 18.5 Lbs',
+		peso: '8.39 Kg',
 	},
 	{
 		id: 24,
+		alt: 'Torquimetros de reloj encastre 1',
 		nombre: 'Torquimetros de reloj encastre 1"',
 		encastre: '1',
 		tipo: 'RATCHET',
@@ -341,10 +366,11 @@ let arrayHerramientas = [
 		longitud: '122"',
 		url: 'torquimetros-de-reloj.html',
 		img: './images/torquimetros/torquimetro de reloj/torquimetros reloj d.jpg',
-		peso: '20.18 Kg / 44.5 Lbs',
+		peso: '20.18 Kg',
 	},
 	{
 		id: 25,
+		alt: 'Artornillador digital encaste hexagonal 1/4',
 		nombre: 'Artornillador digital encaste hexagonal 1/4"',
 		encastre: '1/4"',
 		max: '1',
@@ -355,10 +381,11 @@ let arrayHerramientas = [
 		longitud: '8"',
 		url: 'torquimetros-destornillador.html',
 		img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
-		peso: '0.45 Kg / 1 Lbs',
+		peso: '0.45 Kg',
 	},
 	{
 		id: 26,
+		alt: 'Artornillador digital encaste hexagonal 1/4',
 		nombre: 'Artornillador digital encaste hexagonal 1/4"',
 		encastre: '1/4"',
 		max: '3',
@@ -369,10 +396,11 @@ let arrayHerramientas = [
 		longitud: '8"',
 		url: 'torquimetros-destornillador.html',
 		img: './images/torquimetros/torquimetro destornillador/atornillador.jpg',
-		peso: '0.45 Kg / 1 Lbs',
+		peso: '0.45 Kg',
 	},
 	{
 		id: 27,
+		alt: 'Torquimetro digital inalambrico encaste 3/8',
 		nombre: 'Torquimetro digital inalambrico encaste 3/8"',
 		encastre: '3/8"',
 		max: '100',
@@ -383,10 +411,11 @@ let arrayHerramientas = [
 		longitud: '23.3"',
 		url: 'torquimetros-digital-inalambrico.html',
 		img: './images/torquimetros/torquimetro digital/torquimetro digital inalambrico.jpg',
-		peso: '2.49 Kg / 5.5 Lbs',
+		peso: '2.49 Kg',
 	},
 	{
 		id: 28,
+		alt: 'Torquimetro digital inalambrico encaste 1/2',
 		nombre: 'Torquimetro digital inalambrico encaste 1/2"',
 		encastre: '1/2"',
 		max: '150',
@@ -397,10 +426,11 @@ let arrayHerramientas = [
 		longitud: '23.5"',
 		url: 'torquimetros-digital-inalambrico.html',
 		img: './images/torquimetros/torquimetro digital/torquimetro digital inalambrico.jpg',
-		peso: '2.58 Kg / 5.7 Lbs',
+		peso: '2.58 Kg',
 	},
 	{
 		id: 29,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S290P',
 		encastreEntrada: '1/2"',
@@ -413,10 +443,11 @@ let arrayHerramientas = [
 		proporcion: '3.0:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador a.jpg',
-		peso: '2.20 Kg / 4.87 Lbs',
+		peso: '2.20 Kg',
 	},
 	{
 		id: 30,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S291',
 		encastreEntrada: '1/2"',
@@ -429,10 +460,11 @@ let arrayHerramientas = [
 		proporcion: '3.3:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador b.jpg',
-		peso: '2.66 Kg / 5.87 Lbs',
+		peso: '2.66 Kg',
 	},
 	{
 		id: 31,
+		alt: 'Multiplicador de torque encastre 3/4',
 		nombre: 'Multiplicador de torque encastre 3/4"',
 		modelo: 'modelo 9S292',
 		encastreEntrada: '3/4"',
@@ -445,10 +477,11 @@ let arrayHerramientas = [
 		proporcion: '3.75:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador c.jpg',
-		peso: '6.29 Kg / 13.87 Lbs',
+		peso: '6.29 Kg',
 	},
 	{
 		id: 32,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S391',
 		encastreEntrada: '1/2"',
@@ -461,10 +494,11 @@ let arrayHerramientas = [
 		proporcion: '6:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador d.jpg',
-		peso: '5.89 Kg / 13 Lbs',
+		peso: '5.89 Kg',
 	},
 	{
 		id: 33,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S392B',
 		encastreEntrada: '1/2"',
@@ -477,10 +511,11 @@ let arrayHerramientas = [
 		proporcion: '13.6:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador e.jpg',
-		peso: '9.35 Kg / 20.62 Lbs',
+		peso: '9.35 Kg',
 	},
 	{
 		id: 34,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S393A',
 		encastreEntrada: '1/2"',
@@ -493,10 +528,11 @@ let arrayHerramientas = [
 		proporcion: '18.5:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador e.jpg',
-		peso: '10.14 Kg / 22.37 Lbs',
+		peso: '10.14 Kg',
 	},
 	{
 		id: 35,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S394',
 		encastreEntrada: '1/2"',
@@ -509,10 +545,11 @@ let arrayHerramientas = [
 		proporcion: '26.5:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador f.jpg',
-		peso: '15.42 Kg / 34.0 Lbs',
+		peso: '15.42 Kg',
 	},
 	{
 		id: 36,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S395',
 		encastreEntrada: '1/2"',
@@ -525,10 +562,11 @@ let arrayHerramientas = [
 		proporcion: '52.0:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador f.jpg',
-		peso: '22.81 Kg / 50.3 Lbs',
+		peso: '22.81 Kg',
 	},
 	{
 		id: 37,
+		alt: 'Multiplicador de torque encastre 1/2',
 		nombre: 'Multiplicador de torque encastre 1/2"',
 		modelo: 'modelo 9S492',
 		encastreEntrada: '1/2"',
@@ -541,10 +579,11 @@ let arrayHerramientas = [
 		proporcion: '13.6:1',
 		url: 'multiplicador-de-torque.html',
 		img: './images/multiplicador/multiplicador/multiplicador g.jpg',
-		peso: '7.80 Kg / 17.2 Lbs',
+		peso: '7.80 Kg',
 	},
 	{
 		id: 38,
+		alt: 'Llave de control de torque electricas encastre 3/4',
 		nombre: 'Llave de control de torque electricas encastre 3/4"',
 		artN: '50 084 103',
 		encastre: '3/4 ó 1"',
@@ -555,10 +594,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '110.63 - 626.93 Lbs-pie / 150 - 850 Nm',
-		peso: '10 kg / 22 Lbs ',
+		peso: '10 kg',
 	},
 	{
 		id: 39,
+		alt: 'Llave de control de torque electricas encastre 1',
 		nombre: 'Llave de control de torque electricas encastre 1"',
 		artN: '50 105 113',
 		encastre: '1"',
@@ -569,10 +609,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '206.52 - 885.07 Lbs-pie / 280 - 1200 Nm',
-		peso: '10 Kg / 22 Lbs',
+		peso: '10 Kg',
 	},
 	{
 		id: 40,
+		alt: 'Llave de control de torque electricas encastre 1.1/2',
 		nombre: 'Llave de control de torque electricas encastre 1.1/2"',
 		artN: '50 335 133',
 		encastre: '1.1/2"',
@@ -583,10 +624,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '265.52 - 2581.47 Lbs-pie / 360 - 3500 Nm',
-		peso: '14.5 Kg / 32 Lbs',
+		peso: '14.5 Kg',
 	},
 	{
 		id: 41,
+		alt: 'Llave de control de torque electricas encastre 1.1/2',
 		nombre: 'Llave de control de torque electricas encastre 1.1/2"',
 		artN: '50 505 143',
 		encastre: '1.1/2"',
@@ -597,10 +639,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-electrica.html',
 		img: './images/llave/llave de control de torque electrica/llave de control de torque electrica.jpg',
 		capacidad: '36.87 - 516.29 Lbs-pie / 50 - 700 Nm',
-		peso: '16.7 Kg / 36.8 Lbs',
+		peso: '16.7 Kg',
 	},
 	{
 		id: 42,
+		alt: 'Llave de control de torque inalambrico encastre 3/4',
 		nombre: 'Llave de control de torque inalambrico encastre 3/4"',
 		encastre: '3/4"',
 		max: '958',
@@ -610,10 +653,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-a-bateria.html',
 		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica a.jpg',
 		capacidad: '221.27 - 958.83 libs-pie / 300 - 1300 Nm',
-		peso: '5.3 Kg / 11.7 Lbs',
+		peso: '5.3 Kg',
 	},
 	{
 		id: 43,
+		alt: 'Llave de control de torque inalambrico encastre 1',
 		nombre: 'Llave de control de torque inalambrico encastre 1"',
 		encastre: '1"',
 		max: '1917',
@@ -623,10 +667,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-a-bateria.html',
 		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica b.jpg',
 		capacidad: '516.29 - 1917.66 Lbs-pie / 700 - 2600 Nm',
-		peso: '7.2 Kg / 15.9 Lbs',
+		peso: '7.2 Kg',
 	},
 	{
 		id: 44,
+		alt: 'Llave de control de torque inalambrico encastre 1',
 		nombre: 'Llave de control de torque inalambrico encastre 1"',
 		encastre: '1"',
 		max: '3024',
@@ -636,10 +681,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-a-bateria.html',
 		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica c.jpg',
 		capacidad: '737.56 - 3024 Lbs-pie / 1000 - 4100 Nm',
-		peso: '11.4 Kg / 25.13 Lbs',
+		peso: '11.4 Kg',
 	},
 	{
 		id: 45,
+		alt: 'Llave de control de torque inalambrico encastre 1 ó 1.1/2',
 		nombre: 'Llave de control de torque inalambrico encastre 1 ó 1.1/2"',
 		encastre: '1" ó 1.1/2"',
 		max: '5974',
@@ -649,10 +695,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-a-bateria.html',
 		img: './images/llave/llaves control de torque inalambrica/llaves control de torque inalambrica d.jpg',
 		capacidad: '1917.66 - 5974.25 Lbs-pie / 2600-8100 Nm',
-		peso: '16.5 Kg / 36.4 Lbs',
+		peso: '16.5 Kg',
 	},
 	{
 		id: 46,
+		alt: 'Llave de control de torque neumatica encastre 3/4',
 		nombre: 'Llave de control de torque neumatica encastre 3/4"',
 		artN: '615 180 0120',
 		max: '1300',
@@ -663,10 +710,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-neumatica.html',
 		img: './images/llave/multiplicador/multiplicador.jpg',
 		capacidad: '236.02 - 958.83 Lbs-pie / 320 - 1300 Nm',
-		peso: '4.4 Kg / 9.7 Lbs',
+		peso: '4.4 Kg',
 	},
 	{
 		id: 47,
+		alt: 'Llave de control de torque neumatica encastre 1',
 		nombre: 'Llave de control de torque neumatica encastre 1"',
 		artN: '615 180 0130',
 		max: '1917',
@@ -677,10 +725,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-neumatica.html',
 		img: './images/llave/multiplicador/multiplicador.jpg',
 		capacidad: '516.29 - 1917.66 Lbs-pie / 700 - 2600 Nm',
-		peso: '5.7 Kg / 12.5 Lbs',
+		peso: '5.7 Kg',
 	},
 	{
 		id: 48,
+		alt: 'Llave de control de torque neumatica encastre 1',
 		nombre: 'Llave de control de torque neumatica encastre 1"',
 		artN: '615 180 0140',
 		max: '3024',
@@ -691,10 +740,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-neumatica.html',
 		img: './images/llave/multiplicador/multiplicador.jpg',
 		capacidad: '737.56 - 3024 Lbs-pie / 1000 - 4100 Nm',
-		peso: '11.4 Kg / 25.13 Lbs',
+		peso: '11.4 Kg',
 	},
 	{
 		id: 49,
+		alt: 'Llave de control de torque hidraulica encastre 1 o 1.1/2',
 		nombre: 'Llave de control de torque hidraulica encastre 1 o 1.1/2"',
 		artN: '71 051 000',
 		max: '3614',
@@ -705,10 +755,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '236.02 - 3614.05 Lbs-pie / 320 - 4900 Nm',
-		peso: '4.9 Kg / 10.8 Lbs',
+		peso: '4.9 Kg',
 	},
 	{
 		id: 50,
+		alt: 'Llave de control de torque hidraulica encastre 1.1/2',
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
 		artN: '71 052 000',
 		max: '3835',
@@ -719,10 +770,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '236.02 - 3835.32 Lbs-pie / 320 - 5200 Nm',
-		peso: '5.4 Kg / 11.9 Lbs',
+		peso: '5.4 Kg',
 	},
 	{
 		id: 51,
+		alt: 'Llave de control de torque hidraulica encastre 1.1/2',
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
 		artN: '71 082 000',
 		max: '3024',
@@ -733,10 +785,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '737.56 - 3024 Lbs-pie / 1000 - 4100 Nm',
-		peso: '7.8 Kg / 17.2 Lbs',
+		peso: '7.8 Kg',
 	},
 	{
 		id: 52,
+		alt: 'Llave de control de torque hidraulica encastre 1.1/2',
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2"',
 		artN: '71 102 000',
 		max: '737',
@@ -747,10 +800,11 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '324.53 - 737.56 Lbs-pie / 440 - 1000 Nm',
-		peso: '7.8 Kg / 17.2 Lbs',
+		peso: '7.8 Kg',
 	},
 	{
 		id: 53,
+		alt: 'Llave de control de torque hidraulica encastre 1.1/2 ó 2.1/2',
 		nombre: 'Llave de control de torque hidraulica encastre 1.1/2 ó 2.1/2"',
 		artN: '71 152 000',
 		max: '11210',
@@ -761,7 +815,7 @@ let arrayHerramientas = [
 		url: 'llave-de-control-de-torque-hidraulica.html',
 		img: './images/llave/llave de control de torque hidraulica/llave de control de torque hidraulica.jpg',
 		capacidad: '700.68 - 11210.94 Lbs-pie / 950 - 15200 Nm',
-		peso: '12 Kg / 26.4 Lbs',
+		peso: '12 Kg',
 	},
 ];
 let btnBuscar = document.getElementById('btn-buscar');
@@ -798,7 +852,7 @@ console.log(arrayTop);
 arrayTop.forEach((item) => {
 	containerList.innerHTML += `
     <a href="${item.url}"  class="list-items__container-item" id="">
-        <img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+        <img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 		<h3>${item.nombre}</h3>
 		<p>${item.modelo}</p>
 		<div class="list-items__content" id="list-items__content">
@@ -819,7 +873,7 @@ inputBuscar.addEventListener('input', (e) => {
 			if (item.encastreEntrada && item.encastreSalida) {
 				containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
@@ -833,7 +887,7 @@ inputBuscar.addEventListener('input', (e) => {
 			if (item.longitud !== undefined) {
 				containerList.innerHTML += `
 				<a href="${item.url}"  class="list-items__container-item" id="">
-					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 					<h3>${item.nombre}</h3>
 					<p>${item.modelo}</p>
 					<div class="list-items__content" id="list-items__content">
@@ -848,7 +902,7 @@ inputBuscar.addEventListener('input', (e) => {
 			if (item.artN) {
 				containerList.innerHTML += `
 				<a href="${item.url}"  class="list-items__container-item" id="">
-					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 					<h3>${item.nombre}</h3>
 					<p>${item.modelo}</p>
 					<div class="list-items__content" id="list-items__content">
@@ -875,7 +929,7 @@ inputBuscar.addEventListener('input', (e) => {
 			if (item.encastreEntrada && item.encastreSalida) {
 				containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
@@ -889,7 +943,7 @@ inputBuscar.addEventListener('input', (e) => {
 			if (item.longitud !== undefined) {
 				containerList.innerHTML += `
 				<a href="${item.url}"  class="list-items__container-item" id="">
-					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 					<h3>${item.nombre}</h3>
 					<p>${item.modelo}</p>
 					<div class="list-items__content" id="list-items__content">
@@ -904,7 +958,7 @@ inputBuscar.addEventListener('input', (e) => {
 			if (item.artN) {
 				containerList.innerHTML += `
 				<a href="${item.url}"  class="list-items__container-item" id="">
-					<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+					<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 					<h3>${item.nombre}</h3>
 					<p>${item.modelo}</p>
 					<div class="list-items__content" id="list-items__content">
@@ -929,7 +983,7 @@ btnTodo.addEventListener('click', () => {
 		if (item.encastreEntrada && item.encastreSalida) {
 			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
-			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
 			<div class="list-items__content" id="list-items__content">
@@ -943,7 +997,7 @@ btnTodo.addEventListener('click', () => {
 		if (item.longitud !== undefined) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
@@ -958,7 +1012,7 @@ btnTodo.addEventListener('click', () => {
 		if (item.artN) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
@@ -978,7 +1032,7 @@ btnTop.addEventListener('click', () => {
 		if (item.encastreEntrada && item.encastreSalida) {
 			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
-			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
 			<div class="list-items__content" id="list-items__content">
@@ -992,7 +1046,7 @@ btnTop.addEventListener('click', () => {
 		if (item.longitud !== undefined) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
@@ -1007,7 +1061,7 @@ btnTop.addEventListener('click', () => {
 		if (item.artN) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
@@ -1039,7 +1093,7 @@ rangeInput.addEventListener('mouseup', function () {
 		if (item.encastreEntrada && item.encastreSalida) {
 			containerList.innerHTML += `
 		<a href="${item.url}"  class="list-items__container-item" id="">
-			<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+			<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 			<h3>${item.nombre}</h3>
 			<p>${item.modelo}</p>
 			<div class="list-items__content" id="list-items__content">
@@ -1053,7 +1107,7 @@ rangeInput.addEventListener('mouseup', function () {
 		if (item.longitud !== undefined) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
@@ -1068,7 +1122,7 @@ rangeInput.addEventListener('mouseup', function () {
 		if (item.artN) {
 			containerList.innerHTML += `
 			<a href="${item.url}"  class="list-items__container-item" id="">
-				<img class="img-herramientas" src="${item.img}" alt="" srcset="" />
+				<img class="img-herramientas" src="${item.img}" alt="${item.alt}" srcset="" />
 				<h3>${item.nombre}</h3>
 				<p>${item.modelo}</p>
 				<div class="list-items__content" id="list-items__content">
