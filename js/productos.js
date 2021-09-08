@@ -118,7 +118,7 @@ btn_todoCard.addEventListener('click', () => {
 				alt="Torquimetros"
 			/>
 			<section class="portfolio_item__card--content__text">
-				<p>tenemos:</p>
+				<p>Tenemos:</p>
 				<ul>
 					<li>
 						<a href="torquimetros-de-golpe.html"
@@ -127,7 +127,22 @@ btn_todoCard.addEventListener('click', () => {
 					</li>
 					<li>
 						<a href="torquimetros-de-reloj.html"
+							>Torquímetros de Golpe Antichispa</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
 							>Torqu&iacute;metros de Reloj</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
+							>Torquimetro digital Inalámbrico</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
+							>Torquimetro Destornillador</a
 						>
 					</li>
 				</ul>
@@ -206,19 +221,34 @@ btn_torquimetroCard.addEventListener('click', () => {
 			alt="Torquimetros"
 		/>
 		<section class="portfolio_item__card--content__text">
-			<p>tenemos:</p>
+			<p>Tenemos:</p>
 			<ul>
-				<li>
-					<a href="torquimetros-de-golpe.html"
-						>Torqu&iacute;metros de Golpe</a
-					>
-				</li>
-				<li>
-					<a href="torquimetros-de-reloj.html"
-						>Torqu&iacute;metros de Reloj</a
-					>
-				</li>
-			</ul>
+					<li>
+						<a href="torquimetros-de-golpe.html"
+							>Torqu&iacute;metros de Golpe</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
+							>Torquímetros de Golpe Antichispa</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
+							>Torqu&iacute;metros de Reloj</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
+							>Torquimetro digital Inalámbrico</a
+						>
+					</li>
+					<li>
+						<a href="torquimetros-de-reloj.html"
+							>Torquimetro Destornillador</a
+						>
+					</li>
+				</ul>
 			<p>Encastre de diferentes medidas...</p>
 			<a href="torquimetros-de-golpe.html" class="button_all"
 				>Ver Más</a
