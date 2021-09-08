@@ -1,5 +1,5 @@
 const autoCompleteJS = new autoComplete({
-	placeHolder: 'Buscador de herramientas por nombre, modelo y capacidad...',
+	placeHolder: 'Nombre, modelo y capacidad...',
 	data: {
 		src: [
 			{

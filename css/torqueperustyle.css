@@ -4273,7 +4273,7 @@ ul.slider li:target {
 }
 @media (max-width: 446px) {
 	.autoComplete_wrapper > input {
-		font-size: 12px;
+		font-size: 16px;
 	}
 }
 /*index reparando la parte finla de las cards*/
@@ -4417,8 +4417,20 @@ ul.slider li:target {
 		position: absolute;
 		background: black;
 		width: 100%;
-		top: 61px;
+		top: 60px;
 		left: 0;
+	}
+	.social_nav{
+		display: none;
+	}
+	.tittle h2{
+		padding-top: 20px;
+	}
+	.about_us_area .about_row{
+		padding-top: 20px;
+	}
+	.navbar-toggle{
+		margin-top:0;
 	}
 }
 .slider-donwload {
