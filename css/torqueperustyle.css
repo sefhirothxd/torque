@@ -3569,10 +3569,11 @@ a:hover {
 }
 
 .list-items .img-herramientas {
-	width: 150px;
-	height: 150px;
-	margin-bottom: 20px;
-	object-fit: contain;
+	width: 237px;
+  height: 150px;
+  /* margin-bottom: 20px; */
+  margin: auto;
+  object-fit: cover;
 }
 .list-items__container-item {
 	/* border: 2px solid rgb(46, 46, 46); */
